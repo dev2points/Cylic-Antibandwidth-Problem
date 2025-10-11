@@ -1,0 +1,37 @@
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Maximization problem - 50 variables, 61 constraints
+ ! TimeLimit            = 1800
+ ! Workers              = 8
+ ! LogVerbosity         = Terse
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 277.7 (before), 277.7 (after)
+ !  . Memory usage      : 376.4 kB (before), 376.4 kB (after)
+ ! Using parallel search with 8 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         50                 -
+ + New bound is 22
+                       64         46    1   F     2 != labels_25
+ + New bound is 21
+ *            11      112  0.03s        1      (gap is 90.91%)
+ *            12      921  0.03s        1      (gap is 75.00%)
+ *            14      317  0.03s        3      (gap is 50.00%)
+ *            15      423  0.03s        3      (gap is 40.00%)
+ *            16      486  0.03s        3      (gap is 31.25%)
+              16     1686          2    1            -
+ + New bound is 16 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 5 solutions found.
+ ! Best objective         : 16 (optimal - effective tol. is 0)
+ ! Best bound             : 16
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 15706
+ ! Number of fails        : 6144
+ ! Total memory usage     : 7.5 MB (7.5 MB CP Optimizer + 0.0 MB Concert)
+ ! Time spent in solve    : 0.04s (0.04s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 392650.0
+ ! ----------------------------------------------------------------------------
+Value Cyclic-Antibandwidth = 16
+Labels: [49, 21, 44, 10, 11, 47, 34, 35, 15, 4, 46, 38, 25, 31, 13, 9, 12, 24, 36, 5, 29, 7, 39, 8, 28, 20, 2, 42, 17, 19, 40, 18, 41, 43, 37, 45, 6, 23, 27, 22, 32, 14, 3, 48, 16, 1, 26, 30, 33]
+Solve time (s): 0.04
+Memory usage (MB): 27.08203125

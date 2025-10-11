@@ -1,0 +1,36 @@
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Maximization problem - 31 variables, 105 constraints
+ ! TimeLimit            = 1800
+ ! Workers              = 8
+ ! LogVerbosity         = Terse
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 148.8 (before), 148.8 (after)
+ !  . Memory usage      : 409.1 kB (before), 409.1 kB (after)
+ ! Using parallel search with 8 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         31                 -
+ + New bound is 8
+                       94         29    1   F    28 != labels_14
+ + New bound is 7
+ *             3      447  0.04s        1      (gap is 133.3%)
+ *             4      761  0.04s        2      (gap is 75.00%)
+ *             5      199  0.04s        3      (gap is 40.00%)
+ *             6     2182  0.06s        3      (gap is 16.67%)
+               6    13164         24    4            -
+ + New bound is 6 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 4 solutions found.
+ ! Best objective         : 6 (optimal - effective tol. is 0)
+ ! Best bound             : 6
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 109928
+ ! Number of fails        : 53440
+ ! Total memory usage     : 9.5 MB (9.4 MB CP Optimizer + 0.0 MB Concert)
+ ! Time spent in solve    : 0.21s (0.21s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 549640.0
+ ! ----------------------------------------------------------------------------
+Value Cyclic-Antibandwidth = 6
+Labels: [15, 1, 14, 5, 2, 6, 23, 10, 27, 30, 7, 22, 16, 18, 21, 26, 25, 28, 20, 13, 24, 3, 8, 17, 11, 29, 19, 12, 9, 4]
+Solve time (s): 0.2
+Memory usage (MB): 27.18359375

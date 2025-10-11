@@ -1,0 +1,38 @@
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Maximization problem - 40 variables, 48 constraints
+ ! TimeLimit            = 1800
+ ! Workers              = 8
+ ! LogVerbosity         = Terse
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 208.4 (before), 208.4 (after)
+ !  . Memory usage      : 343.3 kB (before), 343.3 kB (after)
+ ! Using parallel search with 8 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         40                 -
+ + New bound is 17
+                      290         30    1   F    21 != labels_26
+ + New bound is 16
+ *             8      334  0.02s        1      (gap is 100.0%)
+ *             9      585  0.02s        1      (gap is 77.78%)
+ *            10      735  0.02s        1      (gap is 60.00%)
+ *            11      775  0.02s        1      (gap is 45.45%)
+ *            12      566  0.02s        3      (gap is 33.33%)
+ *            13      898  0.02s        3      (gap is 23.08%)
+              13     1785          2    4            -
+ + New bound is 13 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 6 solutions found.
+ ! Best objective         : 13 (optimal - effective tol. is 0)
+ ! Best bound             : 13
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 15802
+ ! Number of fails        : 6524
+ ! Total memory usage     : 6.8 MB (6.8 MB CP Optimizer + 0.0 MB Concert)
+ ! Time spent in solve    : 0.04s (0.04s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 526733.3
+ ! ----------------------------------------------------------------------------
+Value Cyclic-Antibandwidth = 13
+Labels: [34, 27, 30, 28, 36, 9, 19, 31, 11, 13, 2, 32, 35, 17, 5, 25, 22, 20, 33, 3, 21, 10, 8, 16, 24, 6, 12, 38, 1, 14, 23, 7, 37, 29, 15, 4, 26, 39, 18]
+Solve time (s): 0.03
+Memory usage (MB): 27.1875
