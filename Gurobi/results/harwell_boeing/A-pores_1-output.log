@@ -1,0 +1,36 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		A-pores_1.mtx.rnd
+[runlim] start:			Fri Oct 10 10:53:03 2025
+[runlim] main pid:		17678
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 5) Value Cyclicantibandwidth: 5
+Lables: [15, 3, 19, 5, 24, 7, 30, 18, 12, 23, 9, 8, 1, 4, 2, 13, 11, 14, 6, 16, 17, 26, 29, 27, 21, 22, 28, 20, 10, 25]
+(w = 5) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 6) Value Cyclicantibandwidth: 6
+Lables: [11, 29, 10, 30, 21, 3, 26, 15, 16, 19, 5, 4, 1, 22, 27, 8, 6, 17, 2, 18, 7, 28, 25, 20, 14, 12, 24, 9, 13, 23]
+(w = 6) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 7) Not found solution with CAB = 7.
+Final result: CAB = 6, Labels = [11, 29, 10, 30, 21, 3, 26, 15, 16, 19, 5, 4, 1, 22, 27, 8, 6, 17, 2, 18, 7, 28, 25, 20, 14, 12, 24, 9, 13, 23]
+Real time: 7.816077709197998 seconds
+[runlim] end:			Fri Oct 10 10:53:11 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			8.04 seconds
+[runlim] time:			21.06 seconds
+[runlim] space:			99.1 MB
+[runlim] samples:		78

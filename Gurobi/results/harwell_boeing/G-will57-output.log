@@ -1,0 +1,49 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		G-will57.mtx.rnd
+[runlim] start:			Fri Oct 10 10:54:17 2025
+[runlim] main pid:		18047
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [1, 10, 12, 9, 29, 41, 16, 6, 23, 28, 53, 19, 4, 55, 43, 27, 45, 7, 31, 11, 42, 48, 47, 51, 22, 34, 54, 38, 32, 3, 2, 17, 49, 39, 5, 8, 20, 37, 33, 50, 26, 36, 25, 46, 13, 14, 18, 52, 56, 35, 21, 24, 57, 30, 15, 40, 44]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 9) Value Cyclicantibandwidth: 9
+Lables: [29, 12, 16, 14, 25, 36, 56, 9, 42, 41, 39, 49, 3, 23, 28, 30, 8, 11, 1, 51, 31, 52, 15, 4, 18, 32, 46, 35, 34, 27, 10, 37, 47, 38, 22, 45, 57, 26, 13, 6, 50, 19, 54, 21, 7, 43, 17, 2, 53, 48, 5, 55, 24, 40, 20, 44, 33]
+(w = 9) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 10) Value Cyclicantibandwidth: 10
+Lables: [27, 3, 2, 55, 22, 37, 47, 1, 49, 23, 13, 32, 4, 6, 43, 35, 39, 29, 9, 26, 48, 54, 45, 18, 20, 16, 12, 56, 41, 15, 19, 11, 57, 30, 28, 5, 36, 40, 38, 33, 53, 52, 50, 17, 25, 8, 42, 14, 10, 46, 21, 34, 31, 24, 7, 51, 44]
+(w = 10) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 11) Value Cyclicantibandwidth: 11
+Lables: [14, 3, 27, 17, 10, 32, 45, 21, 31, 6, 16, 47, 13, 43, 40, 53, 9, 8, 36, 55, 57, 15, 26, 11, 1, 20, 56, 12, 4, 42, 18, 2, 7, 51, 35, 39, 41, 44, 24, 33, 54, 52, 23, 48, 34, 46, 25, 29, 22, 19, 49, 30, 38, 50, 37, 28, 5]
+(w = 11) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+[runlim] sample:		16.9 time, 10.1 real, 204.4 MB
+[runlim] sample:		46.2 time, 20.1 real, 246.1 MB
+[runlim] sample:		70.3 time, 30.1 real, 262.7 MB
+(w = 12) Not found solution with CAB = 12.
+Final result: CAB = 11, Labels = [14, 3, 27, 17, 10, 32, 45, 21, 31, 6, 16, 47, 13, 43, 40, 53, 9, 8, 36, 55, 57, 15, 26, 11, 1, 20, 56, 12, 4, 42, 18, 2, 7, 51, 35, 39, 41, 44, 24, 33, 54, 52, 23, 48, 34, 46, 25, 29, 22, 19, 49, 30, 38, 50, 37, 28, 5]
+Real time: 33.01728868484497 seconds
+[runlim] end:			Fri Oct 10 10:54:50 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			33.19 seconds
+[runlim] time:			82.39 seconds
+[runlim] space:			263.2 MB
+[runlim] samples:		330
