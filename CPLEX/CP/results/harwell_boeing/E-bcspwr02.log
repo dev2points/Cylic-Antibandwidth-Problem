@@ -1,0 +1,40 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		oplrun
+[runlim] argv[1]:		-deploy
+[runlim] argv[2]:		CP-CPLEX.mod
+[runlim] argv[3]:		./graphs/harwell_boeing/E-bcspwr02.dat
+[runlim] start:			Sun Oct 12 03:08:28 2025
+[runlim] main pid:		227873
+[runlim] log captured:
+
+<<< setup
+
+
+<<< generate
+
+
+<<< solve
+
+
+OBJECTIVE: 16
+Objective value (b): 16
+Labels:  [49 33 37 17 28 36 30 48 43 18 8 40 15 35 6 19 20 21 39 13 25 9 11 41 46 23
+     47 1 16 27 44 14 22 12 24 10 3 45 42 38 26 4 7 5 29 2 34 31 32]
+Vertex with maximum degree: 43
+
+<<< post process
+
+
+<<< done
+
+[runlim] end:			Sun Oct 12 03:08:28 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.78 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0
