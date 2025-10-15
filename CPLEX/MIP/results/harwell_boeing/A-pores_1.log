@@ -1,0 +1,30 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/harwell_boeing/A-pores_1.mtx.rnd
+[runlim] start:			Tue Oct 14 09:58:22 2025
+[runlim] main pid:		430321
+[runlim] log captured:
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [30, 12, 23, 13, 7, 9, 10, 19, 21, 24, 15, 5, 2, 11, 16, 25, 27, 29, 14, 26, 22, 3, 18, 4, 20, 1, 6, 28, 17, 8]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [22, 24, 15, 2, 23, 6, 7, 17, 12, 14, 29, 28, 4, 1, 30, 11, 18, 21, 27, 13, 16, 25, 8, 3, 9, 20, 26, 19, 10, 5]
+Correct solution
+(w = 7) Building and Solving
+Cannot find soluion with w = 7
+Final result: CAB = 6
+Labels = [22, 24, 15, 2, 23, 6, 7, 17, 12, 14, 29, 28, 4, 1, 30, 11, 18, 21, 27, 13, 16, 25, 8, 3, 9, 20, 26, 19, 10, 5]
+[runlim] end:			Tue Oct 14 09:58:30 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			8.83 seconds
+[runlim] time:			24.70 seconds
+[runlim] space:			83.6 MB
+[runlim] samples:		82
