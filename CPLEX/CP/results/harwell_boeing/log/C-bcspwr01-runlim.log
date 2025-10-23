@@ -1,0 +1,118 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		oplrun
+[runlim] argv[1]:		-l
+[runlim] argv[2]:		./results/harwell_boeing/out/C-bcspwr01-output.out
+[runlim] argv[3]:		CP-CPLEX.mod
+[runlim] argv[4]:		./graphs/harwell_boeing/C-bcspwr01.dat
+[runlim] start:			Wed Oct 22 09:32:02 2025
+[runlim] main pid:		5476
+[runlim] log captured:
+
+<<< setup
+
+
+<<< generate
+
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Maximization problem - 40 variables, 96 constraints
+ ! Initial process time : 0.02s (0.02s extraction + 0.00s propagation)
+ !  . Log search space  : 210.3 (before), 210.3 (after)
+ !  . Memory usage      : 345.0 kB (before), 345.0 kB (after)
+ ! Using parallel search with 8 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         40                 -
+ + New bound is 38
+                        0         40    1            -
+ + New bound is 20
+                        0         40    1   F        -
+ + New bound is 19
+ *             1       38  0.04s        1      (gap is 1800%)
+ *             2      266  0.04s        1      (gap is 850.0%)
+ *             3      433  0.04s        1      (gap is 533.3%)
+ *             4      469  0.04s        1      (gap is 375.0%)
+ *             5      507  0.04s        1      (gap is 280.0%)
+ *             6      580  0.04s        1      (gap is 216.7%)
+ *             7      651  0.04s        1      (gap is 171.4%)
+ *             8      708  0.04s        1      (gap is 137.5%)
+ *             9      817  0.04s        1      (gap is 111.1%)
+ *            10      847  0.04s        1      (gap is 90.00%)
+ *            11      888  0.04s        1      (gap is 72.73%)
+              11     1000          2    1        17 != labels(38)
+              11     1000          1    2        14 != labels(17)
+              11     1000          2    3        10  = labels(15)
+              11     1000          2    4         7 != labels(25)
+              11     1000          2    5         3 != labels(6)
+ *            12      624  0.04s        6      (gap is 58.33%)
+ ! Time = 0.04s, Average fail depth = 25, Memory usage = 6.1 MB
+ ! Current bound is 19 (gap is 58.33%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              12     1000          1    6        31 != labels(5)
+              12     1000          1    7         4 != labels(13)
+              12     1000          2    8            -
+              12     2000          7    8        14  = labels(9)
+              12     2000          2    1   F     9 != labels(33)
+ *            13     1848  0.05s        2      (gap is 46.15%)
+              13     2000          3    2        11 != labels(6)
+              13     2000          2    3         7 != labels(1)
+              13     2000          5    4        30 != labels(5)
+              13     2000          2    5   F    28  = labels(16)
+              13     2000          2    6            -
+              13     2000          2    7   F    13 != labels(28)
+              13     3000         23    8   F     6  = labels(28)
+              13     3000         14    3   F     9  = labels(27)
+              13     3000         11    5         6 != labels(28)
+              13     3000         11    6   F    32  = labels(27)
+              13     3000          6    1   F    16  = labels(34)
+              13     3000         25    2        14 != labels(23)
+              13     3000          3    4         9 != labels(37)
+              13     3000         14    7        13 != labels(18)
+ ! Time = 0.05s, Average fail depth = 28, Memory usage = 7.8 MB
+ ! Current bound is 19 (gap is 46.15%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              13     4000         13    8   F     5  = labels(32)
+              13     4000          8    3        31 != labels(9)
+              13     4000         24    5            -
+              13     4000         13    6            -
+              13     3578          4    1            -
+ + New bound is 13 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 13 solutions found.
+ ! Best objective         : 13 (optimal - effective tol. is 0)
+ ! Best bound             : 13
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 30701
+ ! Number of fails        : 12598
+ ! Total memory usage     : 8.3 MB (7.9 MB CP Optimizer + 0.4 MB Concert)
+ ! Time spent in solve    : 0.06s (0.04s engine + 0.02s extraction)
+ ! Search speed (br. / s) : 767525.0
+ ! ----------------------------------------------------------------------------
+
+<<< solve
+
+
+OBJECTIVE: 13
+Objective value (b): 13
+Labels:  [22 18 21 32 16 9 29 25 34 31 39 28 13 30 7 24 26 27 14 5 35 12 2 8 17 6 37
+     11 38 36 19 1 10 33 20 4 23 3 15]
+Vertex with maximum degree: 36
+
+<<< post process
+
+
+<<< done
+
+
+<<< engine log: ./results/harwell_boeing/out/C-bcspwr01-output.out
+
+[runlim] end:			Wed Oct 22 09:32:02 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.39 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

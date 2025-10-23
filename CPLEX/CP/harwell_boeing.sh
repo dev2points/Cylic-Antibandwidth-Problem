@@ -1,31 +1,33 @@
 #!/bin/bash
 
 DATA_DIR="./graphs/harwell_boeing"
-RESULT_DIR="./results/harwell_boeing"
+LOG_DIR="./results/harwell_boeing/log"
+OUT_DIR="./results/harwell_boeing/out"
 
-mkdir -p $RESULT_DIR
+mkdir -p "$LOG_DIR"
+mkdir -p "$OUT_DIR"
 
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/A-pores_1.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/A-pores_1.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/B-ibm32.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/B-ibm32.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/C-bcspwr01.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/C-bcspwr01.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/D-bcsstk01.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/D-bcsstk01.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/E-bcspwr02.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/E-bcspwr02.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/F-curtis54.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/F-curtis54.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/G-will57.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/G-will57.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/H-impcolb.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/H-impcolb.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/I-ash85.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/I-ash85.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/J-nos4.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/J-nos4.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/K-dwt__234.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/K-dwt__234.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/L-bcspwr03.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/L-bcspwr03.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/M-bcsstk06.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/M-bcsstk06.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/N-bcsstk07.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/N-bcsstk07.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/O-impcol_d.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/O-impcol_d.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/P-can__445.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/P-can__445.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/Q-494_bus.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/Q-494_bus.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/R-dwt__503.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/R-dwt__503.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/S-sherman4.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/S-sherman4.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/T-dwt__592.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/T-dwt__592.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/U-662_bus.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/U-662_bus.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/V-nos6.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/V-nos6.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/W-685_bus.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/W-685_bus.dat
-./runlim -r 1800 -s 30000 -o $RESULT_DIR/X-can__715.log oplrun -deploy CP-CPLEX.mod $DATA_DIR/X-can__715.dat
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/A-pores_1-runlim.log" oplrun -l "$OUT_DIR/A-pores_1-output.out" CP-CPLEX.mod "$DATA_DIR/A-pores_1.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/B-ibm32-runlim.log" oplrun -l "$OUT_DIR/B-ibm32-output.out" CP-CPLEX.mod "$DATA_DIR/B-ibm32.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/C-bcspwr01-runlim.log" oplrun -l "$OUT_DIR/C-bcspwr01-output.out" CP-CPLEX.mod "$DATA_DIR/C-bcspwr01.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/D-bcsstk01-runlim.log" oplrun -l "$OUT_DIR/D-bcsstk01-output.out" CP-CPLEX.mod "$DATA_DIR/D-bcsstk01.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/E-bcspwr02-runlim.log" oplrun -l "$OUT_DIR/E-bcspwr02-output.out" CP-CPLEX.mod "$DATA_DIR/E-bcspwr02.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/F-curtis54-runlim.log" oplrun -l "$OUT_DIR/F-curtis54-output.out" CP-CPLEX.mod "$DATA_DIR/F-curtis54.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/G-will57-runlim.log" oplrun -l "$OUT_DIR/G-will57-output.out" CP-CPLEX.mod "$DATA_DIR/G-will57.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/H-impcolb-runlim.log" oplrun -l "$OUT_DIR/H-impcolb-output.out" CP-CPLEX.mod "$DATA_DIR/H-impcolb.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/I-ash85-runlim.log" oplrun -l "$OUT_DIR/I-ash85-output.out" CP-CPLEX.mod "$DATA_DIR/I-ash85.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/J-nos4-runlim.log" oplrun -l "$OUT_DIR/J-nos4-output.out" CP-CPLEX.mod "$DATA_DIR/J-nos4.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/K-dwt__234-runlim.log" oplrun -l "$OUT_DIR/K-dwt__234-output.out" CP-CPLEX.mod "$DATA_DIR/K-dwt__234.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/L-bcspwr03-runlim.log" oplrun -l "$OUT_DIR/L-bcspwr03-output.out" CP-CPLEX.mod "$DATA_DIR/L-bcspwr03.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/M-bcsstk06-runlim.log" oplrun -l "$OUT_DIR/M-bcsstk06-output.out" CP-CPLEX.mod "$DATA_DIR/M-bcsstk06.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/N-bcsstk07-runlim.log" oplrun -l "$OUT_DIR/N-bcsstk07-output.out" CP-CPLEX.mod "$DATA_DIR/N-bcsstk07.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/O-impcol_d-runlim.log" oplrun -l "$OUT_DIR/O-impcol_d-output.out" CP-CPLEX.mod "$DATA_DIR/O-impcol_d.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/P-can__445-runlim.log" oplrun -l "$OUT_DIR/P-can__445-output.out" CP-CPLEX.mod "$DATA_DIR/P-can__445.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/Q-494_bus-runlim.log" oplrun -l "$OUT_DIR/Q-494_bus-output.out" CP-CPLEX.mod "$DATA_DIR/Q-494_bus.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/R-dwt__503-runlim.log" oplrun -l "$OUT_DIR/R-dwt__503-output.out" CP-CPLEX.mod "$DATA_DIR/R-dwt__503.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/S-sherman4-runlim.log" oplrun -l "$OUT_DIR/S-sherman4-output.out" CP-CPLEX.mod "$DATA_DIR/S-sherman4.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/T-dwt__592-runlim.log" oplrun -l "$OUT_DIR/T-dwt__592-output.out" CP-CPLEX.mod "$DATA_DIR/T-dwt__592.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/U-662_bus-runlim.log" oplrun -l "$OUT_DIR/U-662_bus-output.out" CP-CPLEX.mod "$DATA_DIR/U-662_bus.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/V-nos6-runlim.log" oplrun -l "$OUT_DIR/V-nos6-output.out" CP-CPLEX.mod "$DATA_DIR/V-nos6.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/W-685_bus-runlim.log" oplrun -l "$OUT_DIR/W-685_bus-output.out" CP-CPLEX.mod "$DATA_DIR/W-685_bus.dat"
+./runlim -r 1800 -s 30000 -o "$LOG_DIR/X-can__715-runlim.log" oplrun -l "$OUT_DIR/X-can__715-output.out" CP-CPLEX.mod "$DATA_DIR/X-can__715.dat"
