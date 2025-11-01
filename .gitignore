@@ -5,8 +5,8 @@ venv
 runlim
 convert_txt_to_dat
 
-MIP
-Gurobi
+CP
+
 
 
 
