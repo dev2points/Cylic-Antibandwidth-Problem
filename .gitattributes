@@ -1,2 +1,2 @@
-hypercube_5_32-runlim.log filter=lfs diff=lfs merge=lfs -text
-hypercube_5_32-output.out filter=lfs diff=lfs merge=lfs -text
+*.log filter=lfs diff=lfs merge=lfs -text
+*.out filter=lfs diff=lfs merge=lfs -text
