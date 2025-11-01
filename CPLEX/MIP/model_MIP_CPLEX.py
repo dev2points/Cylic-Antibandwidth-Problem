@@ -33,7 +33,36 @@ cabw_bounds = {
     "U-662_bus.mtx.rnd": (110, 220),
     "V-nos6.mtx.rnd": (163, 337),
     "W-685_bus.mtx.rnd": (68, 136),
-    "X-can__715.mtx.rnd": (56, 142)
+    "X-can__715.mtx.rnd": (56, 142),
+
+    "3dmesh_2_2_3.txt": (2, 4),
+    "3dmesh_2_2_168.txt": (2, 334),
+    "3dmesh_2_2_335.txt": (2, 668),
+    "3dmesh_2_2_500.txt": (2, 998),
+    "3dmesh_3_3_3.txt": (2, 9),
+    "3dmesh_3_3_135.txt": (2, 603),
+    "3dmesh_3_3_270.txt": (2, 1211),
+    "3dmesh_3_3_400.txt": (2, 1796),
+    "3dmesh_4_4_5.txt": (2, 32),
+    "3dmesh_4_4_68.txt": (2, 536),
+    "3dmesh_4_4_137.txt": (2, 1088),
+    "3dmesh_4_4_200.txt": (2, 1592),
+    "3dmesh_5_5_7.txt": (2, 74),
+    "3dmesh_5_5_35.txt": (2, 424),
+    "3dmesh_5_5_70.txt": (2, 862),
+    "3dmesh_5_5_100.txt": (2, 1237),
+    "3dmesh_6_6_8.txt": (2, 125),
+    "3dmesh_6_6_36.txt": (2, 629),
+    "3dmesh_6_6_72.txt": (2, 1277),
+    "3dmesh_6_6_100.txt": (2, 1781),
+
+    "hypercube_4_16.txt": (2, 4),
+    "hypercube_5_32.txt": (5, 9),
+    "hypercube_6_64.txt": (10, 19),
+    "hypercube_7_128.txt": (21, 41),
+    "hypercube_8_256.txt": (43, 85),
+    "hypercube_9_512.txt": (89, 178),
+    "hypercube_10_1024.txt": (182, 364),
 }
 
 def calculate_label_differences(labels, edges):
@@ -208,6 +237,9 @@ def solve_Cyclicantibandwidth(vertices, edges, UB, LB):
     while True:
         print(f"(w = {k + 1}) Building and Solving")
         if k >= UB:
+            print(f"w = {k + 1} larger upper bounds")
+            print(f"Final result: CAB = {k}")
+            print(f"Labels = {labels}")
             break
         
         model = build_model(vertices, edges, k)
@@ -276,8 +308,8 @@ def run_with_timeout_and_memory(vertices, edges, timeout, UB, LB):
 
 def main():
     #Đọc dữ liệu đầu vào từ tệp .mtx.rnd
-    parser = argparse.ArgumentParser(description='Giải bài toán antibandwidth trên đồ thị.')
-    parser.add_argument('input_file', type=str, help='Đường dẫn đến tệp đầu vào chứa dữ liệu đồ thị (.mtx.rnd).')
+    parser = argparse.ArgumentParser(description='Giải bài toán cyclic antibandwidth trên đồ thị.')
+    parser.add_argument('input_file', type=str, help='Đường dẫn đến tệp đầu vào chứa dữ liệu đồ thị .')
     args = parser.parse_args()
     
     num_vertices, edges, UB, LB = read_mtx_rnd_file(args.input_file)

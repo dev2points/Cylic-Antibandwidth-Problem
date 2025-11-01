@@ -3,4 +3,12 @@ gurobi.lic
 venv
 .ignore
 runlim
+convert_txt_to_dat
+
+MIP
 Gurobi
+3dmesh
+double_star
+hypercube
+complete_binary_trees
+caterpillar
