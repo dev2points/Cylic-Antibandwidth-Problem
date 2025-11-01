@@ -1,0 +1,74 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		oplrun
+[runlim] argv[1]:		-l
+[runlim] argv[2]:		./results/1800s/3dmesh/out/3dmesh_2_2_3-output.out
+[runlim] argv[3]:		CP-CPLEX.mod
+[runlim] argv[4]:		./graphs/3dmesh/3dmesh_2_2_3.dat
+[runlim] start:			Thu Oct 30 09:55:57 2025
+[runlim] main pid:		5572
+[runlim] log captured:
+
+<<< setup
+
+
+<<< generate
+
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Maximization problem - 13 variables, 44 constraints
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 45.5 (before), 45.5 (after)
+ !  . Memory usage      : 300.9 kB (before), 300.9 kB (after)
+ ! Using parallel search with 8 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         13                 -
+ + New bound is 11
+                        0         13    1            -
+ + New bound is 6
+                       10         12    1   F    11 != labels(6)
+ + New bound is 5
+ *             1       21  0.01s        1      (gap is 400.0%)
+ *             2       86  0.01s        1      (gap is 150.0%)
+ *             3      127  0.01s        1      (gap is 66.67%)
+ *             4      229  0.01s        1      (gap is 25.00%)
+               4      275          2    1            -
+ + New bound is 4 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 4 solutions found.
+ ! Best objective         : 4 (optimal - effective tol. is 0)
+ ! Best bound             : 4
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 5470
+ ! Number of fails        : 2719
+ ! Total memory usage     : 5.3 MB (4.9 MB CP Optimizer + 0.4 MB Concert)
+ ! Time spent in solve    : 0.01s (0.01s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 547000.0
+ ! ----------------------------------------------------------------------------
+
+<<< solve
+
+
+OBJECTIVE: 4
+Objective value (b): 4
+Labels:  [8 2 3 9 4 10 11 5 12 6 7 1]
+Vertex with maximum degree: 5
+
+<<< post process
+
+
+<<< done
+
+
+<<< engine log: ./results/1800s/3dmesh/out/3dmesh_2_2_3-output.out
+
+[runlim] end:			Thu Oct 30 09:55:57 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.04 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

@@ -1,0 +1,379 @@
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Maximization problem - 3601 variables, 16786 constraints
+ ! Initial process time : 0.46s (0.46s extraction + 0.00s propagation)
+ !  . Log search space  : 42540.4 (before), 42540.4 (after)
+ !  . Memory usage      : 15.9 MB (before), 15.9 MB (after)
+ ! Using parallel search with 8 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0       3601                 -
+ + New bound is 3599
+                        0       3601    1            -
+ + New bound is 1800
+                     1000       3401    1       200  = labels#42
+                     1000       3400    2       200  = labels#852
+                     1000       2609    3       991  = labels#1340
+                     1000       3400    4       200  = labels#1398
+                     1000       2610    5      2115  = labels#503
+                     1000       2608    6       990  = labels#387
+                     1000       3401    7       200  = labels#144
+                     1000       2609    8       348  = labels#432
+                     2000       1608    3      1992  = labels#870
+                     2000       1609    5      3117  = labels#853
+                     2000       1608    6      1991  = labels#3515
+                     2000       1608    8      2881  = labels#254
+                     2000       2401    1      1200  = labels#2984
+                     2000       2400    2      1200  = labels#903
+                     3000        608    3      2992  = labels#756
+                     2000       2400    4      1200  = labels#1245
+                     3000        609    5      2214  = labels#3308
+                     3000        608    6      2991  = labels#2157
+ ! Time = 17.52s, Average fail depth = 1, Memory usage = 163.8 MB
+ ! Current bound is 1800
+ !          Best Branches  Non-fixed    W       Branch decision
+                     2000       2400    7      1200  = labels#3216
+                     3000        608    8      3076  = labels#3120
+                     3000       1401    1      2200  = labels#1529
+                     3000       1400    2      2200  = labels#751
+                     3000       1400    4      2200  = labels#1689
+                     3000       1400    7      2200  = labels#484
+ *             1     3617  29.31s       3      (gap  > 10000%)
+               1     4000          2    3       368  = labels#2585
+               1     4000          2    5      2971  = labels#1774
+               1     4000          2    6      1952  = labels#1039
+               1     4000        400    1      3200  = labels#864
+               1     4000        400    2      3200  = labels#547
+               1     5000       2226    3      1376  = labels#3518
+               1     4000        400    4      3200  = labels#2183
+               1     5000       2226    6      2321  = labels#2774
+               1     4000        400    7      3200  = labels#1330
+               1     4000          2    8       372  = labels#890
+               1     6000       1226    3      2377  = labels#1940
+               1     5000       2226    5       817  = labels#365
+               1     6000       1230    6       146  = labels#849
+ ! Time = 38.39s, Average fail depth = 5, Memory usage = 4.5 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               1     5000          2    1      1288  = labels#988
+               1     5000          2    2      3275  = labels#381
+               1     5000          2    4      2145  = labels#3396
+               1     5000          2    7      2189  = labels#78
+               1     6000       1999    1       624  = labels#427
+               1     6000       1999    2      2780  = labels#335
+               1     7000        226    3      3376  = labels#395
+               1     6000       1999    4      1716  = labels#104
+               1     6000       1227    5        38  = labels#3513
+               1     7000        235    6      3306  = labels#2626
+               1     6000       1999    7      3413  = labels#184
+               1     5000       2224    8      1372  = labels#3282
+               1     7000        999    1      2133  = labels#664
+               1     7000        999    2      3406  = labels#3023
+               1     7000        999    4      2266  = labels#1401
+               1     7000        231    5      3231  = labels#449
+               1     7000        999    7      1870  = labels#2269
+ *             2     7235  49.22s       3      (gap  > 10000%)
+               2     8000          2    3       520  = labels#997
+               2     8000          2    6       913  = labels#219
+ ! Time = 49.22s, Average fail depth = 103, Memory usage = 11.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               2     8000          2    7      1272  = labels#697
+               2     8000          2    1      1751  = labels#3520
+               2     8000          2    2      3107  = labels#3037
+               2     9000       1845    3       331  = labels#686
+               2     8000          2    4       983  = labels#210
+               2     8000          2    5       751  = labels#298
+               2     9000       1854    6       150  = labels#1396
+               2     9000       2598    7      2517  = labels#2799
+               2     6000       1224    8      2374  = labels#1618
+               2     9000       2599    1       227  = labels#3307
+               2     9000       2599    2      3153  = labels#3074
+               2    10000        846    3      3399  = labels#381
+               2     9000       2598    4      1201  = labels#324
+               2    10000        857    6      3478  = labels#3586
+               2    10000       1598    7       211  = labels#1427
+               2     7000        224    8      3376  = labels#1659
+               2    10000       1598    1      2464  = labels#2258
+               2    10000       1599    2      1671  = labels#1857
+               2    10000       1598    4       910  = labels#689
+               2     9000       1847    5      1740  = labels#2219
+ ! Time = 60.18s, Average fail depth = 103, Memory usage = 11.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+ *             3    10863  60.18s       3      (gap  > 10000%)
+               3    11000          2    3       127  = labels#3509
+               3    11000          2    6      1544  = labels#2243
+               3    11000        598    7       236  = labels#2483
+               3     8000          2    8       176  = labels#1756
+               3    11000        598    1      1499  = labels#797
+               3    11000        598    2       733  = labels#203
+               3    11000        598    4      2836  = labels#1270
+               3    10000        847    5      2747  = labels#2888
+               3    12000       2495    6       974  = labels#51
+               3    13000       1503    6      1352  = labels#2218
+               3    12000          2    7       319  = labels#2265
+               3     9000       1857    8       323  = labels#3509
+               3    12000          2    1      1843  = labels#1805
+               3    12000          2    2      2055  = labels#1967
+               3    12000          2    4       946  = labels#976
+               3    11000          2    5       135  = labels#2084
+               3    14000        509    6      2639  = labels#1686
+               3    13000       2197    7      2395  = labels#3470
+               3    10000        861    8      1177  = labels#57
+ ! Time = 63.68s, Average fail depth = 204, Memory usage = 13.2 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               3    13000       2198    1      3183  = labels#3092
+               3    13000       2198    2      1725  = labels#72
+               3    12000       2472    3      1129  = labels#566
+               3    13000       2198    4       177  = labels#3579
+               3    14000       1197    7      3190  = labels#2157
+               3    14000       1197    1      2455  = labels#3091
+               3    14000       1198    2       930  = labels#350
+               3    14000       1198    4        10  = labels#2834
+ *             4    14522  65.16s       6      (gap  > 10000%)
+               4    11000          2    8       114  = labels#317
+               4    15000        197    1      1801  = labels#2986
+               4    15000        197    2      2503  = labels#2753
+               4    13000       1471    3      2129  = labels#2451
+               4    15000        197    4       599  = labels#2664
+               4    15000          2    6      3131  = labels#2231
+               4    15000        197    7       846  = labels#2321
+               4    14000        470    3      3130  = labels#213
+               4    12000       2463    5      1137  = labels#3533
+               4    12000       2485    8      1115  = labels#1315
+               4    15000          2    3       505  = labels#395
+ ! Time = 73.23s, Average fail depth = 259, Memory usage = 13.2 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    16000          2    4       804  = labels#217
+               4    16000       2129    6      2131  = labels#3332
+               4    16000          2    7       804  = labels#2789
+               4    13000       1484    8      2116  = labels#1196
+               4    16000          2    1       804  = labels#268
+               4    16000          2    2       804  = labels#832
+               4    16000       2088    3      1499  = labels#1403
+               4    13000       1463    5      2137  = labels#1991
+               4    14000        484    8      3116  = labels#842
+               4    17000       1088    3      2517  = labels#2320
+               4    17000       1795    4      1805  = labels#399
+               4    14000        463    5      3137  = labels#3463
+               4    17000       1129    6      1131  = labels#1268
+               4    17000       1796    7      1804  = labels#1383
+               4    17000       1796    1      1804  = labels#1570
+               4    17000       1795    2      1805  = labels#662
+               4    18000         88    3      3507  = labels#3511
+               4    15000          2    8       492  = labels#1364
+ *             5    18117  81.34s       3      (gap  > 10000%)
+               5    18000        129    6       130  = labels#3369
+ ! Time = 83.14s, Average fail depth = 312, Memory usage = 13.2 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               5    16000       2100    8      1499  = labels#1593
+               5    19000          3    3      3494  = labels#2887
+               5    15000          2    5       530  = labels#342
+               5    18000        796    7      2804  = labels#3060
+               5    17000       1100    8      2503  = labels#1283
+               5    18000        796    1      2804  = labels#2740
+               5    18000        795    2      2805  = labels#965
+               5    20000       1734    3      3559  = labels#556
+               5    18000        795    4      2805  = labels#2208
+               5    16000       2078    5      1520  = labels#517
+               5    19000          2    6       866  = labels#3065
+               5    19000          2    7      3396  = labels#2132
+               5    18000        100    8      3500  = labels#3085
+               5    19000          2    1      3396  = labels#3574
+               5    19000          2    2      3395  = labels#2569
+               5    21000        749    3      1792  = labels#2877
+               5    19000          2    4      3395  = labels#226
+               5    17000       1078    5      2521  = labels#861
+               5    20000       1757    6       630  = labels#2456
+ *             6    21784  86.02s       3      (gap  > 10000%)
+ ! Time = 86.02s, Average fail depth = 331, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               6    18000         78    5      3519  = labels#2974
+               6    21000        775    6      2936  = labels#432
+               6    22000          2    3       206  = labels#2193
+               6    19000          2    8      2775  = labels#1972
+               6    22000          2    6       162  = labels#141
+               6    20000       1742    8      3291  = labels#2501
+               6    20000       2396    1      2396  = labels#550
+               6    20000       2394    2      2395  = labels#2384
+               6    20000       2394    4      2395  = labels#327
+               6    19000          2    5       891  = labels#882
+               6    23000       2417    6      1173  = labels#1175
+               6    20000       2395    7      2396  = labels#2757
+               6    21000        750    8       739  = labels#2180
+               6    23000       2394    3      1206  = labels#1434
+               6    20000       1696    5      1896  = labels#1656
+               6    24000       1417    6      2172  = labels#1871
+ *             7    21792  93.82s       8      (gap  > 10000%)
+               7    22000          3    8      2696  = labels#651
+               7    21000       1395    1      1396  = labels#3437
+               7    21000       1394    2      1395  = labels#3144
+ ! Time = 95.33s, Average fail depth = 442, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               7    21000       1394    4      1395  = labels#2758
+               7    21000        696    5      2902  = labels#2913
+               7    25000        417    6      3177  = labels#2889
+               7    21000       1395    7      1396  = labels#1854
+               7    23000       2412    8      3010  = labels#2435
+               7    26000          7    6       332  = labels#1613
+               7    22000        395    7       396  = labels#809
+               7    24000       1428    8      3193  = labels#910
+               7    22000        395    1       396  = labels#2244
+               7    22000        394    2       395  = labels#415
+               7    24000       1393    3      2207  = labels#970
+               7    22000        394    4       395  = labels#1655
+               7    22000          3    5       285  = labels#1199
+               7    27000       2293    6      2303  = labels#2025
+               7    23000          2    7       601  = labels#610
+               7    25000        451    8      2235  = labels#3534
+               7    23000          2    1       607  = labels#853
+               7    23000          2    2       602  = labels#1448
+               7    25000        393    3      3207  = labels#1936
+               7    23000          2    4       604  = labels#2801
+ ! Time = 99.77s, Average fail depth = 437, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               7    23000       2312    5      1258  = labels#2914
+               7    24000       1993    4      1609  = labels#1640
+               7    24000       1312    5      2261  = labels#251
+               7    28000       1312    6       259  = labels#2657
+               7    24000       1994    7      1603  = labels#2701
+               7    24000       1994    1      1607  = labels#2443
+               7    24000       1993    2      1602  = labels#451
+               7    26000          2    3      2826  = labels#1102
+ *             8    25466  100.86s      8      (gap  > 10000%)
+               8    26000          2    8      2643  = labels#2041
+               8    25000        994    1      2600  = labels#1022
+               8    25000        993    2      2606  = labels#596
+               8    27000       2027    3      3256  = labels#3163
+               8    25000        993    4      2608  = labels#1043
+               8    25000        312    5      3297  = labels#3413
+               8    29000        334    6      3013  = labels#3498
+               8    25000        994    7      2605  = labels#2836
+               8    27000       2088    8      2550  = labels#2413
+               8    28000       1116    8       657  = labels#3504
+               8    28000       1047    3       525  = labels#1839
+ ! Time = 103.02s, Average fail depth = 579, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               8    26000          2    5       653  = labels#2024
+               8    30000          2    6       623  = labels#2340
+               8    26000          2    7      3524  = labels#278
+               8    26000          2    1       861  = labels#1723
+               8    26000          2    2      3202  = labels#684
+               8    26000          2    4      2399  = labels#620
+               8    27000       1928    5      1660  = labels#1179
+               8    31000       1971    6      1627  = labels#1890
+               8    27000       2596    7      1435  = labels#1520
+               8    29000        147    8       734  = labels#764
+               8    27000       2595    1      1426  = labels#411
+               8    27000       2593    2      2012  = labels#1234
+               8    29000         79    3      2147  = labels#3009
+               8    27000       2593    4       312  = labels#562
+               8    28000       1595    4      1321  = labels#119
+               8    28000        928    5      2664  = labels#681
+               8    32000        971    6      2617  = labels#2161
+               8    28000       1601    7      2666  = labels#285
+               8    28000       1597    1      3000  = labels#3371
+               8    28000       1592    2       271  = labels#2525
+ ! Time = 104.79s, Average fail depth = 614, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               8    30000          2    3      1445  = labels#2248
+ *             9    29166  104.79s      8      (gap  > 10000%)
+               9    30000          2    8       815  = labels#1163
+               9    29000        599    1      1340  = labels#735
+               9    29000        596    2      2581  = labels#1371
+               9    31000       1720    3       412  = labels#1739
+               9    29000        600    4        12  = labels#2543
+               9    29000        605    7      3081  = labels#107
+               9    31000       1785    8      2965  = labels#2171
+               9    29000          2    5      1456  = labels#389
+               9    33000          2    6      3591  = labels#1047
+               9    30000          2    7      3403  = labels#1143
+               9    32000        820    8      3336  = labels#2841
+               9    30000          2    1        23  = labels#1533
+               9    30000          2    2      3262  = labels#2709
+               9    32000        739    3      1502  = labels#2375
+               9    30000          2    4      2863  = labels#1598
+               9    30000       2548    5       912  = labels#2738
+               9    31000       2210    4      2893  = labels#3230
+               9    31000       1566    5      2699  = labels#803
+ ! Time = 108.56s, Average fail depth = 637, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               9    31000       2205    7       864  = labels#1918
+               9    33000        277    8      2486  = labels#2381
+               9    31000       2203    1       944  = labels#1576
+               9    31000       2206    2      1577  = labels#2306
+               9    33000          2    3      2224  = labels#406
+               9    32000       1209    4      1982  = labels#3426
+               9    32000        606    5        14  = labels#292
+               9    34000       2588    6      2590  = labels#558
+               9    32000       1204    7       178  = labels#329
+               9    34000       2188    8      2309  = labels#2920
+               9    32000       1208    1      1538  = labels#2472
+               9    32000       1207    2      1593  = labels#1998
+               9    34000       2391    3      1524  = labels#2897
+ *            10    32639  109.46s      5      (gap  > 10000%)
+              10    33000        208    7      3452  = labels#153
+              10    35000       1205    8      2081  = labels#301
+              10    33000        208    1      2455  = labels#3073
+              10    33000        207    2      1756  = labels#1100
+              10    35000       1424    3      2581  = labels#673
+              10    33000        209    4      2472  = labels#1716
+ ! Time = 110.72s, Average fail depth = 720, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              10    33000          2    5       534  = labels#1653
+              10    34000          2    7      3136  = labels#206
+              10    36000        227    8      1647  = labels#2398
+              10    34000          2    1      1641  = labels#857
+              10    34000          2    2        97  = labels#750
+              10    36000        440    3      3083  = labels#283
+              10    34000          2    4      1609  = labels#2896
+              10    34000       2262    5       494  = labels#1546
+              10    35000       1815    4        59  = labels#1638
+              10    35000       1282    5      1984  = labels#1537
+              10    35000       1588    6      1590  = labels#3437
+              10    35000       1812    7      2046  = labels#3033
+              10    35000       1809    1      2759  = labels#2131
+              10    35000       1812    2      3484  = labels#599
+              10    37000          3    3       520  = labels#216
+              10    37000          2    8      3093  = labels#1083
+              10    36000        813    1      2085  = labels#3101
+              10    36000        814    2      1403  = labels#1924
+              10    38000       2069    3      1548  = labels#2928
+              10    36000        825    4       903  = labels#1228
+ ! Time = 114.36s, Average fail depth = 743, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              10    36000        318    5      3189  = labels#648
+              10    36000        588    6       589  = labels#2774
+              10    36000        817    7       328  = labels#807
+              10    38000       1875    8      3277  = labels#2628
+ *            11    36343  114.36s      5      (gap  > 10000%)
+              11    37000          2    7       180  = labels#3245
+              11    39000        903    8       377  = labels#2886
+              11    37000          2    1       184  = labels#3532
+              11    37000          2    2       181  = labels#1180
+              11    39000       1069    3      2521  = labels#1255
+              11    37000          2    4       173  = labels#643
+              11    37000          2    5       567  = labels#2470
+              11    37000          2    6       377  = labels#1676
+              11    40000        704    8      2542  = labels#1151
+              11    40000         69    3      3513  = labels#2495
+              11    38000       1977    5       642  = labels#3345
+              11    38000       2205    6      1390  = labels#2863
+              11    38000       2427    4      1173  = labels#2817
+              11    39000       1001    5       457  = labels#1583
+              11    39000       1205    6      2398  = labels#2058
+ ! Time = 119.32s, Average fail depth = 792, Memory usage = 14.6 GB
+ ! Current bound is 1800 (gap  > 10000%)
+ !          Best Branches  Non-fixed    W       Branch decision
+              11 
