@@ -1,0 +1,1131 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		oplrun
+[runlim] argv[1]:		-l
+[runlim] argv[2]:		./results/150s/hypercube/out/hypercube_4_16-output.out
+[runlim] argv[3]:		CP-CPLEX.mod
+[runlim] argv[4]:		./graphs/hypercube/hypercube_4_16.dat
+[runlim] start:			Wed Oct 29 17:50:48 2025
+[runlim] main pid:		22984
+[runlim] log captured:
+
+<<< setup
+
+
+<<< generate
+
+ ! --------------------------------------------------- CP Optimizer 22.1.1.0 --
+ ! Maximization problem - 17 variables, 68 constraints
+ ! Initial process time : 0.00s (0.00s extraction + 0.00s propagation)
+ !  . Log search space  : 66.9 (before), 66.9 (after)
+ !  . Memory usage      : 333.5 kB (before), 333.5 kB (after)
+ ! Using parallel search with 8 workers.
+ ! ----------------------------------------------------------------------------
+ !          Best Branches  Non-fixed    W       Branch decision
+                        0         17                 -
+ + New bound is 15
+                        0         17    1            -
+ + New bound is 8
+                       14         16    1   F     7 != labels(4)
+ + New bound is 7
+ *             1       29  0.03s        1      (gap is 600.0%)
+ *             2      117  0.03s        1      (gap is 250.0%)
+ *             3      169  0.03s        1      (gap is 133.3%)
+ *             4      438  0.03s        1      (gap is 75.00%)
+               4     1000          2    1         5 != labels(11)
+               4     1000          2    2         3  = labels(4)
+               4     1000          2    3         5  = labels(6)
+               4     1000          2    4         2 != labels(2)
+               4     1000          2    5   F     9  = labels(14)
+               4     1000          2    6            -
+               4     1000          2    7   F     5 != labels(4)
+               4     1000          2    8        12  = labels(13)
+               4     2000          7    3         6 != labels(13)
+               4     2000          7    6        10 != labels(14)
+               4     2000          8    1         1 != labels(12)
+               4     2000          8    2         5 != labels(16)
+               4     2000          8    4   F     7  = labels(11)
+ ! Time = 0.04s, Average fail depth = 13, Memory usage = 5.3 MB
+ ! Current bound is 7 (gap is 75.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     2000          8    7   F    10 != labels(8)
+               4     2000          6    8         9 != labels(3)
+               4     2000          8    5         6 != labels(10)
+               4     3000          8    1         9 != labels(4)
+               4     3000          7    8   F     7  = labels(13)
+               4     3000          7    3        16  = labels(2)
+               4     3000          8    4         2 != labels(6)
+               4     3000          8    5   F     3  = labels(16)
+               4     3000          7    6            -
+               4     3000          7    2         9 != labels(6)
+               4     3662         12    2   F     1 != labels(8)
+ + New bound is 5 (gap is 25.00%)
+               4     3000          8    7         1  = labels(11)
+               4     4000          8    8            -
+               4     4000          9    1         9 != labels(5)
+               4     4000          7    2        15  = labels(8)
+               4     4000          8    3         7 != labels(1)
+               4     4000          7    5            -
+               4     4000          8    6   F    11  = labels(16)
+               4     4000          7    4        10  = labels(9)
+               4     4000          8    7        10 != labels(8)
+ ! Time = 0.06s, Average fail depth = 13, Memory usage = 5.6 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     5000          7    8   F    13  = labels(5)
+               4     5000          8    2   F     2 != labels(12)
+               4     5000          6    3         6 != labels(6)
+               4     5000          7    4   F     8  = labels(10)
+               4     5000          6    5   F     3 != labels(7)
+               4     5000          8    6         9 != labels(5)
+               4     5000          7    7   F     7 != labels(6)
+               4     5000          7    1        16 != labels(9)
+               4     6000          8    2   F    14  = labels(14)
+               4     6000          7    3   F     8 != labels(12)
+               4     6000          8    4         3 != labels(15)
+               4     6000          7    5   F     7 != labels(16)
+               4     6000          6    6        11 != labels(14)
+               4     6000          8    7   F     4  = labels(13)
+               4     6000          8    8   F    10 != labels(5)
+               4     6000          7    1        10  = labels(5)
+               4     7000          8    3   F     4 != labels(11)
+               4     7000          8    4         4 != labels(15)
+               4     7000          8    5            -
+               4     7000          7    6   F     2  = labels(8)
+ ! Time = 0.08s, Average fail depth = 13, Memory usage = 5.6 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     7000          8    7         5 != labels(10)
+               4     7000          8    8            -
+               4     7000          7    1   F     7 != labels(9)
+               4     7000          8    2         5 != labels(14)
+               4     8000          8    3        13 != labels(5)
+               4     8000          6    4         3  = labels(12)
+               4     8000          7    5   F     7  = labels(6)
+               4     8000          8    6         8 != labels(4)
+               4     8000          7    8   F     5 != labels(1)
+               4     8000          7    2        10 != labels(16)
+               4     8000          7    7        16 != labels(2)
+               4     9000          6    2        14 != labels(16)
+               4     9000          8    3   F     4  = labels(16)
+               4     9000          8    5            -
+               4     9000          7    6   F     1  = labels(13)
+               4     9000          7    7         6 != labels(6)
+               4     9000          8    8   F     9  = labels(14)
+               4     8000          8    1         4 != labels(6)
+               4     9000          8    4         2 != labels(8)
+               4    10000          8    5   F     4 != labels(11)
+ ! Time = 0.10s, Average fail depth = 13, Memory usage = 5.6 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    10000          7    6         3 != labels(2)
+               4    10000          8    7   F     2  = labels(11)
+               4    10000          6    8            -
+               4     9000          7    1   F     4 != labels(7)
+               4    10000          6    2   F     8 != labels(11)
+               4    10000          8    3   F        -
+               4    10000          7    4        14 != labels(11)
+               4    11000          7    5   F    10  = labels(6)
+               4    11000          8    6   F    14 != labels(4)
+               4    11000          8    7   F    10  = labels(8)
+               4    11000          8    8   F     4 != labels(15)
+               4    10000          7    1   F     1 != labels(6)
+               4    11000          8    2         1 != labels(11)
+               4    11000          8    3   F     6  = labels(14)
+               4    11000          7    4   F     5  = labels(13)
+               4    12000          8    5   F    16  = labels(4)
+               4    12000          8    6         1  = labels(13)
+               4    12000          8    8   F        -
+               4    12000          7    2         7  = labels(16)
+               4    12000          7    3   F     9  = labels(15)
+ ! Time = 0.11s, Average fail depth = 13, Memory usage = 5.6 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    12000          7    4         4  = labels(13)
+               4    12000          7    7   F     5  = labels(11)
+               4    11000          7    1   F    14 != labels(14)
+               4    13000          7    3        14  = labels(9)
+               4    13000          7    4        11  = labels(8)
+               4    13000          8    5            -
+               4    13000          7    6   F        -
+               4    13000          7    7   F     1  = labels(6)
+               4    13000          6    8            -
+               4    12000          8    1         5  = labels(13)
+               4    13000          8    2   F    13 != labels(14)
+               4    14000          7    3   F    13  = labels(12)
+               4    14000          8    5   F    16 != labels(16)
+               4    14000          7    6   F     6  = labels(6)
+               4    14000          7    8   F     7  = labels(13)
+               4    14000          7    2         7 != labels(16)
+               4    14000          8    4   F    14 != labels(15)
+               4    13000          8    1        16 != labels(2)
+               4    15000          8    3            -
+               4    15000          8    5         7 != labels(3)
+ ! Time = 0.13s, Average fail depth = 13, Memory usage = 5.7 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    15000          8    6   F     4  = labels(6)
+               4    14000          7    7         5 != labels(4)
+               4    15000          6    8            -
+               4    14000          7    1   F    14 != labels(14)
+               4    15000          8    2         6  = labels(4)
+               4    16000          7    3   F    12  = labels(12)
+               4    15000          7    4         4 != labels(6)
+               4    16000          8    5         9 != labels(2)
+               4    16000          6    6   F     4  = labels(13)
+               4    15000          8    7   F    10 != labels(14)
+               4    16000          8    8            -
+               4    16000          7    2        16 != labels(9)
+               4    15000          8    1   F     8  = labels(5)
+               4    17000          8    2         7 != labels(13)
+               4    17000          8    3   F     7 != labels(8)
+               4    16000          7    4   F     4  = labels(16)
+               4    17000          6    5            -
+               4    17000          7    6   F     8 != labels(3)
+               4    16000          2    7        11  = labels(2)
+               4    17000          8    8            -
+ ! Time = 0.15s, Average fail depth = 13, Memory usage = 5.7 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    18000          8    5   F        -
+               4    18000          7    6   F     8  = labels(7)
+               4    17000          7    7   F     4 != labels(14)
+               4    18000          6    8        10  = labels(3)
+               4    18000          8    2   F     7  = labels(13)
+               4    17000          8    4         9 != labels(7)
+               4    19000          7    5            -
+               4    19000          7    6   F    10 != labels(13)
+               4    18000          8    7         5 != labels(16)
+               4    19000          8    8            -
+               4    16000          8    1            -
+               4    18000          6    3   F     9 != labels(15)
+               4    18000          8    4         8  = labels(5)
+               4    20000          7    5   F        -
+               4    20000          8    6   F    16 != labels(13)
+               4    19000          8    7        13 != labels(2)
+               4    20000          8    8         6 != labels(12)
+               4    17000          8    1        13 != labels(8)
+               4    19000          7    2         8 != labels(6)
+               4    19000          8    3   F     6 != labels(2)
+ ! Time = 0.17s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    19000          7    4        10  = labels(5)
+               4    21000          7    5   F     5 != labels(16)
+               4    21000          8    6   F     7 != labels(8)
+               4    20000          8    7         8  = labels(6)
+               4    21000          7    8   F    10  = labels(3)
+               4    18000          7    1         3 != labels(16)
+               4    20000          8    2   F    15  = labels(5)
+               4    20000          8    3   F        -
+               4    20000          8    4   F     9  = labels(7)
+               4    22000          7    5   F     4  = labels(16)
+               4    22000          8    6   F    13  = labels(16)
+               4    21000          8    7         5 != labels(8)
+               4    19000          8    1   F    10 != labels(9)
+               4    21000          7    2         8  = labels(6)
+               4    21000          7    3   F     4  = labels(6)
+               4    21000          8    4         5 != labels(8)
+               4    23000          7    5   F     9  = labels(11)
+               4    23000          7    6   F    16  = labels(16)
+               4    22000          7    7   F     6 != labels(7)
+               4    22000          7    8        11 != labels(7)
+ ! Time = 0.19s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    20000          8    1   F    11  = labels(4)
+               4    22000          7    2   F    12 != labels(8)
+               4    22000          6    3   F    10  = labels(10)
+               4    22000          8    4   F     7 != labels(11)
+               4    24000          8    5   F    13 != labels(5)
+               4    24000          8    6   F     7 != labels(9)
+               4    23000          7    7        16 != labels(5)
+               4    23000          6    8            -
+               4    21000          8    1   F     7 != labels(16)
+               4    23000          8    2   F     8  = labels(14)
+               4    23000          7    3   F     5  = labels(14)
+               4    23000          8    4   F     2  = labels(11)
+               4    25000          8    5            -
+               4    25000          6    6   F     7  = labels(16)
+               4    24000          3    7   F     2  = labels(11)
+               4    24000          8    8        12 != labels(4)
+               4    22000          8    1   F    10  = labels(15)
+               4    24000          8    2   F    10 != labels(15)
+               4    24000          8    3            -
+               4    24000          6    4   F     8 != labels(11)
+ ! Time = 0.20s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    26000          8    6   F    10  = labels(12)
+               4    25000          2    7         8  = labels(3)
+               4    25000          8    8   F        -
+               4    23000          6    1   F     2  = labels(9)
+               4    25000          2    2   F     7 != labels(13)
+               4    25000          7    3   F     1  = labels(16)
+               4    25000          8    4         7  = labels(1)
+               4    26000          6    5   F     5 != labels(8)
+               4    26000          4    7         5 != labels(16)
+               4    26000          6    8         5 != labels(12)
+               4    24000          7    1   F    13 != labels(16)
+               4    26000          7    2   F    12  = labels(8)
+               4    26000          8    3         6 != labels(6)
+               4    26000          7    4   F    11  = labels(3)
+               4    27000          8    5            -
+               4    27000          7    6         4 != labels(7)
+               4    27000          8    7   F     7 != labels(11)
+               4    27000          6    8   F     1  = labels(2)
+               4    25000          8    1         6 != labels(7)
+               4    27000          7    2   F    10  = labels(8)
+ ! Time = 0.22s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    27000          8    3        13  = labels(9)
+               4    27000          8    4   F     7  = labels(4)
+               4    28000          8    5   F     9  = labels(4)
+               4    28000          7    6        12 != labels(4)
+               4    28000          2    7         6 != labels(7)
+               4    28000          8    8   F    13 != labels(14)
+               4    26000          7    1   F    10 != labels(5)
+               4    28000          7    2   F     2  = labels(13)
+               4    28000          8    3         8 != labels(7)
+               4    28000          7    4   F     8  = labels(14)
+               4    29000          8    5        15  = labels(7)
+               4    29000          8    6            -
+               4    29000          8    7   F    15  = labels(6)
+               4    29000          8    8   F     3  = labels(7)
+               4    27000          8    1   F     5  = labels(14)
+               4    29000          8    2   F     8 != labels(2)
+               4    29000          8    3        15 != labels(16)
+               4    29000          8    4   F     9 != labels(7)
+               4    30000          6    5   F    16  = labels(7)
+               4    30000          8    6         5 != labels(14)
+ ! Time = 0.24s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    30000          6    7         1  = labels(12)
+               4    30000          7    8   F        -
+               4    28000          7    1         6  = labels(9)
+               4    30000          7    2   F     6  = labels(10)
+               4    30000          6    3        10  = labels(7)
+               4    30000          7    4        12  = labels(12)
+               4    31000          8    5   F     3  = labels(12)
+               4    31000          8    6         8  = labels(7)
+               4    31000          7    7   F    10  = labels(14)
+               4    31000          7    8         7  = labels(10)
+               4    29000          7    1   F    10 != labels(14)
+               4    31000          7    2   F     5 != labels(16)
+               4    31000          7    3   F    13  = labels(9)
+               4    31000          8    4         2 != labels(16)
+               4    32000          8    5   F     6  = labels(8)
+               4    32000          6    6         7  = labels(9)
+               4    32000          7    7   F     4  = labels(16)
+               4    32000          7    8   F     9  = labels(6)
+               4    30000          8    1         7  = labels(9)
+               4    32000          4    2         5 != labels(14)
+ ! Time = 0.25s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    32000          7    3         8  = labels(9)
+               4    32000          7    4         9  = labels(8)
+               4    33000          7    5   F     3 != labels(5)
+               4    33000          7    6         3  = labels(13)
+               4    33000          8    7   F     7  = labels(16)
+               4    33000          8    8        12  = labels(15)
+               4    31000          5    1         8 != labels(2)
+               4    33000          7    2         7 != labels(5)
+               4    33000          8    3            -
+               4    33000          7    4   F    13 != labels(5)
+               4    34000          8    5   F     6  = labels(4)
+               4    34000          7    6   F    14  = labels(5)
+               4    34000          8    7         8 != labels(14)
+               4    34000          7    8         8  = labels(12)
+               4    32000          3    1   F    10 != labels(3)
+               4    34000          8    2         7 != labels(16)
+               4    34000          7    3         8  = labels(5)
+               4    34000          8    4        11 != labels(8)
+               4    35000          7    5   F     9  = labels(9)
+               4    35000          7    6         9 != labels(2)
+ ! Time = 0.27s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    35000          7    7         6  = labels(10)
+               4    35000          6    8         5 != labels(12)
+               4    33000          8    1         5 != labels(12)
+               4    35000          8    2   F    10  = labels(3)
+               4    35000          7    3   F     7  = labels(2)
+               4    35000          7    4   F     8  = labels(5)
+               4    36000          7    5   F    13  = labels(4)
+               4    36000          8    6        11 != labels(13)
+               4    36000          7    7        10  = labels(10)
+               4    36000          8    8   F        -
+               4    34000          7    1   F    10  = labels(7)
+               4    36000          8    2   F    10 != labels(2)
+               4    36000          6    3   F     4 != labels(14)
+               4    37000          7    5   F     7  = labels(15)
+               4    37000          8    6   F    11  = labels(2)
+               4    37000          8    7        11 != labels(15)
+               4    37000          7    8            -
+               4    35000          8    1         5 != labels(7)
+               4    37000          7    2        15  = labels(12)
+               4    37000          8    3            -
+ ! Time = 0.29s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    36000          7    4         6 != labels(10)
+               4    38000          8    5            -
+               4    38000          6    6   F     9 != labels(15)
+               4    38000          7    7   F     8  = labels(10)
+               4    38000          8    8   F     7 != labels(9)
+               4    36000          7    1         3 != labels(12)
+               4    38000          8    2   F     9  = labels(5)
+               4    38000          7    3   F     7 != labels(14)
+               4    37000          8    4         8  = labels(14)
+               4    39000          8    5         9 != labels(4)
+               4    39000          7    6   F     7 != labels(7)
+               4    39000          8    7         5 != labels(6)
+               4    39000          6    8   F     5 != labels(8)
+               4    37000          7    1   F     7  = labels(6)
+               4    39000          8    2   F    10 != labels(8)
+               4    39000          8    3   F    15  = labels(11)
+               4    38000          7    4        13 != labels(7)
+               4    40000          8    5            -
+               4    40000          8    6   F    12  = labels(12)
+               4    40000          8    7   F    10 != labels(2)
+ ! Time = 0.31s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    40000          7    8            -
+               4    38000          7    1   F    10 != labels(8)
+               4    40000          7    2         1 != labels(8)
+               4    40000          7    3        12  = labels(10)
+               4    39000          6    4   F     6 != labels(4)
+               4    41000          8    5   F        -
+               4    41000          7    6        14  = labels(2)
+               4    41000          3    7   F     6  = labels(16)
+               4    41000          7    8   F     5 != labels(4)
+               4    39000          4    1   F    11 != labels(7)
+               4    41000          4    2   F     7  = labels(11)
+               4    41000          7    3   F    10 != labels(8)
+               4    40000          7    4         9 != labels(12)
+               4    42000          8    5   F        -
+               4    42000          7    6   F    10 != labels(3)
+               4    42000          7    7   F     7 != labels(11)
+               4    42000          8    8   F     7  = labels(14)
+               4    40000          6    1   F     9  = labels(9)
+               4    42000          2    2   F    10 != labels(2)
+               4    42000          8    3        15  = labels(13)
+ ! Time = 0.32s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    41000          7    4         7 != labels(11)
+               4    43000          8    5   F     9  = labels(4)
+               4    43000          7    6   F    10  = labels(15)
+               4    43000          8    7        13 != labels(8)
+               4    41000          8    1        15  = labels(8)
+               4    43000          8    2        15  = labels(15)
+               4    43000          7    3         6 != labels(14)
+               4    42000          8    4   F     9  = labels(5)
+               4    44000          8    5   F     6 != labels(15)
+               4    44000          8    6   F     5  = labels(1)
+               4    44000          7    7        11 != labels(9)
+               4    43000          6    8   F     7  = labels(7)
+               4    42000          8    1         3 != labels(10)
+               4    44000          8    2   F     2  = labels(13)
+               4    44000          7    3            -
+               4    43000          2    4        12  = labels(8)
+               4    45000          8    5            -
+               4    45000          8    6   F    13 != labels(15)
+               4    45000          8    7   F     8 != labels(12)
+               4    44000          8    8         9  = labels(15)
+ ! Time = 0.34s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    43000          7    1         4 != labels(16)
+               4    45000          7    2         2 != labels(6)
+               4    45000          7    3            -
+               4    44000          7    4         6 != labels(6)
+               4    46000          6    5   F        -
+               4    46000          8    6            -
+               4    46000          7    7   F     5  = labels(12)
+               4    45000          7    8   F     9 != labels(8)
+               4    44000          8    1   F    13  = labels(8)
+               4    46000          7    2        13 != labels(8)
+               4    46000          7    3   F    16 != labels(11)
+               4    45000          8    4         9 != labels(7)
+               4    47000          8    6            -
+               4    47000          7    7         8 != labels(2)
+               4    46000          8    8            -
+               4    45000          7    1         8 != labels(14)
+               4    47000          7    2   F     6  = labels(3)
+               4    47000          7    3            -
+               4    46000          8    4   F    10  = labels(12)
+               4    47000          8    5         5 != labels(7)
+ ! Time = 0.35s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    48000          7    6   F     5  = labels(16)
+               4    48000          8    7         4 != labels(6)
+               4    47000          7    8   F     7  = labels(13)
+               4    46000          6    1        13  = labels(3)
+               4    48000          8    2   F    10 != labels(8)
+               4    48000          8    3        11 != labels(12)
+               4    47000          8    4         3 != labels(4)
+               4    48000          7    5         3  = labels(4)
+               4    49000          7    6   F    13 != labels(2)
+               4    49000          7    7   F     7 != labels(2)
+               4    48000          8    8   F     5 != labels(8)
+               4    47000          7    1   F    12 != labels(2)
+               4    49000          7    2   F     9  = labels(16)
+               4    49000          6    3        14  = labels(13)
+               4    48000          6    4   F     6 != labels(8)
+               4    49000          6    5   F    15 != labels(2)
+               4    50000          8    6   F     3  = labels(4)
+               4    50000          8    7         6 != labels(2)
+               4    49000          8    8            -
+               4    50000          7    2   F    10  = labels(14)
+ ! Time = 0.37s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    49000          7    4         6  = labels(10)
+               4    50000          8    5   F     6 != labels(2)
+               4    51000          8    6            -
+               4    51000          5    7         8  = labels(13)
+               4    50000          8    8   F     5 != labels(11)
+               4    48000          6    1   F     6  = labels(4)
+               4    51000          8    2   F    16  = labels(8)
+               4    50000          7    3   F    13 != labels(14)
+               4    50000          6    4   F    16 != labels(6)
+               4    51000          8    5   F     6  = labels(7)
+               4    52000          7    7   F     2  = labels(10)
+               4    51000          8    8   F        -
+               4    49000          8    1   F     3  = labels(15)
+               4    51000          8    3   F     9 != labels(8)
+               4    51000          7    4   F    10  = labels(9)
+               4    52000          8    5   F     7 != labels(10)
+               4    52000          7    6        11 != labels(3)
+               4    53000          2    7         4 != labels(7)
+               4    52000          7    8         9 != labels(7)
+               4    50000          7    1         2 != labels(4)
+ ! Time = 0.39s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    52000          8    2   F     5 != labels(6)
+               4    52000          6    3        13 != labels(2)
+               4    52000          3    4         3 != labels(13)
+               4    53000          8    5         3 != labels(11)
+               4    53000          8    6   F        -
+               4    54000          7    7        15 != labels(12)
+               4    53000          7    8   F    11 != labels(3)
+               4    51000          8    1         6 != labels(15)
+               4    53000          7    2   F     3  = labels(15)
+               4    53000          8    3         9 != labels(10)
+               4    53000          2    4         3 != labels(1)
+               4    54000          8    5            -
+               4    54000          7    6   F     1  = labels(4)
+               4    55000          8    7   F     8 != labels(8)
+               4    54000          7    8         5  = labels(13)
+               4    52000          7    1        13  = labels(6)
+               4    54000          7    2         7 != labels(12)
+               4    54000          7    3   F     7 != labels(12)
+               4    54000          8    4   F     7 != labels(11)
+               4    55000          8    5        14 != labels(16)
+ ! Time = 0.41s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    55000          8    6            -
+               4    56000          2    7   F    14 != labels(6)
+               4    55000          7    8   F     6 != labels(13)
+               4    53000          8    1         3 != labels(9)
+               4    55000          8    2   F     4 != labels(13)
+               4    55000          8    3            -
+               4    55000          6    4   F     5 != labels(6)
+               4    56000          6    5   F     6 != labels(15)
+               4    56000          8    6         9 != labels(6)
+               4    57000          7    7        14 != labels(6)
+               4    56000          7    8            -
+               4    54000          8    1   F     4  = labels(14)
+               4    56000          7    2   F    10 != labels(15)
+               4    56000          7    3            -
+               4    56000          8    4   F    13 != labels(11)
+               4    57000          8    5   F    16  = labels(7)
+               4    57000          8    6   F     5 != labels(6)
+               4    58000          8    7   F    11  = labels(9)
+               4    57000          7    8         8 != labels(11)
+               4    55000          5    1         9 != labels(2)
+ ! Time = 0.42s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    57000          8    2   F     4 != labels(16)
+               4    57000          8    3   F        -
+               4    57000          8    4   F     9 != labels(12)
+               4    58000          8    5         4  = labels(1)
+               4    58000          8    6   F    16  = labels(7)
+               4    59000          8    7        11  = labels(3)
+               4    58000          8    8   F    14  = labels(16)
+               4    56000          8    1   F     2  = labels(16)
+               4    58000          7    2   F     4  = labels(12)
+               4    58000          7    3         6 != labels(16)
+               4    59000          7    5   F     5 != labels(4)
+               4    59000          8    6   F        -
+               4    60000          8    7   F     5  = labels(15)
+               4    59000          8    8         5  = labels(14)
+               4    57000          7    1   F     7  = labels(10)
+               4    59000          8    2   F     5  = labels(15)
+               4    59000          7    3   F    10  = labels(5)
+               4    58000          8    4   F     2 != labels(7)
+               4    60000          7    5        12 != labels(3)
+               4    60000          7    6         3 != labels(13)
+ ! Time = 0.44s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    61000          8    7   F    15 != labels(10)
+               4    60000          8    8   F    11  = labels(5)
+               4    58000          8    1   F     4  = labels(8)
+               4    60000          4    2         9 != labels(15)
+               4    60000          7    3        11 != labels(7)
+               4    59000          8    4        10 != labels(9)
+               4    61000          8    5         9 != labels(9)
+               4    61000          6    6        12  = labels(8)
+               4    61000          7    8   F    13  = labels(4)
+               4    59000          8    1         6  = labels(4)
+               4    61000          8    2   F     9 != labels(10)
+               4    61000          8    3   F     9 != labels(4)
+               4    60000          8    4         5 != labels(7)
+               4    62000          8    7         3 != labels(4)
+               4    62000          6    8            -
+               4    60000          8    1         7  = labels(13)
+               4    62000          2    2         8  = labels(9)
+               4    62000          8    3   F     9 != labels(14)
+               4    61000          6    4   F    10  = labels(12)
+               4    62000          7    5            -
+ ! Time = 0.45s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    62000          8    6   F     8  = labels(14)
+               4    63000          7    8   F     2  = labels(1)
+               4    61000          8    1        11 != labels(9)
+               4    63000          6    2   F    16 != labels(6)
+               4    63000          7    3            -
+               4    62000          8    4   F    12  = labels(8)
+               4    63000          8    5        13 != labels(9)
+               4    63000          8    6   F    15  = labels(5)
+               4    63000          7    7   F     2  = labels(11)
+               4    64000          8    8         8 != labels(7)
+               4    62000          3    1         3 != labels(12)
+               4    64000          8    2         4 != labels(15)
+               4    64000          8    3         7 != labels(2)
+               4    63000          6    4        13 != labels(7)
+               4    64000          7    5   F     5 != labels(14)
+               4    64000          8    6   F        -
+               4    64000          7    7         3  = labels(16)
+               4    65000          8    8            -
+               4    63000          8    1         2  = labels(12)
+               4    65000          7    2   F    10  = labels(14)
+ ! Time = 0.47s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    65000          7    3   F     5 != labels(8)
+               4    64000          8    4   F     3  = labels(4)
+               4    65000          8    5         8  = labels(11)
+               4    65000          8    6            -
+               4    65000          8    7         6 != labels(6)
+               4    66000          8    8         9 != labels(5)
+               4    64000          3    1   F     9 != labels(5)
+               4    66000          7    2   F     6 != labels(7)
+               4    66000          7    3   F    13 != labels(15)
+               4    65000          8    4        12  = labels(15)
+               4    66000          8    5         8  = labels(10)
+               4    66000          7    6         3 != labels(13)
+               4    66000          6    7         6  = labels(8)
+               4    67000          7    8            -
+               4    65000          8    1         4 != labels(4)
+               4    67000          8    2        11  = labels(15)
+               4    67000          8    3   F     5 != labels(8)
+               4    66000          4    4   F    12  = labels(16)
+               4    67000          7    5            -
+               4    67000          7    6   F     2  = labels(13)
+ ! Time = 0.48s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    67000          6    7         6 != labels(8)
+               4    68000          8    8            -
+               4    66000          7    1   F     5 != labels(16)
+               4    68000          8    2         6  = labels(13)
+               4    68000          7    3         2  = labels(6)
+               4    67000          8    4   F    10  = labels(5)
+               4    68000          8    5   F     1 != labels(14)
+               4    68000          7    7   F    11 != labels(15)
+               4    69000          8    8   F     9  = labels(2)
+               4    67000          8    1   F    11  = labels(16)
+               4    69000          7    2   F    13  = labels(15)
+               4    69000          7    3         8 != labels(3)
+               4    68000          3    4         6  = labels(6)
+               4    69000          7    5            -
+               4    68000          6    6         4 != labels(14)
+               4    69000          8    7   F     8 != labels(8)
+               4    70000          6    8   F     8 != labels(12)
+               4    68000          8    1        10  = labels(14)
+               4    70000          6    2         9 != labels(5)
+               4    70000          8    3   F     1  = labels(6)
+ ! Time = 0.50s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    69000          8    4         3 != labels(11)
+               4    70000          7    5   F        -
+               4    69000          7    6         8 != labels(3)
+               4    70000          7    7   F     5  = labels(11)
+               4    71000          8    8            -
+               4    69000          7    1        14  = labels(13)
+               4    71000          7    2         7 != labels(3)
+               4    71000          8    3   F     9  = labels(3)
+               4    70000          7    4   F     5  = labels(12)
+               4    71000          8    5   F    16  = labels(7)
+               4    70000          7    6   F    10  = labels(5)
+               4    71000          7    7   F     2  = labels(15)
+               4    72000          7    8            -
+               4    70000          7    1   F     5  = labels(7)
+               4    72000          6    2   F     9 != labels(15)
+               4    71000          6    4         4  = labels(7)
+               4    72000          8    5   F    13 != labels(8)
+               4    71000          7    6         5 != labels(8)
+               4    73000          7    8   F    10 != labels(4)
+               4    71000          4    1   F    10 != labels(9)
+ ! Time = 0.52s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    73000          7    2   F     4  = labels(15)
+               4    72000          6    3   F    11  = labels(2)
+               4    72000          8    4   F     4 != labels(11)
+               4    73000          7    5   F    10  = labels(8)
+               4    72000          7    6   F    10  = labels(10)
+               4    72000          7    7   F     7  = labels(12)
+               4    74000          7    8   F    12 != labels(10)
+               4    72000          7    1   F     6 != labels(7)
+               4    74000          7    2         9 != labels(5)
+               4    73000          7    3            -
+               4    73000          6    4   F    13  = labels(6)
+               4    74000          8    5        10 != labels(10)
+               4    73000          7    6   F        -
+               4    73000          8    7        13 != labels(14)
+               4    73000          7    1         3 != labels(8)
+               4    75000          8    2        10  = labels(3)
+               4    74000          8    3   F    14 != labels(11)
+               4    74000          6    4   F    15 != labels(4)
+               4    75000          8    5   F    14 != labels(13)
+               4    74000          7    6   F        -
+ ! Time = 0.54s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    74000          7    7   F    12 != labels(9)
+               4    75000          8    8   F    11 != labels(2)
+               4    74000          8    1   F    15 != labels(5)
+               4    76000          8    2         5 != labels(12)
+               4    75000          7    3         8 != labels(3)
+               4    75000          6    4   F    11  = labels(2)
+               4    76000          7    5         9  = labels(9)
+               4    75000          8    6        16 != labels(4)
+               4    75000          8    7   F    13 != labels(8)
+               4    76000          6    8   F    14  = labels(5)
+               4    77000          7    2         6 != labels(16)
+               4    76000          8    3         3 != labels(14)
+               4    76000          8    4   F    13 != labels(2)
+               4    77000          8    5            -
+               4    76000          8    6   F     4  = labels(4)
+               4    76000          7    7   F    14 != labels(14)
+               4    77000          7    8   F    13 != labels(12)
+               4    75000          8    1        15 != labels(6)
+               4    78000          8    2         5 != labels(6)
+               4    77000          7    3   F    15 != labels(4)
+ ! Time = 0.55s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    77000          6    4   F     7  = labels(6)
+               4    78000          8    5         4 != labels(12)
+               4    77000          8    6   F    12  = labels(6)
+               4    77000          8    7   F     8  = labels(14)
+               4    78000          8    8        12  = labels(2)
+               4    76000          8    1         9  = labels(5)
+               4    79000          2    2   F    15  = labels(15)
+               4    78000          7    3         3 != labels(4)
+               4    78000          7    4         9 != labels(8)
+               4    79000          8    5   F    15 != labels(13)
+               4    78000          7    6            -
+               4    78000          5    7         9  = labels(9)
+               4    79000          7    8         8 != labels(7)
+               4    77000          7    1        15  = labels(5)
+               4    80000          7    2         9 != labels(2)
+               4    79000          7    3        12  = labels(2)
+               4    79000          7    4   F    15 != labels(4)
+               4    80000          7    5   F    10  = labels(2)
+               4    79000          7    6   F     7  = labels(5)
+               4    79000          6    7         6  = labels(12)
+ ! Time = 0.57s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    80000          7    8   F    15  = labels(6)
+               4    78000          7    1         8  = labels(13)
+               4    81000          2    2        15 != labels(15)
+               4    80000          8    3         3  = labels(14)
+               4    80000          8    4   F     2 != labels(4)
+               4    81000          8    5            -
+               4    80000          8    6        14 != labels(2)
+               4    80000          8    7   F    12 != labels(6)
+               4    81000          6    8   F     6 != labels(3)
+               4    82000          8    2   F     9  = labels(10)
+               4    81000          7    3        10 != labels(3)
+               4    81000          8    4   F    10  = labels(2)
+               4    82000          8    5         8 != labels(10)
+               4    81000          7    6        11 != labels(5)
+               4    81000          8    7   F     1 != labels(7)
+               4    82000          8    8   F    10 != labels(8)
+               4    79000          8    1        13  = labels(7)
+               4    83000          8    2   F     7 != labels(15)
+               4    82000          7    3            -
+               4    82000          8    4         3 != labels(10)
+ ! Time = 0.59s, Average fail depth = 13, Memory usage = 5.8 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    83000          8    5   F    10 != labels(2)
+               4    82000          8    6        11  = labels(14)
+               4    82000          8    7   F    13  = labels(15)
+               4    83000          7    8        15 != labels(12)
+               4    80000          8    1        10  = labels(2)
+               4    83000          8    3         9 != labels(15)
+               4    83000          8    4        10  = labels(15)
+               4    84000          7    5        14  = labels(12)
+               4    83000          8    6   F    12  = labels(13)
+               4    83000          7    7   F     4 != labels(10)
+               4    84000          2    2         5 != labels(6)
+               4    84000          8    3   F     9 != labels(12)
+               4    84000          7    4   F     9  = labels(5)
+               4    84000          6    6   F    11 != labels(12)
+               4    84000          8    7         8  = labels(15)
+               4    84000          8    8   F     7 != labels(5)
+               4    81000          7    1   F    13 != labels(5)
+               4    85000          7    2         5  = labels(8)
+               4    85000          7    3        14  = labels(5)
+               4    85000          6    4         7  = labels(8)
+ ! Time = 0.61s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    85000          7    5   F    10  = labels(12)
+               4    85000          8    6         9  = labels(7)
+               4    85000          8    7         6 != labels(6)
+               4    85000          8    8   F     8  = labels(15)
+               4    82000          8    1   F     5  = labels(15)
+               4    86000          7    2   F    13  = labels(9)
+               4    86000          7    3            -
+               4    86000          6    4        11  = labels(12)
+               4    86000          8    5         3 != labels(7)
+               4    86000          8    6            -
+               4    86000          7    7        10  = labels(15)
+               4    86000          7    8   F        -
+               4    83000          7    1   F    14 != labels(6)
+               4    87000          8    2   F     8  = labels(15)
+               4    87000          7    3            -
+               4    87000          6    4         7  = labels(4)
+               4    87000          8    5        10  = labels(6)
+               4    87000          8    6        16 != labels(7)
+               4    87000          8    7         8  = labels(11)
+               4    87000          7    8         1  = labels(16)
+ ! Time = 0.62s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    84000          7    1   F     3 != labels(6)
+               4    88000          8    2   F    10  = labels(14)
+               4    88000          8    3   F    11  = labels(9)
+               4    88000          8    4        15 != labels(13)
+               4    88000          8    5            -
+               4    88000          7    6   F     6  = labels(6)
+               4    88000          8    7         2 != labels(6)
+               4    88000          6    8   F     7  = labels(5)
+               4    89000          8    2   F    13 != labels(5)
+               4    89000          8    3         3 != labels(10)
+               4    89000          8    5   F    10 != labels(14)
+               4    89000          6    7         8 != labels(9)
+               4    89000          8    8   F     8  = labels(2)
+               4    85000          8    1   F     2 != labels(6)
+               4    90000          8    2   F    10  = labels(8)
+               4    90000          7    3   F    11  = labels(10)
+               4    89000          8    4         1  = labels(1)
+               4    90000          7    5        10 != labels(9)
+               4    89000          7    6         8  = labels(8)
+               4    90000          6    7   F     8  = labels(9)
+ ! Time = 0.64s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    90000          7    8   F     8  = labels(16)
+               4    86000          8    1   F    10 != labels(15)
+               4    91000          8    2        12 != labels(3)
+               4    91000          8    3   F    11  = labels(13)
+               4    90000          8    4   F     4  = labels(14)
+               4    91000          8    5   F     3  = labels(1)
+               4    90000          8    6            -
+               4    91000          7    7         5  = labels(15)
+               4    91000          8    8         6  = labels(10)
+               4    87000          7    1   F     6  = labels(10)
+               4    92000          7    2        10 != labels(12)
+               4    92000          8    3         7 != labels(8)
+               4    91000          8    4   F     2  = labels(13)
+               4    92000          6    5        11 != labels(4)
+               4    91000          7    6   F     4 != labels(15)
+               4    92000          8    7         3 != labels(6)
+               4    92000          8    8   F     6 != labels(7)
+               4    88000          7    1   F     4 != labels(11)
+               4    93000          7    2   F     8  = labels(2)
+               4    93000          8    3   F    13  = labels(12)
+ ! Time = 0.66s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    92000          6    4   F     8 != labels(14)
+               4    93000          8    5            -
+               4    92000          7    6   F    11  = labels(7)
+               4    93000          8    7         1 != labels(13)
+               4    93000          7    8   F     5 != labels(13)
+               4    89000          7    1        15  = labels(9)
+               4    94000          8    2   F     7  = labels(5)
+               4    94000          8    3            -
+               4    93000          8    4        15  = labels(11)
+               4    94000          7    5   F     5 != labels(14)
+               4    93000          8    6            -
+               4    94000          7    7   F     7 != labels(11)
+               4    94000          7    8         9 != labels(16)
+               4    90000          8    1        14 != labels(9)
+               4    95000          8    2   F    13 != labels(14)
+               4    95000          8    3   F     7  = labels(9)
+               4    94000          6    4   F     2  = labels(7)
+               4    95000          8    5   F     7 != labels(5)
+               4    94000          8    6            -
+               4    95000          7    8   F     8 != labels(12)
+ ! Time = 0.67s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    96000          8    2   F     4 != labels(13)
+               4    96000          8    3         3 != labels(16)
+               4    95000          8    4   F     3 != labels(7)
+               4    96000          8    5   F     7 != labels(4)
+               4    95000          6    6            -
+               4    95000          8    7   F     8  = labels(12)
+               4    96000          6    8         2  = labels(1)
+               4    91000          7    1            -
+               4    97000          8    2   F     4  = labels(12)
+               4    96000          6    4   F    11 != labels(16)
+               4    97000          8    5        13 != labels(16)
+               4    96000          8    6            -
+               4    96000          8    7         4  = labels(7)
+               4    97000          8    8            -
+               4    98000          8    2         9  = labels(8)
+               4    97000          7    3            -
+               4    97000          5    4   F    15 != labels(2)
+               4    98000          8    5   F     5  = labels(5)
+               4    97000          6    6         3  = labels(12)
+               4    97000          8    7         8 != labels(7)
+ ! Time = 0.69s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    98000          6    8            -
+               4    99000          8    2        12 != labels(14)
+               4    98000          8    3   F     5  = labels(4)
+               4    98000          8    4         4  = labels(13)
+               4    99000          6    5            -
+               4    98000          6    6            -
+               4    98000          5    7        11  = labels(9)
+               4    99000          7    8        14 != labels(13)
+               4    92000          7    1            -
+               4     100k          7    2   F    14  = labels(10)
+               4    99000          8    3        13  = labels(10)
+               4    99000          8    4         6 != labels(10)
+               4     100k          8    5   F    12  = labels(11)
+               4    99000          7    6   F     7 != labels(5)
+               4    99000          8    7   F     8 != labels(15)
+               4     100k          8    8         9 != labels(7)
+               4     101k          8    2         3 != labels(12)
+               4     100k          6    3   F    14  = labels(16)
+               4     100k          7    4         4 != labels(6)
+               4     101k          8    5   F     7 != labels(2)
+ ! Time = 0.71s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     100k          8    6   F     7 != labels(16)
+               4     100k          8    7         9 != labels(12)
+               4     101k          7    8         9  = labels(2)
+               4     102k          8    2   F    10 != labels(9)
+               4     101k          8    3         4  = labels(1)
+               4     101k          6    4   F     7  = labels(11)
+               4     102k          7    5   F     8 != labels(3)
+               4     101k          8    6   F     7 != labels(12)
+               4     101k          8    7   F     1  = labels(13)
+               4     102k          8    8   F    16  = labels(10)
+               4    93000          9    1            -
+               4     103k          7    2   F    11  = labels(9)
+               4     102k          8    3         1  = labels(15)
+               4     102k          8    4   F     3  = labels(11)
+               4     103k          8    5   F    12  = labels(4)
+               4     102k          7    6   F    12  = labels(9)
+               4     102k          7    7   F     7  = labels(4)
+               4     103k          7    8   F    14  = labels(13)
+               4     104k          7    2   F     3  = labels(12)
+               4     103k          7    3         7  = labels(7)
+ ! Time = 0.73s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     103k          8    4   F     6 != labels(15)
+               4     104k          7    5         5  = labels(4)
+               4     103k          8    6   F     5  = labels(14)
+               4     103k          8    7   F     7  = labels(6)
+               4     104k          7    8   F     6  = labels(1)
+               4    94000          8    1            -
+               4     104k          8    3   F     5  = labels(12)
+               4     104k          8    4   F     9  = labels(4)
+               4     105k          8    5   F    15  = labels(13)
+               4     104k          8    6         4 != labels(16)
+               4     104k          8    7         3 != labels(13)
+               4     105k          7    8            -
+               4     105k          8    2        15  = labels(7)
+               4     105k          7    3   F        -
+               4     105k          8    4   F     4 != labels(6)
+               4     106k          6    5   F    12  = labels(8)
+               4     105k          8    6        12  = labels(7)
+               4     105k          8    7         9  = labels(12)
+               4     106k          8    2         5 != labels(15)
+               4     106k          8    3            -
+ ! Time = 0.75s, Average fail depth = 13, Memory usage = 5.9 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     106k          6    4        10 != labels(2)
+               4     107k          8    5   F    14 != labels(15)
+               4     106k          6    6   F     3 != labels(10)
+               4     106k          5    7   F    10 != labels(12)
+               4     106k          8    8         6  = labels(4)
+               4    95000          9    1            -
+               4     107k          8    2   F     6  = labels(12)
+               4     107k          8    3   F     5 != labels(12)
+               4     107k          2    4         5  = labels(4)
+               4     108k          8    5   F     5  = labels(4)
+               4     107k          7    6        14 != labels(10)
+               4     107k          8    7        13  = labels(16)
+               4     107k          8    8         4 != labels(6)
+               4     108k          8    3         1  = labels(7)
+               4     108k          8    4   F     5  = labels(13)
+               4     109k          8    5         3 != labels(9)
+               4     108k          6    6         2 != labels(16)
+               4     108k          8    7   F     6  = labels(6)
+               4     108k          8    8   F     7 != labels(12)
+               4     108k          7    2   F    14  = labels(3)
+ ! Time = 0.75s, Average fail depth = 13, Memory usage = 6.0 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     109k          7    3        12 != labels(12)
+               4     110k          8    5         2  = labels(12)
+               4     109k          7    6        13 != labels(12)
+               4     109k          8    7         5 != labels(6)
+               4     109k          7    8            -
+               4    96000         10    1   F     4  = labels(5)
+               4     109k          6    2   F    14 != labels(5)
+               4     110k          8    3            -
+               4     109k          8    4   F     5 != labels(6)
+               4     111k          8    5            -
+               4     110k          8    6   F     7 != labels(9)
+               4     110k          7    7        15  = labels(15)
+               4     110k          7    8         8  = labels(12)
+               4     110k          8    2   F    15 != labels(15)
+               4     111k          7    3   F     6  = labels(6)
+               4     110k          3    4         7 != labels(16)
+               4     112k          7    5         9  = labels(7)
+               4     111k          7    6   F     2 != labels(10)
+               4     111k          8    7   F    10  = labels(12)
+               4     111k          7    8            -
+ ! Time = 0.78s, Average fail depth = 13, Memory usage = 6.0 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4    97000          7    1   F     2  = labels(6)
+               4     111k          7    2   F     7 != labels(7)
+               4     111k          7    4         5  = labels(11)
+               4     113k          7    5            -
+               4     112k          8    6   F     3  = labels(11)
+               4     112k          8    7        13  = labels(14)
+               4     112k          8    8   F     4  = labels(14)
+               4    98000          8    1        11 != labels(8)
+               4     112k          7    3   F     5  = labels(1)
+               4     112k          8    4         2  = labels(11)
+               4     114k          8    5   F     1  = labels(8)
+               4     113k          8    6   F     5  = labels(12)
+               4     113k          8    7        11  = labels(9)
+               4     113k          8    8   F     2  = labels(13)
+               4    99000          7    1         6 != labels(10)
+               4     112k          8    2   F     3  = labels(10)
+               4     113k          8    3   F     7  = labels(12)
+               4     113k          8    4   F     2 != labels(10)
+               4     115k          7    5   F        -
+               4     114k          8    6         5  = labels(4)
+ ! Time = 0.80s, Average fail depth = 13, Memory usage = 6.1 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     114k          8    8            -
+               4     100k          7    1   F     4  = labels(6)
+               4     113k          8    2   F     7  = labels(7)
+               4     114k          8    3         5 != labels(11)
+               4     114k          7    4         8  = labels(2)
+               4     116k          8    5   F     3 != labels(8)
+               4     115k          8    6   F     5  = labels(8)
+               4     114k          7    7   F     5  = labels(4)
+               4     115k          6    8   F     3 != labels(6)
+               4     101k          7    1         8 != labels(2)
+               4     114k          8    2   F    13 != labels(9)
+               4     115k          7    3   F    16 != labels(14)
+               4     117k          7    5            -
+               4     116k          8    6   F        -
+               4     115k          8    7   F     6  = labels(14)
+               4     116k          7    8         8 != labels(13)
+               4     102k          8    1         4 != labels(6)
+               4     115k          9    2         2  = labels(4)
+               4     116k          8    3   F     2  = labels(5)
+               4     115k          7    4        10 != labels(14)
+ ! Time = 0.82s, Average fail depth = 13, Memory usage = 6.1 MB
+ ! Current bound is 5 (gap is 25.00%)
+ !          Best Branches  Non-fixed    W       Branch decision
+               4     117k          8    6   F    14  = labels(12)
+               4     116k          7    7   F     9  = labels(12)
+               4     117k          7    8   F     5 != labels(7)
+               4     103k          6    1   F     9 != labels(15)
+               4     116k          8    2   F     4 != labels(6)
+               4     116k          8    2   F    12 != labels(12)
+ + New bound is 4 (gap is 0.00%)
+ ! ----------------------------------------------------------------------------
+ ! Search completed, 4 solutions found.
+ ! Best objective         : 4 (optimal - effective tol. is 0)
+ ! Best bound             : 4
+ ! ----------------------------------------------------------------------------
+ ! Number of branches     : 921583
+ ! Number of fails        : 454242
+ ! Total memory usage     : 7.2 MB (6.8 MB CP Optimizer + 0.4 MB Concert)
+ ! Time spent in solve    : 0.82s (0.82s engine + 0.00s extraction)
+ ! Search speed (br. / s) : 1137756.8
+ ! ----------------------------------------------------------------------------
+
+<<< solve
+
+
+OBJECTIVE: 4
+Objective value (b): 4
+Labels:  [1 6 11 2 8 12 3 7 5 13 15 9 14 4 10 16]
+Vertex with maximum degree: 1
+
+<<< post process
+
+
+<<< done
+
+
+<<< engine log: ./results/150s/hypercube/out/hypercube_4_16-output.out
+
+[runlim] end:			Wed Oct 29 17:50:49 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.64 seconds
+[runlim] time:			5.00 seconds
+[runlim] space:			38.4 MB
+[runlim] samples:		8
