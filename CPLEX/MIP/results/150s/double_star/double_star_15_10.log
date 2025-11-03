@@ -1,0 +1,30 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/double_star/double_star_15_10.txt
+[runlim] start:			Sun Nov  2 12:10:16 2025
+[runlim] main pid:		47357
+[runlim] log captured:
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [7, 20, 22, 15, 16, 24, 13, 18, 3, 17, 12, 1, 21, 11, 19, 14, 5, 6, 10, 25, 2, 4, 8, 23, 9]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [3, 20, 16, 15, 12, 23, 13, 18, 11, 17, 10, 9, 21, 8, 19, 14, 24, 1, 6, 25, 2, 5, 7, 22, 4]
+Correct solution
+(w = 6) Building and Solving
+w = 6 larger upper bounds
+Final result: CAB = 5
+Labels = [3, 20, 16, 15, 12, 23, 13, 18, 11, 17, 10, 9, 21, 8, 19, 14, 24, 1, 6, 25, 2, 5, 7, 22, 4]
+[runlim] end:			Sun Nov  2 12:10:16 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.22 seconds
+[runlim] time:			0.09 seconds
+[runlim] space:			34.5 MB
+[runlim] samples:		1

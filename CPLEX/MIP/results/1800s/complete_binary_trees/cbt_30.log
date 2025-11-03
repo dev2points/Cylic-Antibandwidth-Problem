@@ -1,0 +1,58 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/complete_binary_trees/cbt_30.txt
+[runlim] start:			Sun Nov  2 13:53:30 2025
+[runlim] main pid:		62321
+[runlim] log captured:
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [8, 1, 27, 25, 17, 3, 2, 16, 29, 12, 5, 23, 20, 9, 19, 26, 6, 15, 10, 21, 7, 22, 24, 28, 18, 30, 11, 4, 14, 13]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [8, 1, 27, 16, 17, 3, 2, 28, 29, 12, 5, 14, 20, 9, 19, 22, 6, 15, 10, 23, 7, 18, 24, 26, 21, 30, 11, 4, 25, 13]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [2, 10, 25, 29, 30, 13, 8, 20, 22, 18, 15, 21, 3, 17, 23, 7, 27, 4, 16, 6, 24, 1, 26, 14, 5, 19, 12, 11, 28, 9]
+Correct solution
+(w = 7) Building and Solving
+Value Cyclic-Antibandwidth: 7
+Labels: [30, 9, 15, 26, 28, 22, 4, 6, 18, 7, 8, 3, 12, 21, 20, 17, 16, 11, 29, 23, 27, 1, 24, 25, 13, 19, 2, 5, 14, 10]
+Correct solution
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [30, 15, 20, 24, 2, 11, 8, 5, 10, 23, 17, 26, 28, 22, 19, 13, 21, 25, 29, 4, 1, 3, 27, 18, 12, 16, 7, 9, 14, 6]
+Correct solution
+(w = 9) Building and Solving
+Value Cyclic-Antibandwidth: 9
+Labels: [29, 14, 20, 30, 2, 10, 8, 11, 15, 23, 18, 26, 28, 22, 19, 24, 21, 25, 5, 4, 13, 3, 27, 17, 12, 16, 7, 9, 1, 6]
+Correct solution
+(w = 10) Building and Solving
+Value Cyclic-Antibandwidth: 10
+Labels: [22, 9, 7, 21, 19, 20, 24, 5, 11, 6, 3, 4, 8, 12, 10, 25, 15, 1, 30, 17, 16, 13, 14, 18, 23, 26, 27, 2, 28, 29]
+Correct solution
+(w = 11) Building and Solving
+Value Cyclic-Antibandwidth: 11
+Labels: [27, 15, 10, 1, 4, 21, 24, 20, 14, 19, 23, 6, 9, 5, 13, 2, 3, 30, 28, 7, 8, 12, 11, 22, 17, 25, 26, 18, 16, 29]
+Correct solution
+(w = 12) Building and Solving
+Value Cyclic-Antibandwidth: 12
+Labels: [30, 12, 17, 28, 24, 5, 29, 16, 14, 7, 6, 22, 23, 15, 13, 3, 4, 26, 2, 21, 20, 18, 19, 10, 9, 8, 11, 27, 1, 25]
+Correct solution
+(w = 13) Building and Solving
+Cannot find soluion with w = 13
+Final result: CAB = 12
+Labels = [30, 12, 17, 28, 24, 5, 29, 16, 14, 7, 6, 22, 23, 15, 13, 3, 4, 26, 2, 21, 20, 18, 19, 10, 9, 8, 11, 27, 1, 25]
+[runlim] end:			Sun Nov  2 13:53:32 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			2.70 seconds
+[runlim] time:			8.61 seconds
+[runlim] space:			87.6 MB
+[runlim] samples:		24

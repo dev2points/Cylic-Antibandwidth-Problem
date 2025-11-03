@@ -1,0 +1,42 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/caterpillar/caterpillar_5_4.txt
+[runlim] start:			Sun Nov  2 08:50:30 2025
+[runlim] main pid:		30004
+[runlim] log captured:
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [2, 6, 12, 4, 20, 11, 7, 16, 14, 5, 15, 17, 10, 1, 19, 8, 3, 13, 18, 9]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [13, 1, 10, 18, 12, 20, 9, 17, 11, 19, 4, 2, 16, 6, 8, 14, 3, 7, 15, 5]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [17, 7, 13, 4, 12, 8, 19, 9, 1, 14, 20, 3, 15, 2, 16, 5, 11, 6, 18, 10]
+Correct solution
+(w = 7) Building and Solving
+Value Cyclic-Antibandwidth: 7
+Labels: [18, 7, 19, 9, 2, 5, 17, 4, 20, 13, 6, 12, 3, 10, 16, 8, 15, 11, 1, 14]
+Correct solution
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [9, 1, 10, 19, 11, 17, 5, 15, 13, 3, 12, 18, 8, 20, 7, 16, 6, 2, 14, 4]
+Correct solution
+(w = 9) Building and Solving
+Cannot find soluion with w = 9
+Final result: CAB = 8
+Labels = [9, 1, 10, 19, 11, 17, 5, 15, 13, 3, 12, 18, 8, 20, 7, 16, 6, 2, 14, 4]
+[runlim] end:			Sun Nov  2 08:50:30 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.73 seconds
+[runlim] time:			0.18 seconds
+[runlim] space:			40.2 MB
+[runlim] samples:		2

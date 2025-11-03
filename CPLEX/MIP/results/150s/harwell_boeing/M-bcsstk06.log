@@ -1,0 +1,33 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/harwell_boeing/M-bcsstk06.mtx.rnd
+[runlim] start:			Sat Nov  1 16:23:32 2025
+[runlim] main pid:		49183
+[runlim] log captured:
+(w = 16) Building and Solving
+[runlim] sample:		10.0 time, 10.1 real, 771.8 MB
+[runlim] sample:		20.0 time, 20.1 real, 1478.2 MB
+[runlim] sample:		30.0 time, 30.1 real, 2141.4 MB
+[runlim] sample:		40.0 time, 40.1 real, 2860.3 MB
+[runlim] sample:		59.6 time, 50.1 real, 4317.5 MB
+[runlim] sample:		79.6 time, 60.1 real, 4329.5 MB
+[runlim] sample:		99.6 time, 70.1 real, 4341.5 MB
+[runlim] sample:		119.6 time, 80.1 real, 4353.3 MB
+[runlim] sample:		139.6 time, 90.1 real, 4367.6 MB
+[runlim] sample:		159.6 time, 100.1 real, 4383.4 MB
+[runlim] sample:		179.6 time, 110.1 real, 4395.4 MB
+[runlim] sample:		199.6 time, 120.1 real, 4413.4 MB
+[runlim] sample:		219.6 time, 130.1 real, 4437.4 MB
+[runlim] sample:		239.6 time, 140.1 real, 4457.4 MB
+[runlim] end:			Sat Nov  1 16:26:02 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.11 seconds
+[runlim] time:			259.43 seconds
+[runlim] space:			4470.7 MB
+[runlim] samples:		1499

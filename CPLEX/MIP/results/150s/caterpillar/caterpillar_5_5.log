@@ -1,0 +1,54 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/caterpillar/caterpillar_5_5.txt
+[runlim] start:			Sun Nov  2 08:50:30 2025
+[runlim] main pid:		30049
+[runlim] log captured:
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [14, 5, 15, 4, 13, 20, 2, 22, 3, 25, 17, 11, 7, 8, 24, 18, 12, 16, 6, 21, 1, 23, 10, 19, 9]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [14, 5, 10, 4, 13, 7, 2, 15, 3, 25, 17, 11, 20, 18, 24, 19, 12, 16, 6, 21, 1, 23, 8, 22, 9]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [14, 4, 15, 1, 12, 25, 13, 22, 3, 10, 17, 11, 20, 8, 24, 18, 5, 16, 6, 21, 2, 23, 7, 19, 9]
+Correct solution
+(w = 7) Building and Solving
+Value Cyclic-Antibandwidth: 7
+Labels: [3, 12, 2, 15, 25, 20, 8, 16, 24, 19, 7, 14, 4, 9, 18, 1, 13, 5, 21, 11, 23, 10, 17, 6, 22]
+Correct solution
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [11, 1, 12, 4, 13, 2, 18, 5, 22, 14, 3, 19, 10, 23, 6, 15, 24, 20, 8, 16, 25, 21, 7, 17, 9]
+Correct solution
+(w = 9) Building and Solving
+Value Cyclic-Antibandwidth: 9
+Labels: [23, 9, 24, 13, 3, 14, 5, 21, 6, 25, 16, 7, 17, 15, 4, 20, 11, 22, 12, 1, 10, 19, 8, 18, 2]
+Correct solution
+(w = 10) Building and Solving
+Value Cyclic-Antibandwidth: 10
+Labels: [16, 5, 15, 25, 12, 1, 11, 24, 13, 19, 7, 21, 6, 3, 18, 8, 23, 10, 20, 9, 22, 2, 14, 4, 17]
+Correct solution
+(w = 11) Building and Solving
+Value Cyclic-Antibandwidth: 11
+Labels: [23, 11, 24, 10, 21, 12, 1, 15, 4, 25, 14, 3, 17, 13, 2, 16, 5, 22, 9, 20, 6, 8, 19, 7, 18]
+Correct solution
+(w = 12) Building and Solving
+Cannot find soluion with w = 12
+Final result: CAB = 11
+Labels = [23, 11, 24, 10, 21, 12, 1, 15, 4, 25, 14, 3, 17, 13, 2, 16, 5, 22, 9, 20, 6, 8, 19, 7, 18]
+[runlim] end:			Sun Nov  2 08:50:31 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			1.10 seconds
+[runlim] time:			0.31 seconds
+[runlim] space:			47.0 MB
+[runlim] samples:		3

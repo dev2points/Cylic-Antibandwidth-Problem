@@ -1,0 +1,33 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/harwell_boeing/R-dwt__503.mtx.rnd
+[runlim] start:			Sat Nov  1 16:36:02 2025
+[runlim] main pid:		51279
+[runlim] log captured:
+(w = 25) Building and Solving
+[runlim] sample:		10.0 time, 10.2 real, 922.2 MB
+[runlim] sample:		20.0 time, 20.2 real, 1890.7 MB
+[runlim] sample:		30.0 time, 30.2 real, 1133.4 MB
+[runlim] sample:		40.0 time, 40.2 real, 2915.9 MB
+[runlim] sample:		54.2 time, 50.2 real, 5172.6 MB
+[runlim] sample:		74.2 time, 60.2 real, 5210.9 MB
+[runlim] sample:		94.2 time, 70.2 real, 5248.9 MB
+[runlim] sample:		114.2 time, 80.2 real, 5268.9 MB
+[runlim] sample:		134.2 time, 90.2 real, 5286.9 MB
+[runlim] sample:		154.2 time, 100.2 real, 5322.9 MB
+[runlim] sample:		174.2 time, 110.2 real, 5340.9 MB
+[runlim] sample:		194.2 time, 120.2 real, 5360.9 MB
+[runlim] sample:		214.2 time, 130.2 real, 5378.9 MB
+[runlim] sample:		234.2 time, 140.2 real, 5389.0 MB
+[runlim] end:			Sat Nov  1 16:38:32 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.13 seconds
+[runlim] time:			253.76 seconds
+[runlim] space:			5409.0 MB
+[runlim] samples:		1498

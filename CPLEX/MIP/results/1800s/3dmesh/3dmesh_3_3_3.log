@@ -1,0 +1,46 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/3dmesh/3dmesh_3_3_3.txt
+[runlim] start:			Sat Nov  1 10:35:10 2025
+[runlim] main pid:		37939
+[runlim] log captured:
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [1, 18, 11, 6, 13, 2, 22, 26, 12, 5, 27, 19, 21, 4, 14, 16, 10, 25, 24, 20, 15, 17, 9, 23, 8, 3, 7]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [1, 22, 17, 23, 16, 4, 11, 3, 10, 8, 13, 6, 18, 7, 21, 27, 14, 2, 25, 20, 15, 12, 26, 9, 5, 19, 24]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [15, 22, 3, 8, 1, 14, 24, 13, 20, 2, 16, 10, 18, 7, 23, 11, 26, 6, 21, 4, 17, 12, 25, 9, 5, 19, 27]
+Correct solution
+(w = 7) Building and Solving
+Value Cyclic-Antibandwidth: 7
+Labels: [19, 8, 20, 2, 16, 9, 21, 6, 23, 10, 24, 11, 22, 7, 25, 14, 26, 12, 3, 17, 4, 15, 27, 18, 1, 13, 5]
+Correct solution
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [21, 13, 5, 10, 24, 15, 1, 16, 2, 6, 22, 14, 23, 12, 4, 9, 27, 19, 18, 7, 26, 8, 25, 17, 20, 11, 3]
+Correct solution
+(w = 9) Building and Solving
+Value Cyclic-Antibandwidth: 9
+Labels: [5, 15, 24, 16, 25, 7, 26, 9, 20, 19, 4, 14, 1, 13, 23, 10, 22, 6, 8, 17, 3, 18, 2, 12, 27, 11, 21]
+Correct solution
+(w = 10) Building and Solving
+w = 10 larger upper bounds
+Final result: CAB = 9
+Labels = [5, 15, 24, 16, 25, 7, 26, 9, 20, 19, 4, 14, 1, 13, 23, 10, 22, 6, 8, 17, 3, 18, 2, 12, 27, 11, 21]
+[runlim] end:			Sat Nov  1 10:35:12 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			2.02 seconds
+[runlim] time:			3.79 seconds
+[runlim] space:			83.5 MB
+[runlim] samples:		12

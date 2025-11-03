@@ -1,0 +1,22 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/double_star/double_star_15_5.txt
+[runlim] start:			Mon Nov  3 01:06:58 2025
+[runlim] main pid:		1722
+[runlim] log captured:
+(w = 4) Building and Solving
+w = 4 larger upper bounds
+Final result: CAB = 3
+Labels = [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+[runlim] end:			Mon Nov  3 01:06:58 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.94 seconds
+[runlim] time:			0.11 seconds
+[runlim] space:			27.1 MB
+[runlim] samples:		3

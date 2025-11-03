@@ -1,0 +1,65 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/3dmesh/3dmesh_3_3_270.txt
+[runlim] start:			Sat Nov  1 10:54:09 2025
+[runlim] main pid:		38212
+[runlim] log captured:
+(w = 4) Building and Solving
+[runlim] sample:		10.0 time, 10.4 real, 1037.3 MB
+[runlim] sample:		20.0 time, 20.4 real, 1613.8 MB
+[runlim] sample:		30.0 time, 30.4 real, 2150.0 MB
+[runlim] sample:		40.0 time, 40.4 real, 2853.7 MB
+[runlim] sample:		50.0 time, 50.4 real, 3689.4 MB
+[runlim] sample:		60.0 time, 60.4 real, 4393.4 MB
+[runlim] sample:		70.0 time, 70.4 real, 5241.2 MB
+[runlim] sample:		80.0 time, 80.4 real, 5541.4 MB
+[runlim] sample:		90.0 time, 90.4 real, 6369.6 MB
+[runlim] sample:		100.0 time, 100.4 real, 7091.9 MB
+[runlim] sample:		110.0 time, 110.4 real, 7524.0 MB
+[runlim] sample:		120.0 time, 120.4 real, 7972.0 MB
+[runlim] sample:		130.0 time, 130.4 real, 8419.2 MB
+[runlim] sample:		140.0 time, 140.4 real, 9326.8 MB
+[runlim] sample:		150.0 time, 150.5 real, 7525.3 MB
+[runlim] sample:		160.0 time, 160.5 real, 7972.4 MB
+[runlim] sample:		170.0 time, 170.5 real, 7972.7 MB
+[runlim] sample:		180.0 time, 180.5 real, 8058.4 MB
+[runlim] sample:		190.0 time, 190.5 real, 8415.3 MB
+[runlim] sample:		199.9 time, 200.4 real, 8666.3 MB
+[runlim] sample:		213.7 time, 210.4 real, 14965.6 MB
+[runlim] sample:		233.7 time, 220.4 real, 14965.6 MB
+[runlim] sample:		253.7 time, 230.4 real, 14965.6 MB
+[runlim] sample:		273.7 time, 240.4 real, 14965.6 MB
+[runlim] sample:		288.7 time, 250.4 real, 14868.0 MB
+[runlim] sample:		298.7 time, 260.4 real, 14868.0 MB
+[runlim] sample:		308.7 time, 270.4 real, 14868.0 MB
+[runlim] sample:		318.7 time, 280.4 real, 14868.0 MB
+[runlim] sample:		328.7 time, 290.4 real, 8292.2 MB
+[runlim] sample:		338.7 time, 300.4 real, 8292.2 MB
+[runlim] sample:		348.7 time, 310.4 real, 7925.8 MB
+[runlim] sample:		358.7 time, 320.4 real, 14988.1 MB
+[runlim] sample:		368.7 time, 330.4 real, 21073.8 MB
+[runlim] sample:		378.7 time, 340.4 real, 21073.9 MB
+[runlim] sample:		388.7 time, 350.4 real, 21713.2 MB
+[runlim] sample:		398.7 time, 360.4 real, 23201.7 MB
+[runlim] sample:		408.7 time, 370.4 real, 23201.7 MB
+[runlim] sample:		418.7 time, 380.4 real, 23201.7 MB
+[runlim] sample:		428.7 time, 390.4 real, 23201.7 MB
+[runlim] sample:		438.7 time, 400.4 real, 21249.0 MB
+[runlim] sample:		448.7 time, 410.4 real, 21249.0 MB
+[runlim] sample:		458.7 time, 420.4 real, 21084.3 MB
+[runlim] sample:		468.7 time, 430.4 real, 15431.1 MB
+[runlim] sample:		478.7 time, 440.4 real, 15431.1 MB
+[runlim] sample:		488.7 time, 450.4 real, 15431.1 MB
+[runlim] sample:		506.4 time, 460.4 real, 28759.9 MB
+[runlim] end:			Sat Nov  1 11:01:49 2025
+[runlim] status:		out of memory
+[runlim] result:		3
+[runlim] children:		0
+[runlim] real:			460.90 seconds
+[runlim] time:			508.07 seconds
+[runlim] space:			30191.7 MB
+[runlim] samples:		4604

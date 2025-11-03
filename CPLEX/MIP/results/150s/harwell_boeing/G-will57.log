@@ -1,0 +1,38 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/harwell_boeing/G-will57.mtx.rnd
+[runlim] start:			Sat Nov  1 16:13:24 2025
+[runlim] main pid:		46867
+[runlim] log captured:
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [57, 29, 39, 17, 21, 43, 51, 13, 48, 38, 42, 56, 15, 23, 34, 16, 12, 11, 35, 1, 5, 18, 28, 24, 4, 40, 30, 37, 31, 25, 20, 22, 8, 7, 41, 14, 52, 2, 32, 26, 53, 27, 45, 19, 10, 54, 49, 44, 3, 6, 46, 50, 55, 47, 36, 33, 9]
+Correct solution
+(w = 9) Building and Solving
+Value Cyclic-Antibandwidth: 9
+Labels: [16, 23, 4, 20, 46, 35, 26, 2, 38, 28, 30, 55, 7, 9, 22, 21, 27, 31, 42, 57, 14, 19, 43, 40, 45, 18, 15, 17, 33, 12, 13, 34, 44, 25, 5, 1, 37, 48, 24, 6, 52, 3, 39, 41, 56, 50, 49, 47, 51, 32, 53, 54, 8, 36, 10, 11, 29]
+Correct solution
+(w = 10) Building and Solving
+Value Cyclic-Antibandwidth: 10
+Labels: [53, 19, 18, 25, 34, 55, 44, 14, 2, 31, 6, 15, 48, 38, 32, 43, 28, 8, 37, 12, 22, 23, 7, 57, 52, 49, 24, 27, 5, 41, 26, 56, 16, 29, 46, 47, 4, 45, 10, 35, 20, 1, 13, 30, 51, 33, 17, 39, 11, 9, 50, 36, 40, 54, 42, 21, 3]
+Correct solution
+(w = 11) Building and Solving
+Value Cyclic-Antibandwidth: 11
+Labels: [19, 38, 54, 5, 9, 44, 31, 20, 30, 43, 4, 34, 26, 7, 3, 40, 53, 29, 45, 42, 57, 2, 11, 12, 37, 18, 55, 22, 24, 8, 56, 49, 13, 25, 35, 39, 32, 6, 23, 10, 50, 41, 33, 16, 47, 46, 1, 51, 15, 21, 48, 28, 36, 27, 14, 52, 17]
+Correct solution
+(w = 12) Building and Solving
+Cannot find soluion with w = 12
+Final result: CAB = 11
+Labels = [19, 38, 54, 5, 9, 44, 31, 20, 30, 43, 4, 34, 26, 7, 3, 40, 53, 29, 45, 42, 57, 2, 11, 12, 37, 18, 55, 22, 24, 8, 56, 49, 13, 25, 35, 39, 32, 6, 23, 10, 50, 41, 33, 16, 47, 46, 1, 51, 15, 21, 48, 28, 36, 27, 14, 52, 17]
+[runlim] end:			Sat Nov  1 16:13:27 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			3.35 seconds
+[runlim] time:			5.42 seconds
+[runlim] space:			96.1 MB
+[runlim] samples:		27

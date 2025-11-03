@@ -1,0 +1,65 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/harwell_boeing/I-ash85.mtx.rnd
+[runlim] start:			Sat Nov  1 16:13:32 2025
+[runlim] main pid:		46962
+[runlim] log captured:
+(w = 12) Building and Solving
+Value Cyclic-Antibandwidth: 12
+Labels: [60, 84, 85, 62, 72, 53, 82, 80, 23, 47, 12, 43, 42, 39, 15, 25, 28, 46, 16, 7, 69, 35, 21, 17, 8, 20, 59, 5, 19, 1, 36, 52, 18, 44, 30, 56, 9, 32, 61, 27, 51, 34, 33, 70, 6, 29, 81, 4, 24, 76, 11, 78, 55, 57, 63, 10, 64, 65, 40, 50, 26, 37, 66, 13, 54, 58, 67, 38, 22, 75, 45, 74, 68, 71, 2, 73, 14, 48, 77, 31, 79, 3, 49, 41, 83]
+Correct solution
+(w = 13) Building and Solving
+Value Cyclic-Antibandwidth: 13
+Labels: [35, 84, 72, 46, 29, 48, 82, 49, 60, 24, 11, 70, 45, 15, 26, 61, 21, 7, 8, 52, 6, 9, 14, 1, 10, 85, 18, 3, 22, 5, 56, 81, 19, 13, 32, 17, 27, 34, 16, 2, 73, 28, 20, 39, 62, 23, 36, 47, 80, 41, 42, 78, 54, 55, 63, 50, 64, 65, 43, 44, 57, 4, 66, 12, 53, 38, 67, 25, 33, 74, 37, 68, 51, 71, 76, 59, 58, 69, 77, 31, 79, 30, 40, 75, 83]
+Correct solution
+(w = 14) Building and Solving
+Value Cyclic-Antibandwidth: 14
+Labels: [73, 40, 71, 64, 14, 82, 9, 36, 57, 31, 69, 44, 76, 24, 56, 34, 63, 39, 66, 67, 11, 84, 37, 55, 47, 6, 54, 81, 17, 83, 5, 41, 46, 32, 25, 22, 78, 15, 62, 7, 38, 8, 53, 58, 75, 27, 2, 51, 16, 42, 72, 21, 77, 23, 59, 68, 13, 70, 30, 12, 29, 1, 28, 49, 43, 18, 52, 26, 19, 33, 65, 3, 45, 74, 10, 85, 60, 35, 79, 80, 61, 50, 4, 20, 48]
+Correct solution
+(w = 15) Building and Solving
+Value Cyclic-Antibandwidth: 15
+Labels: [36, 76, 60, 38, 84, 78, 2, 1, 21, 9, 70, 15, 29, 6, 4, 19, 17, 43, 50, 77, 13, 8, 69, 28, 3, 74, 55, 20, 27, 64, 18, 22, 32, 41, 58, 49, 30, 16, 34, 67, 47, 44, 24, 25, 73, 56, 37, 14, 26, 42, 40, 33, 82, 85, 12, 5, 72, 71, 45, 81, 51, 79, 52, 11, 68, 7, 48, 35, 23, 62, 39, 59, 83, 46, 80, 75, 61, 65, 54, 31, 57, 66, 10, 63, 53]
+Correct solution
+(w = 16) Building and Solving
+[runlim] sample:		16.2 time, 10.6 real, 124.7 MB
+Value Cyclic-Antibandwidth: 16
+Labels: [6, 26, 54, 2, 35, 50, 29, 75, 10, 73, 12, 72, 3, 42, 22, 71, 44, 69, 17, 41, 39, 24, 77, 84, 38, 21, 7, 82, 16, 48, 65, 43, 80, 83, 19, 40, 53, 31, 13, 20, 64, 56, 79, 74, 47, 68, 27, 36, 32, 78, 55, 81, 15, 8, 37, 11, 85, 51, 18, 30, 60, 34, 57, 28, 5, 23, 49, 70, 62, 59, 25, 63, 4, 67, 33, 1, 9, 45, 52, 61, 14, 58, 76, 66, 46]
+Correct solution
+(w = 17) Building and Solving
+Value Cyclic-Antibandwidth: 17
+Labels: [36, 54, 28, 51, 22, 77, 53, 47, 74, 4, 23, 73, 37, 18, 64, 75, 61, 38, 30, 16, 76, 33, 72, 62, 59, 65, 15, 39, 58, 27, 78, 42, 43, 46, 20, 17, 35, 66, 34, 40, 81, 70, 48, 83, 63, 67, 25, 52, 56, 41, 32, 49, 21, 9, 2, 3, 84, 10, 45, 11, 7, 14, 69, 29, 6, 80, 85, 50, 68, 82, 44, 24, 8, 79, 5, 1, 31, 13, 26, 71, 19, 57, 55, 60, 12]
+Correct solution
+(w = 18) Building and Solving
+[runlim] sample:		32.5 time, 20.6 real, 200.0 MB
+Value Cyclic-Antibandwidth: 18
+Labels: [72, 17, 45, 60, 40, 9, 54, 85, 76, 28, 67, 10, 79, 41, 24, 80, 49, 82, 55, 33, 31, 78, 4, 5, 47, 59, 36, 2, 52, 42, 26, 3, 1, 83, 58, 39, 29, 22, 35, 18, 66, 48, 81, 77, 21, 37, 69, 25, 6, 12, 56, 75, 68, 63, 30, 23, 61, 64, 70, 27, 14, 32, 51, 38, 16, 62, 46, 74, 34, 11, 84, 44, 19, 71, 8, 20, 50, 7, 43, 73, 53, 13, 57, 65, 15]
+Correct solution
+(w = 19) Building and Solving
+Value Cyclic-Antibandwidth: 19
+Labels: [11, 58, 35, 79, 37, 10, 33, 24, 82, 62, 43, 4, 19, 39, 7, 14, 50, 61, 31, 83, 84, 51, 3, 59, 32, 64, 77, 57, 41, 47, 75, 29, 63, 46, 38, 44, 40, 1, 71, 74, 13, 78, 49, 18, 2, 53, 72, 25, 15, 20, 34, 55, 42, 68, 85, 8, 73, 67, 16, 80, 52, 60, 27, 30, 6, 22, 66, 56, 26, 21, 9, 70, 28, 17, 76, 81, 36, 54, 48, 12, 23, 65, 5, 69, 45]
+Correct solution
+(w = 20) Building and Solving
+[runlim] sample:		59.0 time, 30.6 real, 152.6 MB
+[runlim] sample:		101.3 time, 40.6 real, 396.0 MB
+[runlim] sample:		131.3 time, 50.6 real, 409.3 MB
+[runlim] sample:		161.3 time, 60.6 real, 409.3 MB
+[runlim] sample:		191.3 time, 70.6 real, 412.0 MB
+[runlim] sample:		221.3 time, 80.6 real, 413.4 MB
+[runlim] sample:		251.3 time, 90.6 real, 413.4 MB
+[runlim] sample:		281.3 time, 100.6 real, 413.4 MB
+[runlim] sample:		311.3 time, 110.6 real, 413.4 MB
+[runlim] sample:		341.3 time, 120.6 real, 414.1 MB
+[runlim] sample:		371.3 time, 130.6 real, 414.9 MB
+[runlim] sample:		401.3 time, 140.6 real, 436.3 MB
+[runlim] end:			Sat Nov  1 16:16:02 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.04 seconds
+[runlim] time:			429.51 seconds
+[runlim] space:			437.9 MB
+[runlim] samples:		1494

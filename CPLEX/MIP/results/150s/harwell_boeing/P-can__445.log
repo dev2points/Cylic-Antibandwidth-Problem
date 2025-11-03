@@ -1,0 +1,33 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/harwell_boeing/P-can__445.mtx.rnd
+[runlim] start:			Sat Nov  1 16:31:02 2025
+[runlim] main pid:		50423
+[runlim] log captured:
+(w = 41) Building and Solving
+[runlim] sample:		10.0 time, 10.2 real, 961.2 MB
+[runlim] sample:		20.0 time, 20.2 real, 1886.2 MB
+[runlim] sample:		30.0 time, 30.2 real, 2882.0 MB
+[runlim] sample:		42.8 time, 40.2 real, 4879.5 MB
+[runlim] sample:		62.8 time, 50.2 real, 4879.5 MB
+[runlim] sample:		82.8 time, 60.2 real, 4879.5 MB
+[runlim] sample:		102.8 time, 70.2 real, 4879.5 MB
+[runlim] sample:		122.8 time, 80.2 real, 4885.5 MB
+[runlim] sample:		142.8 time, 90.2 real, 4887.5 MB
+[runlim] sample:		162.8 time, 100.2 real, 4888.0 MB
+[runlim] sample:		182.8 time, 110.2 real, 4890.0 MB
+[runlim] sample:		202.8 time, 120.2 real, 4890.0 MB
+[runlim] sample:		222.8 time, 130.2 real, 4892.0 MB
+[runlim] sample:		242.8 time, 140.2 real, 4894.0 MB
+[runlim] end:			Sat Nov  1 16:33:32 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.18 seconds
+[runlim] time:			262.47 seconds
+[runlim] space:			4898.0 MB
+[runlim] samples:		1499

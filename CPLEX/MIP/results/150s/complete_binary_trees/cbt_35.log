@@ -1,0 +1,66 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/complete_binary_trees/cbt_35.txt
+[runlim] start:			Sun Nov  2 10:56:27 2025
+[runlim] main pid:		39254
+[runlim] log captured:
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [9, 16, 14, 28, 5, 29, 2, 34, 24, 15, 31, 35, 12, 10, 8, 4, 7, 3, 1, 23, 27, 13, 19, 17, 6, 18, 20, 32, 26, 25, 33, 21, 11, 30, 22]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [28, 16, 10, 31, 24, 29, 2, 25, 13, 15, 11, 35, 12, 9, 8, 4, 7, 3, 1, 23, 27, 5, 19, 17, 6, 18, 20, 33, 26, 32, 14, 21, 34, 30, 22]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [28, 16, 14, 31, 24, 20, 2, 25, 13, 15, 11, 26, 35, 9, 8, 4, 7, 3, 1, 23, 27, 5, 19, 17, 6, 18, 10, 32, 34, 29, 33, 21, 12, 30, 22]
+Correct solution
+(w = 7) Building and Solving
+Value Cyclic-Antibandwidth: 7
+Labels: [27, 1, 15, 18, 14, 35, 23, 4, 28, 33, 32, 8, 24, 30, 9, 22, 29, 3, 19, 12, 16, 7, 11, 26, 25, 10, 31, 21, 6, 2, 17, 34, 5, 13, 20]
+Correct solution
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [31, 6, 4, 16, 25, 23, 12, 35, 2, 34, 15, 5, 8, 22, 32, 24, 26, 19, 29, 21, 9, 1, 28, 27, 14, 17, 30, 13, 7, 11, 20, 33, 3, 18, 10]
+Correct solution
+(w = 9) Building and Solving
+Value Cyclic-Antibandwidth: 9
+Labels: [28, 12, 6, 3, 33, 18, 25, 24, 29, 9, 15, 34, 31, 5, 11, 7, 1, 13, 4, 22, 21, 2, 27, 23, 16, 8, 19, 20, 14, 35, 32, 17, 30, 26, 10]
+Correct solution
+(w = 10) Building and Solving
+Value Cyclic-Antibandwidth: 10
+Labels: [27, 3, 16, 19, 15, 33, 30, 8, 29, 35, 25, 9, 12, 5, 11, 28, 31, 13, 4, 22, 21, 2, 7, 23, 24, 34, 26, 20, 18, 1, 32, 17, 6, 14, 10]
+Correct solution
+(w = 11) Building and Solving
+Value Cyclic-Antibandwidth: 11
+Labels: [16, 5, 3, 20, 19, 14, 24, 32, 7, 8, 33, 25, 26, 35, 6, 21, 15, 23, 31, 30, 27, 18, 9, 10, 13, 2, 11, 22, 12, 29, 17, 1, 4, 28, 34]
+Correct solution
+(w = 12) Building and Solving
+Value Cyclic-Antibandwidth: 12
+Labels: [24, 2, 6, 20, 14, 18, 25, 3, 7, 26, 32, 30, 35, 13, 9, 22, 15, 23, 29, 8, 4, 19, 11, 17, 12, 21, 16, 1, 28, 27, 31, 10, 5, 33, 34]
+Correct solution
+(w = 13) Building and Solving
+Value Cyclic-Antibandwidth: 13
+Labels: [28, 15, 8, 34, 33, 21, 24, 14, 17, 20, 19, 7, 35, 10, 6, 30, 31, 3, 32, 2, 5, 1, 4, 23, 29, 13, 18, 25, 26, 22, 27, 12, 16, 11, 9]
+Correct solution
+(w = 14) Building and Solving
+Value Cyclic-Antibandwidth: 14
+Labels: [33, 12, 19, 26, 31, 1, 4, 11, 6, 13, 10, 21, 15, 23, 24, 30, 32, 20, 22, 28, 27, 29, 25, 5, 2, 35, 34, 7, 9, 8, 3, 14, 16, 18, 17]
+Correct solution
+(w = 15) Building and Solving
+Cannot find soluion with w = 15
+Final result: CAB = 14
+Labels = [33, 12, 19, 26, 31, 1, 4, 11, 6, 13, 10, 21, 15, 23, 24, 30, 32, 20, 22, 28, 27, 29, 25, 5, 2, 35, 34, 7, 9, 8, 3, 14, 16, 18, 17]
+[runlim] end:			Sun Nov  2 10:56:34 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			7.95 seconds
+[runlim] time:			31.71 seconds
+[runlim] space:			116.7 MB
+[runlim] samples:		73
