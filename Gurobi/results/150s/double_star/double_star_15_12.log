@@ -1,0 +1,35 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/double_star/double_star_15_12.txt
+[runlim] start:			Tue Nov  4 07:01:18 2025
+[runlim] main pid:		63868
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 4) Value Cyclicantibandwidth: 4
+Lables: [12, 22, 16, 6, 5, 19, 27, 3, 25, 26, 17, 1, 4, 8, 7, 2, 15, 23, 20, 9, 13, 14, 18, 21, 10, 11, 24]
+(w = 4) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 5) Value Cyclicantibandwidth: 5
+Lables: [11, 16, 23, 6, 22, 19, 27, 3, 5, 26, 25, 17, 4, 1, 20, 2, 15, 12, 10, 18, 13, 21, 24, 7, 9, 14, 8]
+(w = 5) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 6) Value Cyclicantibandwidth: 6
+Lables: [12, 2, 23, 6, 22, 19, 21, 4, 5, 1, 25, 26, 20, 18, 27, 24, 15, 8, 17, 16, 7, 13, 3, 14, 9, 10, 11]
+(w = 6) Correct Cyclicantibandwidth
+Real time: 0.0937197208404541 seconds
+[runlim] end:			Tue Nov  4 07:01:18 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.83 seconds
+[runlim] time:			0.10 seconds
+[runlim] space:			27.8 MB
+[runlim] samples:		1

@@ -1,0 +1,37 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/harwell_boeing/U-662_bus.mtx.rnd
+[runlim] start:			Mon Nov  3 06:16:21 2025
+[runlim] main pid:		8828
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+[runlim] sample:		10.0 time, 10.1 real, 271.2 MB
+[runlim] sample:		20.0 time, 20.1 real, 337.2 MB
+[runlim] sample:		30.0 time, 30.1 real, 386.6 MB
+[runlim] sample:		40.0 time, 40.1 real, 439.5 MB
+[runlim] sample:		50.1 time, 50.1 real, 489.4 MB
+[runlim] sample:		60.1 time, 60.1 real, 540.9 MB
+[runlim] sample:		70.1 time, 70.1 real, 593.8 MB
+[runlim] sample:		80.1 time, 80.1 real, 645.3 MB
+[runlim] sample:		90.1 time, 90.1 real, 696.5 MB
+[runlim] sample:		100.1 time, 100.1 real, 747.2 MB
+[runlim] sample:		110.1 time, 110.1 real, 798.7 MB
+[runlim] sample:		120.2 time, 120.1 real, 850.0 MB
+[runlim] sample:		130.2 time, 130.1 real, 899.5 MB
+[runlim] sample:		140.2 time, 140.1 real, 951.0 MB
+[runlim] end:			Mon Nov  3 06:18:51 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.09 seconds
+[runlim] time:			150.10 seconds
+[runlim] space:			1002.4 MB
+[runlim] samples:		1499

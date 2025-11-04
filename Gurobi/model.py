@@ -1,3 +1,4 @@
+import os
 from gurobipy import Model, GRB
 import time
 import threading
@@ -7,7 +8,7 @@ import argparse
 import math
 #from func_timeout import func_timeout, FunctionTimedOut
 
-DATA_DIR = "./graph/harwell_boeing"
+
 
 cabw_bounds = {
     "A-pores_1.mtx.rnd": (3, 8),
@@ -33,7 +34,125 @@ cabw_bounds = {
     "U-662_bus.mtx.rnd": (110, 220),
     "V-nos6.mtx.rnd": (163, 337),
     "W-685_bus.mtx.rnd": (68, 136),
-    "X-can__715.mtx.rnd": (56, 142)
+    "X-can__715.mtx.rnd": (56, 142),
+
+    "3dmesh_2_2_3.txt": (2, 4),
+    "3dmesh_2_2_168.txt": (2, 334),
+    "3dmesh_2_2_335.txt": (2, 668),
+    "3dmesh_2_2_500.txt": (2, 998),
+    "3dmesh_3_3_3.txt": (2, 9),
+    "3dmesh_3_3_135.txt": (2, 603),
+    "3dmesh_3_3_270.txt": (2, 1211),
+    "3dmesh_3_3_400.txt": (2, 1796),
+    "3dmesh_4_4_5.txt": (2, 32),
+    "3dmesh_4_4_68.txt": (2, 536),
+    "3dmesh_4_4_137.txt": (2, 1088),
+    "3dmesh_4_4_200.txt": (2, 1592),
+    "3dmesh_5_5_7.txt": (2, 74),
+    "3dmesh_5_5_35.txt": (2, 424),
+    "3dmesh_5_5_70.txt": (2, 862),
+    "3dmesh_5_5_100.txt": (2, 1237),
+    "3dmesh_6_6_8.txt": (2, 125),
+    "3dmesh_6_6_36.txt": (2, 629),
+    "3dmesh_6_6_72.txt": (2, 1277),
+    "3dmesh_6_6_100.txt": (2, 1781),
+
+    "hypercube_4_16.txt": (2, 4),
+    "hypercube_5_32.txt": (5, 9),
+    "hypercube_6_64.txt": (10, 19),
+    "hypercube_7_128.txt": (21, 41),
+    "hypercube_8_256.txt": (43, 85),
+    "hypercube_9_512.txt": (89, 178),
+    "hypercube_10_1024.txt": (182, 364),
+
+    "double_star_15_5.txt" :(2,3),
+    "double_star_15_7.txt" :(2,4),
+    "double_star_15_10.txt" :(2,5),
+    "double_star_15_12.txt" :(2,6),
+    "double_star_30_20.txt" :(2,10),
+    "double_star_30_25.txt" :(2,13),
+    "double_star_35_20.txt" :(2,10),
+    "double_star_35_25.txt" :(2,13),
+    "double_star_40_20.txt":( 2,10),
+    "double_star_40_25.txt" :(2,13),
+    "double_star_40_30.txt":( 2,15),
+    "double_star_50_20.txt" :(2,10),
+    "double_star_50_25.txt":( 2,13),
+    "double_star_50_30.txt" :(2,15),
+    "double_star_100_20.txt" :(2,10),
+    "double_star_100_25.txt":( 2,13),
+    "double_star_100_30.txt" :(2,15),
+    "double_star_150_20.txt" :(2,10),
+    "double_star_150_25.txt":( 2,13),
+    "double_star_150_30.txt":( 2,15),
+
+    "caterpillar_5_4.txt":(2, 20),
+    "caterpillar_5_5.txt":(2, 25),
+    "caterpillar_5_6.txt":(2, 30),
+    "caterpillar_5_7.txt":(2, 35),
+    "caterpillar_9_4.txt":(2,36),
+    "caterpillar_9_5.txt":(2,45),
+    "caterpillar_9_6.txt":(2,54),
+    "caterpillar_9_7.txt":(2,63),
+    "caterpillar_10_4.txt":(2,40),
+    "caterpillar_10_5.txt":(2,50),
+    "caterpillar_10_6.txt":(2,60),
+    "caterpillar_10_7.txt":(2,70),
+    "caterpillar_15_4.txt":(2,60),
+    "caterpillar_15_5.txt":(2,75),
+    "caterpillar_15_6.txt":(2,90),
+    "caterpillar_15_7.txt":(2,105),
+    "caterpillar_20_4.txt":(2,80),
+    "caterpillar_20_5.txt":(2,100),
+    "caterpillar_20_6.txt":(2,120),
+    "caterpillar_20_7.txt":(2,140),
+    "caterpillar_20_10.txt":(2,200),
+    "caterpillar_20_15.txt":(2,300),
+    "caterpillar_20_20.txt":(2,400),
+    "caterpillar_20_25.txt":(2,500),
+    "caterpillar_25_10.txt":(2,250),
+    "caterpillar_25_15.txt":(2,375),
+    "caterpillar_25_20.txt":(2,500),
+    "caterpillar_25_25.txt":(2,625),
+    "caterpillar_30_10.txt":(2,300),
+    "caterpillar_30_15.txt":(2,450),
+    "caterpillar_30_20.txt":(2,600),
+    "caterpillar_30_25.txt":(2,750),
+    "caterpillar_35_10.txt":(2,350),
+    "caterpillar_35_15.txt":(2,525),
+    "caterpillar_35_20.txt":(2,700),
+    "caterpillar_35_25.txt":(2,875),
+    "caterpillar_40_10.txt":(2,400),
+    "caterpillar_40_15.txt":(2,600),
+    "caterpillar_40_20.txt":(2,80),
+    "caterpillar_40_25.txt":(2,1000),
+
+    
+
+    "cbt_30.txt" : (2,30),
+    "cbt_31.txt" : (2,31),
+    "cbt_32.txt" : (2,32),
+    "cbt_33.txt" : (2,33),
+    "cbt_34.txt" : (2,34),
+    "cbt_35.txt" : (2,35),
+    "cbt_45.txt" : (2,45),
+    "cbt_46.txt" : (2,46),
+    "cbt_47.txt" : (2,47),
+    "cbt_48.txt" : (2,48),
+    "cbt_49.txt" : (2,49),
+    "cbt_50.txt" : (2,50),
+    "cbt_500.txt" : (2,500),
+    "cbt_510.txt" : (2,510),
+    "cbt_550.txt" : (2,550),
+    "cbt_600.txt" : (2,600),
+    "cbt_620.txt" : (2,620),
+    "cbt_630.txt" : (2,630),
+    "cbt_640.txt" : (2,640),
+    "cbt_730.txt" : (2,730),
+    "cbt_790.txt" : (2,790),
+    "cbt_880.txt" : (2,880),
+    "cbt_910.txt" : (2,910),
+    "cbt_950.txt" : (2,950),
 }
 
 
@@ -180,10 +299,10 @@ def solve_cab_dfs(vertices, edges, UB, LB):
 
 def read_file(file_name):
     edges = set()
-    file_path = f"{DATA_DIR}/{file_name}"
+    file_path = f"{file_name}"
     with open(file_path, 'r') as file:
         lines = file.readlines()
-
+    file_name = os.path.basename(file_path)
     size_info = lines[1].strip().split()
     num_vertices = int(size_info[0])
     LB, UB = cabw_bounds[file_name]

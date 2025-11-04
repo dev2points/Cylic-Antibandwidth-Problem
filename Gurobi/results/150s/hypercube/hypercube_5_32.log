@@ -1,0 +1,35 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/hypercube/hypercube_5_32.txt
+[runlim] start:			Mon Nov  3 06:30:02 2025
+[runlim] main pid:		10433
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [6, 31, 27, 15, 16, 23, 9, 30, 28, 18, 8, 29, 3, 11, 26, 19, 13, 22, 20, 5, 24, 4, 32, 12, 21, 7, 1, 14, 10, 25, 17, 2]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [15, 24, 6, 16, 31, 12, 21, 1, 32, 13, 22, 4, 19, 3, 7, 23, 25, 5, 14, 26, 8, 20, 29, 10, 9, 28, 30, 18, 27, 11, 17, 2]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 9) Value Cyclicantibandwidth: 9
+Lables: [16, 25, 5, 15, 3, 13, 24, 4, 29, 9, 19, 32, 20, 31, 6, 21, 26, 7, 17, 27, 12, 23, 2, 14, 8, 22, 28, 10, 30, 11, 18, 1]
+(w = 9) Correct Cyclicantibandwidth
+Real time: 4.040510416030884 seconds
+[runlim] end:			Mon Nov  3 06:30:06 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			4.58 seconds
+[runlim] time:			10.17 seconds
+[runlim] space:			127.6 MB
+[runlim] samples:		41

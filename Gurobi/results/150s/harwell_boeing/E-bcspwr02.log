@@ -1,0 +1,42 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/harwell_boeing/E-bcspwr02.mtx.rnd
+[runlim] start:			Mon Nov  3 05:45:58 2025
+[runlim] main pid:		4053
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 13) Value Cyclicantibandwidth: 13
+Lables: [40, 30, 49, 39, 5, 9, 16, 35, 38, 7, 47, 8, 13, 22, 27, 23, 18, 24, 14, 44, 10, 33, 28, 37, 31, 34, 29, 4, 6, 25, 26, 42, 2, 32, 11, 45, 48, 19, 41, 15, 36, 43, 1, 46, 12, 3, 17, 20, 21]
+(w = 13) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 14) Value Cyclicantibandwidth: 14
+Lables: [37, 26, 44, 38, 5, 8, 17, 28, 27, 7, 49, 10, 13, 23, 29, 24, 19, 39, 15, 48, 12, 40, 30, 25, 33, 36, 31, 4, 6, 35, 41, 45, 2, 34, 11, 42, 47, 20, 9, 16, 32, 43, 1, 46, 14, 3, 18, 21, 22]
+(w = 14) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 15) Value Cyclicantibandwidth: 15
+Lables: [26, 40, 21, 7, 46, 25, 43, 12, 2, 16, 22, 38, 45, 31, 15, 9, 5, 41, 44, 17, 4, 19, 28, 14, 35, 29, 27, 24, 1, 37, 30, 11, 33, 18, 32, 36, 49, 48, 42, 3, 47, 10, 13, 20, 8, 6, 39, 34, 23]
+(w = 15) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 16) Value Cyclicantibandwidth: 16
+Lables: [15, 25, 6, 36, 5, 39, 30, 32, 26, 42, 44, 14, 40, 23, 34, 29, 27, 37, 18, 41, 45, 47, 33, 21, 11, 35, 13, 4, 48, 28, 16, 46, 1, 38, 9, 43, 7, 19, 10, 17, 22, 12, 2, 49, 8, 3, 20, 31, 24]
+(w = 16) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 17) Not found solution with CAB = 17.
+Final result: CAB = 16, Labels = [15, 25, 6, 36, 5, 39, 30, 32, 26, 42, 44, 14, 40, 23, 34, 29, 27, 37, 18, 41, 45, 47, 33, 21, 11, 35, 13, 4, 48, 28, 16, 46, 1, 38, 9, 43, 7, 19, 10, 17, 22, 12, 2, 49, 8, 3, 20, 31, 24]
+Real time: 5.6974568367004395 seconds
+[runlim] end:			Mon Nov  3 05:46:04 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			6.54 seconds
+[runlim] time:			11.54 seconds
+[runlim] space:			212.7 MB
+[runlim] samples:		57

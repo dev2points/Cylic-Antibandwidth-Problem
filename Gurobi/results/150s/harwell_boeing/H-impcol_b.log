@@ -1,0 +1,34 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/harwell_boeing/H-impcol_b.mtx.rnd
+[runlim] start:			Mon Nov  3 05:46:14 2025
+[runlim] main pid:		4162
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 6) Value Cyclicantibandwidth: 6
+Lables: [21, 44, 51, 41, 6, 38, 47, 2, 29, 30, 43, 39, 28, 25, 24, 58, 27, 42, 45, 18, 37, 12, 34, 8, 4, 19, 56, 31, 52, 13, 11, 53, 32, 46, 57, 55, 14, 5, 23, 9, 36, 35, 48, 33, 10, 3, 7, 49, 59, 1, 22, 26, 16, 54, 40, 15, 50, 20, 17]
+(w = 6) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [44, 40, 59, 35, 4, 20, 1, 26, 25, 27, 56, 33, 57, 55, 3, 29, 45, 14, 16, 18, 32, 28, 24, 47, 17, 54, 13, 48, 11, 42, 31, 10, 21, 37, 2, 5, 19, 58, 50, 46, 15, 36, 41, 34, 8, 53, 7, 39, 22, 51, 6, 49, 23, 43, 52, 12, 9, 38, 30]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 8) Not found solution with CAB = 8.
+Final result: CAB = 7, Labels = [44, 40, 59, 35, 4, 20, 1, 26, 25, 27, 56, 33, 57, 55, 3, 29, 45, 14, 16, 18, 32, 28, 24, 47, 17, 54, 13, 48, 11, 42, 31, 10, 21, 37, 2, 5, 19, 58, 50, 46, 15, 36, 41, 34, 8, 53, 7, 39, 22, 51, 6, 49, 23, 43, 52, 12, 9, 38, 30]
+Real time: 6.420747995376587 seconds
+[runlim] end:			Mon Nov  3 05:46:21 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			7.06 seconds
+[runlim] time:			7.82 seconds
+[runlim] space:			126.3 MB
+[runlim] samples:		64

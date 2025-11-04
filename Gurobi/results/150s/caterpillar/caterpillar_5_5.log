@@ -1,0 +1,58 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/caterpillar/caterpillar_5_5.txt
+[runlim] start:			Tue Nov  4 05:45:58 2025
+[runlim] main pid:		57956
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 4) Value Cyclicantibandwidth: 4
+Lables: [1, 8, 20, 14, 18, 12, 6, 24, 13, 22, 16, 11, 17, 9, 4, 25, 15, 5, 19, 23, 10, 2, 7, 3, 21]
+(w = 4) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 5) Value Cyclicantibandwidth: 5
+Lables: [22, 3, 21, 12, 18, 15, 5, 14, 8, 11, 6, 20, 1, 16, 23, 9, 19, 25, 7, 17, 2, 13, 4, 24, 10]
+(w = 5) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 6) Value Cyclicantibandwidth: 6
+Lables: [8, 2, 21, 14, 23, 20, 6, 24, 12, 18, 4, 10, 25, 5, 22, 15, 3, 1, 17, 11, 19, 13, 7, 16, 9]
+(w = 6) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [1, 11, 24, 8, 25, 15, 5, 16, 6, 19, 12, 2, 10, 14, 22, 7, 18, 23, 13, 21, 3, 17, 9, 20, 4]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [3, 12, 4, 16, 1, 15, 5, 17, 25, 2, 14, 6, 20, 13, 21, 7, 22, 8, 18, 9, 23, 10, 19, 11, 24]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 9) Value Cyclicantibandwidth: 9
+Lables: [2, 12, 3, 18, 4, 17, 1, 10, 21, 25, 16, 5, 14, 15, 6, 19, 9, 7, 20, 8, 23, 13, 22, 11, 24]
+(w = 9) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 10) Value Cyclicantibandwidth: 10
+Lables: [12, 1, 11, 23, 13, 25, 10, 24, 14, 16, 6, 17, 4, 21, 8, 22, 7, 9, 19, 5, 20, 2, 15, 3, 18]
+(w = 10) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 11) Value Cyclicantibandwidth: 11
+Lables: [25, 12, 24, 13, 2, 14, 3, 17, 6, 23, 11, 22, 9, 10, 21, 8, 20, 1, 15, 4, 18, 16, 5, 19, 7]
+(w = 11) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 12) Not found solution with CAB = 12.
+Final result: CAB = 11, Labels = [25, 12, 24, 13, 2, 14, 3, 17, 6, 23, 11, 22, 9, 10, 21, 8, 20, 1, 15, 4, 18, 16, 5, 19, 7]
+Real time: 0.5616188049316406 seconds
+[runlim] end:			Tue Nov  4 05:45:58 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.73 seconds
+[runlim] time:			0.68 seconds
+[runlim] space:			39.3 MB
+[runlim] samples:		6

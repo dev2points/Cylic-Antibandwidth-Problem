@@ -1,0 +1,38 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/harwell_boeing/X-can__715.mtx.rnd
+[runlim] start:			Mon Nov  3 06:23:51 2025
+[runlim] main pid:		9746
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+[runlim] sample:		10.0 time, 10.1 real, 292.4 MB
+[runlim] sample:		20.0 time, 20.1 real, 367.7 MB
+[runlim] sample:		30.1 time, 30.1 real, 424.5 MB
+[runlim] sample:		40.1 time, 40.1 real, 484.5 MB
+[runlim] sample:		50.1 time, 50.1 real, 545.2 MB
+[runlim] sample:		60.1 time, 60.1 real, 606.9 MB
+[runlim] sample:		70.1 time, 70.1 real, 666.4 MB
+[runlim] sample:		80.1 time, 80.1 real, 726.6 MB
+[runlim] sample:		90.2 time, 90.1 real, 795.9 MB
+[runlim] sample:		100.2 time, 100.1 real, 855.4 MB
+[runlim] sample:		110.2 time, 110.1 real, 917.1 MB
+[runlim] sample:		120.2 time, 120.1 real, 987.3 MB
+[runlim] sample:		130.2 time, 130.1 real, 1046.8 MB
+[runlim] sample:		140.2 time, 140.1 real, 1106.6 MB
+[runlim] sample:		150.3 time, 150.1 real, 1166.1 MB
+[runlim] end:			Mon Nov  3 06:26:21 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.15 seconds
+[runlim] time:			150.27 seconds
+[runlim] space:			1166.1 MB
+[runlim] samples:		1500

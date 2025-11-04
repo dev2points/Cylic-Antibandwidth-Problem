@@ -1,0 +1,19 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/double_star/double_star_15_5.txt
+[runlim] start:			Tue Nov  4 16:21:18 2025
+[runlim] main pid:		79344
+[runlim] log captured:
+Real time: 0.0038640499114990234 seconds
+[runlim] end:			Tue Nov  4 16:21:18 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.91 seconds
+[runlim] time:			0.00 seconds
+[runlim] space:			0.0 MB
+[runlim] samples:		0

@@ -1,0 +1,35 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/harwell_boeing/B-ibm32.mtx.rnd
+[runlim] start:			Mon Nov  3 05:45:35 2025
+[runlim] main pid:		3923
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [23, 16, 22, 7, 27, 8, 4, 24, 28, 19, 15, 3, 9, 13, 17, 11, 2, 18, 25, 12, 21, 31, 30, 20, 1, 32, 26, 29, 10, 5, 6, 14]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [26, 16, 21, 15, 17, 13, 2, 23, 27, 7, 22, 8, 11, 18, 4, 10, 32, 20, 29, 9, 24, 31, 30, 25, 6, 1, 28, 3, 19, 12, 5, 14]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		29.6 time, 10.7 real, 134.5 MB
+(w = 9) Not found solution with CAB = 9.
+Final result: CAB = 8, Labels = [26, 16, 21, 15, 17, 13, 2, 23, 27, 7, 22, 8, 11, 18, 4, 10, 32, 20, 29, 9, 24, 31, 30, 25, 6, 1, 28, 3, 19, 12, 5, 14]
+Real time: 15.058833599090576 seconds
+[runlim] end:			Mon Nov  3 05:45:50 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			15.77 seconds
+[runlim] time:			45.20 seconds
+[runlim] space:			145.3 MB
+[runlim] samples:		151

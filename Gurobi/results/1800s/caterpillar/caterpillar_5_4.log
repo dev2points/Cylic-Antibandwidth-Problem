@@ -1,0 +1,46 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/caterpillar/caterpillar_5_4.txt
+[runlim] start:			Mon Nov  3 16:57:53 2025
+[runlim] main pid:		24175
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 4) Value Cyclicantibandwidth: 4
+Lables: [19, 8, 20, 12, 4, 5, 14, 1, 15, 9, 18, 16, 11, 6, 3, 10, 2, 17, 7, 13]
+(w = 4) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 5) Value Cyclicantibandwidth: 5
+Lables: [19, 8, 3, 10, 4, 5, 14, 1, 20, 6, 18, 16, 11, 17, 15, 9, 2, 12, 7, 13]
+(w = 5) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 6) Value Cyclicantibandwidth: 6
+Lables: [18, 8, 19, 12, 4, 7, 14, 20, 15, 9, 3, 6, 16, 5, 1, 13, 2, 11, 17, 10]
+(w = 6) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [13, 4, 15, 7, 18, 2, 14, 6, 17, 9, 16, 8, 20, 10, 19, 11, 3, 5, 12, 1]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [1, 10, 2, 14, 4, 13, 5, 17, 20, 12, 3, 11, 19, 9, 6, 15, 7, 16, 8, 18]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 9) Not found solution with CAB = 9.
+Final result: CAB = 8, Labels = [1, 10, 2, 14, 4, 13, 5, 17, 20, 12, 3, 11, 19, 9, 6, 15, 7, 16, 8, 18]
+Real time: 0.4347724914550781 seconds
+[runlim] end:			Mon Nov  3 16:57:53 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			0.61 seconds
+[runlim] time:			0.67 seconds
+[runlim] space:			47.4 MB
+[runlim] samples:		4

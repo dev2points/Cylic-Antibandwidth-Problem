@@ -1,0 +1,37 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		B-ibm32.mtx.rnd
+[runlim] start:			Fri Oct 10 10:53:11 2025
+[runlim] main pid:		17727
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [14, 16, 4, 11, 3, 13, 28, 32, 1, 18, 6, 27, 9, 5, 22, 7, 21, 17, 2, 12, 19, 25, 26, 20, 24, 31, 30, 29, 8, 15, 23, 10]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [30, 6, 32, 16, 10, 17, 21, 1, 28, 8, 4, 19, 14, 9, 7, 13, 25, 5, 29, 18, 3, 22, 23, 2, 12, 26, 27, 24, 31, 15, 20, 11]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+[runlim] sample:		24.3 time, 10.0 real, 143.1 MB
+(w = 9) Not found solution with CAB = 9.
+Final result: CAB = 8, Labels = [30, 6, 32, 16, 10, 17, 21, 1, 28, 8, 4, 19, 14, 9, 7, 13, 25, 5, 29, 18, 3, 22, 23, 2, 12, 26, 27, 24, 31, 15, 20, 11]
+Real time: 13.810857057571411 seconds
+[runlim] end:			Fri Oct 10 10:53:24 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			13.91 seconds
+[runlim] time:			39.51 seconds
+[runlim] space:			146.6 MB
+[runlim] samples:		138

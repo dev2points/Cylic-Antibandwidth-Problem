@@ -1,0 +1,37 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/harwell_boeing/S-sherman4.mtx.rnd
+[runlim] start:			Mon Nov  3 06:11:21 2025
+[runlim] main pid:		8210
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+[runlim] sample:		10.0 time, 10.1 real, 191.7 MB
+[runlim] sample:		20.0 time, 20.1 real, 240.5 MB
+[runlim] sample:		30.0 time, 30.1 real, 294.4 MB
+[runlim] sample:		40.0 time, 40.1 real, 341.9 MB
+[runlim] sample:		50.0 time, 50.1 real, 395.5 MB
+[runlim] sample:		60.1 time, 60.1 real, 444.0 MB
+[runlim] sample:		70.1 time, 70.1 real, 494.6 MB
+[runlim] sample:		80.1 time, 80.1 real, 541.8 MB
+[runlim] sample:		90.1 time, 90.1 real, 594.2 MB
+[runlim] sample:		100.1 time, 100.1 real, 645.5 MB
+[runlim] sample:		110.1 time, 110.1 real, 694.8 MB
+[runlim] sample:		120.1 time, 120.1 real, 745.3 MB
+[runlim] sample:		130.2 time, 130.1 real, 794.6 MB
+[runlim] sample:		140.2 time, 140.1 real, 850.5 MB
+[runlim] end:			Mon Nov  3 06:13:51 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.08 seconds
+[runlim] time:			150.08 seconds
+[runlim] space:			899.6 MB
+[runlim] samples:		1499

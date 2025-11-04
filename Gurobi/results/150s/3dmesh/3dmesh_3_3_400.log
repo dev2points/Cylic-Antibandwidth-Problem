@@ -1,0 +1,38 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/3dmesh/3dmesh_3_3_400.txt
+[runlim] start:			Mon Nov  3 06:55:27 2025
+[runlim] main pid:		13099
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+[runlim] sample:		10.0 time, 10.3 real, 1168.3 MB
+[runlim] sample:		20.0 time, 20.3 real, 1925.3 MB
+[runlim] sample:		30.0 time, 30.3 real, 2627.2 MB
+[runlim] sample:		40.0 time, 40.3 real, 4428.0 MB
+[runlim] sample:		50.1 time, 50.3 real, 6715.5 MB
+[runlim] sample:		60.1 time, 60.3 real, 5734.2 MB
+[runlim] sample:		70.1 time, 70.3 real, 5778.5 MB
+[runlim] sample:		80.1 time, 80.3 real, 5815.2 MB
+[runlim] sample:		90.1 time, 90.3 real, 5860.6 MB
+[runlim] sample:		100.2 time, 100.3 real, 5893.5 MB
+[runlim] sample:		110.2 time, 110.3 real, 5925.5 MB
+[runlim] sample:		120.2 time, 120.3 real, 5959.5 MB
+[runlim] sample:		130.2 time, 130.3 real, 5991.7 MB
+[runlim] sample:		140.2 time, 140.3 real, 6118.3 MB
+[runlim] sample:		150.2 time, 150.3 real, 0.0 MB
+[runlim] end:			Mon Nov  3 06:57:57 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.38 seconds
+[runlim] time:			150.35 seconds
+[runlim] space:			6766.2 MB
+[runlim] samples:		1501

@@ -1,0 +1,71 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/double_star/double_star_50_30.txt
+[runlim] start:			Tue Nov  4 07:01:39 2025
+[runlim] main pid:		64035
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 4) Value Cyclicantibandwidth: 4
+Lables: [5, 65, 45, 28, 36, 68, 80, 30, 69, 21, 75, 9, 71, 72, 12, 34, 61, 25, 35, 27, 14, 44, 64, 41, 66, 11, 18, 60, 78, 39, 22, 57, 74, 40, 76, 17, 42, 37, 73, 46, 51, 13, 26, 79, 77, 62, 23, 49, 55, 53, 24, 6, 63, 16, 2, 1, 20, 70, 48, 56, 52, 43, 7, 29, 15, 33, 50, 58, 54, 32, 4, 19, 38, 47, 10, 59, 31, 67, 8, 3]
+(w = 4) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 5) Value Cyclicantibandwidth: 5
+Lables: [9, 19, 72, 64, 30, 57, 49, 15, 39, 68, 59, 46, 75, 37, 67, 71, 45, 20, 44, 76, 16, 78, 28, 27, 47, 43, 32, 65, 73, 24, 31, 70, 26, 55, 63, 51, 14, 58, 25, 48, 69, 66, 79, 34, 3, 33, 62, 80, 60, 22, 61, 4, 1, 2, 42, 36, 10, 21, 7, 38, 13, 12, 18, 41, 40, 53, 77, 54, 74, 17, 29, 52, 23, 50, 8, 11, 56, 35, 5, 6]
+(w = 5) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 6) Value Cyclicantibandwidth: 6
+Lables: [1, 7, 8, 9, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 70, 55, 73, 65, 64, 56, 72, 75, 67, 58, 68, 69, 74, 60, 62, 57, 12, 2, 3, 4, 5, 6, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 77, 78, 63, 59, 71, 80, 76, 79, 66, 61]
+(w = 6) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [1, 8, 9, 10, 11, 12, 13, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 69, 54, 72, 64, 63, 55, 71, 74, 66, 57, 67, 68, 73, 59, 61, 56, 58, 14, 2, 3, 4, 5, 6, 7, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 60, 62, 65, 70, 77, 80, 79, 75, 78, 76]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [1, 9, 10, 11, 12, 13, 14, 15, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 55, 67, 61, 56, 59, 69, 54, 71, 62, 64, 57, 65, 72, 68, 60, 66, 58, 63, 16, 2, 3, 4, 5, 6, 7, 8, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 76, 80, 70, 79, 75, 73, 78, 74, 77]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 9) Value Cyclicantibandwidth: 9
+Lables: [1, 10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 54, 66, 60, 55, 58, 68, 53, 70, 61, 63, 56, 64, 71, 67, 59, 65, 57, 62, 69, 18, 2, 3, 4, 5, 6, 7, 8, 9, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 78, 73, 79, 76, 75, 80, 72, 74, 77]
+(w = 9) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 10) Value Cyclicantibandwidth: 10
+Lables: [8, 26, 66, 70, 44, 49, 27, 56, 64, 22, 63, 61, 57, 50, 77, 54, 31, 60, 72, 62, 40, 43, 37, 58, 21, 38, 29, 47, 48, 78, 69, 39, 35, 59, 55, 33, 73, 23, 18, 51, 52, 28, 46, 45, 75, 68, 65, 32, 67, 34, 53, 79, 15, 36, 25, 74, 1, 11, 6, 9, 19, 13, 3, 76, 24, 7, 14, 71, 16, 80, 17, 5, 30, 41, 12, 20, 10, 4, 42, 2]
+(w = 10) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 11) Value Cyclicantibandwidth: 11
+Lables: [23, 43, 79, 55, 11, 63, 35, 3, 68, 59, 44, 65, 57, 41, 62, 10, 73, 54, 74, 38, 6, 37, 49, 72, 53, 12, 8, 76, 61, 46, 67, 70, 52, 60, 7, 78, 2, 5, 58, 69, 80, 71, 56, 75, 77, 64, 40, 1, 50, 4, 66, 27, 20, 47, 30, 51, 32, 22, 31, 45, 39, 25, 26, 21, 34, 36, 28, 42, 33, 19, 9, 15, 14, 17, 48, 16, 18, 13, 29, 24]
+(w = 11) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 12) Value Cyclicantibandwidth: 12
+Lables: [30, 42, 66, 73, 61, 55, 68, 17, 54, 11, 64, 53, 18, 43, 72, 16, 58, 49, 75, 2, 1, 63, 48, 62, 47, 57, 78, 12, 3, 69, 6, 51, 80, 76, 59, 9, 8, 46, 56, 74, 60, 67, 79, 14, 7, 70, 44, 50, 13, 71, 65, 26, 25, 28, 34, 15, 39, 40, 19, 38, 27, 32, 37, 35, 77, 36, 4, 21, 45, 33, 52, 5, 31, 20, 22, 29, 41, 24, 23, 10]
+(w = 12) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 13) Value Cyclicantibandwidth: 13
+Lables: [23, 64, 8, 52, 71, 50, 78, 70, 63, 75, 58, 67, 76, 45, 74, 73, 40, 38, 56, 66, 48, 42, 65, 79, 68, 60, 72, 69, 3, 1, 51, 77, 61, 55, 4, 46, 53, 59, 2, 49, 44, 80, 57, 7, 43, 10, 37, 54, 5, 39, 62, 35, 13, 11, 19, 22, 12, 21, 27, 26, 16, 30, 18, 28, 17, 15, 20, 24, 6, 14, 36, 25, 32, 34, 9, 47, 33, 41, 29, 31]
+(w = 13) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 14) Value Cyclicantibandwidth: 14
+Lables: [20, 64, 41, 68, 36, 53, 60, 2, 79, 39, 73, 54, 42, 62, 1, 66, 46, 63, 71, 6, 75, 80, 38, 37, 49, 69, 5, 67, 61, 43, 59, 56, 77, 40, 55, 47, 48, 70, 50, 35, 44, 72, 51, 78, 57, 76, 45, 65, 52, 4, 58, 34, 8, 14, 16, 10, 30, 9, 24, 13, 28, 19, 27, 7, 21, 31, 25, 12, 29, 32, 15, 74, 11, 33, 26, 23, 3, 18, 22, 17]
+(w = 14) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 15) Value Cyclicantibandwidth: 15
+Lables: [25, 8, 72, 77, 49, 59, 47, 10, 80, 50, 40, 43, 63, 46, 45, 68, 73, 2, 6, 66, 51, 44, 70, 9, 3, 58, 54, 56, 42, 76, 41, 69, 78, 67, 52, 60, 55, 48, 74, 71, 7, 64, 4, 79, 75, 57, 53, 61, 65, 1, 62, 17, 35, 19, 31, 21, 38, 39, 18, 13, 22, 16, 27, 34, 14, 12, 36, 24, 28, 33, 20, 5, 11, 32, 23, 37, 26, 30, 29, 15]
+(w = 15) Correct Cyclicantibandwidth
+Real time: 6.258026361465454 seconds
+[runlim] end:			Tue Nov  4 07:01:45 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			6.72 seconds
+[runlim] time:			6.81 seconds
+[runlim] space:			101.2 MB
+[runlim] samples:		63
