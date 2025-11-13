@@ -1,0 +1,250 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model.py
+[runlim] argv[2]:		./graph/random_generated_graph_2013/p12_100_600
+[runlim] start:			Wed Nov 12 14:53:44 2025
+[runlim] main pid:		43145
+[runlim] log captured:
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 4) Value Cyclicantibandwidth: 4
+Lables: [38, 75, 11, 5, 41, 76, 89, 99, 4, 83, 43, 35, 21, 25, 6, 68, 24, 13, 70, 1, 92, 19, 14, 9, 32, 69, 46, 74, 56, 98, 71, 12, 39, 82, 66, 94, 28, 62, 91, 64, 55, 78, 10, 51, 61, 22, 15, 33, 58, 60, 26, 93, 30, 23, 42, 88, 72, 8, 34, 36, 84, 65, 18, 63, 67, 47, 73, 77, 49, 2, 31, 79, 29, 54, 81, 20, 45, 44, 95, 97, 40, 100, 27, 86, 52, 48, 85, 16, 59, 17, 3, 96, 57, 87, 37, 53, 7, 80, 90, 50]
+(w = 4) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 5) Value Cyclicantibandwidth: 5
+Lables: [75, 44, 11, 5, 70, 24, 89, 66, 4, 67, 62, 35, 21, 25, 50, 68, 61, 13, 51, 1, 92, 86, 14, 9, 32, 37, 41, 85, 78, 98, 45, 12, 46, 82, 7, 94, 28, 3, 76, 100, 55, 58, 10, 65, 48, 64, 71, 99, 15, 60, 26, 93, 30, 23, 42, 88, 72, 59, 83, 36, 19, 84, 18, 73, 97, 22, 74, 63, 52, 2, 31, 40, 29, 17, 81, 47, 38, 79, 95, 77, 90, 20, 54, 53, 69, 39, 16, 43, 34, 49, 80, 91, 57, 96, 87, 56, 8, 6, 27, 33]
+(w = 5) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 6) Value Cyclicantibandwidth: 6
+Lables: [13, 75, 11, 32, 38, 58, 48, 99, 4, 83, 71, 35, 69, 26, 50, 67, 61, 54, 51, 1, 87, 86, 19, 28, 73, 43, 41, 76, 78, 10, 7, 97, 9, 34, 66, 94, 42, 89, 90, 33, 62, 47, 98, 65, 16, 3, 36, 77, 27, 60, 20, 93, 85, 18, 46, 64, 12, 56, 84, 49, 22, 74, 24, 23, 25, 21, 70, 63, 91, 14, 31, 40, 5, 96, 81, 53, 45, 88, 95, 59, 2, 68, 52, 37, 100, 39, 72, 29, 17, 55, 80, 6, 44, 92, 79, 8, 57, 30, 15, 82]
+(w = 6) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 7) Value Cyclicantibandwidth: 7
+Lables: [98, 58, 11, 5, 44, 37, 89, 99, 4, 72, 28, 35, 21, 25, 79, 100, 31, 12, 29, 8, 47, 86, 46, 13, 32, 41, 57, 85, 78, 95, 96, 7, 48, 81, 66, 23, 84, 91, 83, 27, 67, 14, 69, 61, 16, 64, 24, 88, 15, 33, 77, 2, 30, 18, 20, 94, 40, 56, 34, 36, 26, 51, 9, 3, 6, 22, 59, 62, 70, 63, 42, 52, 76, 68, 53, 50, 10, 49, 97, 71, 1, 45, 73, 60, 19, 74, 90, 54, 39, 55, 80, 75, 87, 93, 17, 92, 65, 43, 38, 82]
+(w = 7) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		10.0 time, 10.1 real, 112.5 MB
+(w = 8) Value Cyclicantibandwidth: 8
+Lables: [35, 90, 52, 7, 51, 66, 71, 4, 89, 16, 61, 67, 59, 54, 49, 38, 65, 15, 24, 11, 55, 26, 46, 37, 3, 47, 97, 79, 84, 39, 36, 98, 42, 99, 91, 85, 83, 68, 17, 32, 78, 58, 76, 43, 41, 57, 96, 22, 6, 34, 81, 88, 2, 82, 60, 77, 40, 95, 20, 9, 29, 12, 25, 23, 92, 62, 1, 94, 53, 73, 10, 75, 28, 50, 93, 27, 69, 48, 86, 100, 33, 21, 18, 13, 8, 45, 44, 31, 30, 19, 14, 5, 64, 87, 70, 80, 56, 72, 74, 63]
+(w = 8) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 9) Value Cyclicantibandwidth: 9
+Lables: [71, 35, 100, 13, 92, 95, 75, 48, 65, 59, 89, 11, 56, 22, 49, 85, 67, 14, 27, 82, 30, 32, 47, 1, 60, 24, 46, 80, 63, 68, 18, 3, 16, 45, 7, 94, 76, 55, 44, 66, 19, 64, 33, 96, 15, 34, 17, 21, 36, 25, 97, 43, 73, 39, 8, 5, 50, 40, 78, 72, 23, 99, 26, 93, 28, 41, 38, 69, 74, 83, 58, 4, 91, 88, 98, 29, 31, 81, 2, 61, 86, 51, 9, 54, 77, 87, 52, 20, 70, 42, 53, 6, 62, 10, 79, 57, 37, 90, 12, 84]
+(w = 9) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		20.6 time, 20.1 real, 248.2 MB
+(w = 10) Value Cyclicantibandwidth: 10
+Lables: [9, 30, 28, 24, 79, 39, 71, 47, 97, 43, 86, 22, 87, 32, 60, 53, 78, 4, 29, 51, 13, 42, 84, 1, 98, 46, 91, 63, 95, 92, 65, 3, 85, 81, 96, 93, 90, 94, 54, 17, 23, 80, 70, 74, 52, 48, 100, 49, 89, 72, 88, 59, 27, 34, 69, 15, 2, 6, 77, 31, 36, 99, 73, 26, 44, 56, 61, 20, 38, 67, 82, 14, 66, 19, 18, 33, 35, 68, 12, 21, 75, 64, 76, 45, 40, 7, 83, 5, 58, 41, 37, 16, 55, 62, 8, 57, 25, 10, 11, 50]
+(w = 10) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		31.5 time, 30.1 real, 318.2 MB
+(w = 11) Value Cyclicantibandwidth: 11
+Lables: [10, 47, 51, 6, 78, 28, 92, 4, 63, 35, 94, 81, 90, 99, 20, 17, 69, 39, 89, 21, 32, 29, 76, 33, 43, 36, 54, 22, 23, 11, 53, 9, 84, 14, 86, 83, 58, 66, 7, 3, 97, 34, 68, 82, 62, 37, 44, 88, 96, 65, 57, 59, 2, 52, 30, 100, 85, 38, 25, 42, 71, 79, 46, 95, 31, 24, 74, 64, 5, 55, 45, 50, 12, 13, 87, 41, 60, 72, 26, 15, 73, 93, 49, 77, 67, 40, 48, 56, 98, 80, 70, 16, 19, 8, 75, 18, 1, 91, 61, 27]
+(w = 11) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		41.9 time, 40.1 real, 245.8 MB
+[runlim] sample:		52.9 time, 50.1 real, 460.0 MB
+[runlim] sample:		63.0 time, 60.1 real, 438.3 MB
+(w = 12) Value Cyclicantibandwidth: 12
+Lables: [96, 97, 57, 49, 58, 30, 56, 64, 46, 42, 95, 15, 63, 71, 86, 12, 9, 45, 52, 93, 5, 37, 85, 31, 53, 94, 16, 70, 1, 59, 80, 38, 2, 19, 99, 22, 76, 7, 77, 69, 72, 90, 4, 13, 83, 65, 21, 73, 54, 62, 35, 88, 50, 25, 10, 33, 89, 47, 92, 17, 14, 68, 29, 67, 39, 18, 87, 8, 74, 79, 24, 26, 44, 6, 43, 32, 91, 82, 3, 51, 60, 28, 34, 55, 40, 23, 27, 78, 81, 75, 41, 66, 98, 11, 20, 48, 61, 36, 100, 84]
+(w = 12) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		74.0 time, 70.1 real, 460.4 MB
+[runlim] sample:		84.2 time, 80.1 real, 362.8 MB
+[runlim] sample:		94.3 time, 90.1 real, 530.2 MB
+[runlim] sample:		104.5 time, 100.1 real, 451.1 MB
+[runlim] sample:		114.6 time, 110.1 real, 532.0 MB
+[runlim] sample:		124.8 time, 120.1 real, 527.0 MB
+[runlim] sample:		134.9 time, 130.1 real, 490.9 MB
+[runlim] sample:		145.1 time, 140.1 real, 559.0 MB
+[runlim] sample:		155.2 time, 150.1 real, 544.1 MB
+[runlim] sample:		165.4 time, 160.1 real, 504.7 MB
+[runlim] sample:		175.5 time, 170.1 real, 533.0 MB
+[runlim] sample:		185.7 time, 180.1 real, 573.7 MB
+[runlim] sample:		195.8 time, 190.1 real, 573.2 MB
+[runlim] sample:		206.0 time, 200.1 real, 577.9 MB
+[runlim] sample:		216.1 time, 210.1 real, 542.3 MB
+[runlim] sample:		226.3 time, 220.1 real, 587.8 MB
+[runlim] sample:		238.1 time, 230.1 real, 595.5 MB
+[runlim] sample:		248.5 time, 240.1 real, 596.4 MB
+[runlim] sample:		281.2 time, 250.1 real, 917.7 MB
+[runlim] sample:		321.1 time, 260.1 real, 964.1 MB
+(w = 13) Value Cyclicantibandwidth: 13
+Lables: [73, 36, 85, 97, 69, 53, 57, 75, 34, 23, 68, 92, 83, 63, 37, 33, 25, 48, 89, 90, 40, 47, 87, 44, 93, 41, 31, 11, 66, 61, 42, 70, 100, 28, 84, 2, 10, 91, 64, 99, 60, 49, 13, 17, 82, 43, 62, 58, 52, 51, 55, 74, 3, 24, 38, 14, 81, 72, 56, 98, 30, 88, 50, 79, 46, 67, 80, 29, 32, 18, 20, 1, 6, 39, 5, 94, 45, 86, 21, 22, 27, 59, 16, 96, 78, 35, 7, 26, 71, 77, 19, 4, 76, 8, 54, 12, 95, 65, 9, 15]
+(w = 13) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		341.2 time, 270.1 real, 1002.7 MB
+[runlim] sample:		352.6 time, 280.1 real, 987.9 MB
+[runlim] sample:		362.7 time, 290.1 real, 913.9 MB
+[runlim] sample:		372.9 time, 300.1 real, 1009.9 MB
+[runlim] sample:		383.0 time, 310.1 real, 927.6 MB
+[runlim] sample:		393.2 time, 320.1 real, 995.0 MB
+[runlim] sample:		403.3 time, 330.1 real, 1006.1 MB
+[runlim] sample:		413.5 time, 340.1 real, 1012.1 MB
+[runlim] sample:		423.6 time, 350.1 real, 920.5 MB
+[runlim] sample:		433.7 time, 360.1 real, 1011.4 MB
+[runlim] sample:		443.9 time, 370.1 real, 1022.3 MB
+[runlim] sample:		454.1 time, 380.1 real, 1002.3 MB
+[runlim] sample:		464.2 time, 390.1 real, 1001.8 MB
+[runlim] sample:		474.4 time, 400.1 real, 995.6 MB
+[runlim] sample:		484.5 time, 410.1 real, 989.3 MB
+[runlim] sample:		494.7 time, 420.1 real, 955.9 MB
+[runlim] sample:		504.8 time, 430.1 real, 992.0 MB
+[runlim] sample:		515.1 time, 440.1 real, 907.5 MB
+[runlim] sample:		527.0 time, 450.1 real, 993.6 MB
+[runlim] sample:		564.5 time, 460.1 real, 992.1 MB
+[runlim] sample:		604.5 time, 470.1 real, 1063.0 MB
+(w = 14) Value Cyclicantibandwidth: 14
+Lables: [71, 93, 75, 68, 8, 32, 100, 26, 74, 33, 18, 79, 17, 9, 64, 34, 15, 70, 10, 29, 52, 48, 58, 41, 72, 53, 84, 86, 96, 28, 46, 78, 76, 24, 90, 36, 97, 67, 59, 35, 5, 2, 45, 50, 62, 43, 83, 25, 3, 44, 12, 94, 80, 99, 42, 38, 66, 39, 63, 13, 16, 95, 47, 23, 30, 19, 56, 31, 6, 51, 14, 91, 57, 81, 73, 40, 87, 55, 22, 92, 11, 21, 88, 37, 7, 49, 61, 65, 60, 85, 20, 1, 82, 89, 4, 69, 98, 27, 77, 54]
+(w = 14) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		624.8 time, 480.1 real, 926.8 MB
+[runlim] sample:		635.8 time, 490.1 real, 988.5 MB
+[runlim] sample:		645.9 time, 500.1 real, 989.9 MB
+[runlim] sample:		656.0 time, 510.1 real, 895.4 MB
+[runlim] sample:		666.2 time, 520.1 real, 998.3 MB
+[runlim] sample:		676.4 time, 530.1 real, 1012.4 MB
+[runlim] sample:		686.5 time, 540.1 real, 917.0 MB
+[runlim] sample:		696.6 time, 550.1 real, 1020.7 MB
+[runlim] sample:		706.8 time, 560.1 real, 917.2 MB
+[runlim] sample:		717.0 time, 570.1 real, 1025.6 MB
+[runlim] sample:		727.1 time, 580.1 real, 915.1 MB
+[runlim] sample:		737.3 time, 590.1 real, 1050.2 MB
+[runlim] sample:		747.4 time, 600.1 real, 1052.6 MB
+[runlim] sample:		757.6 time, 610.1 real, 1028.7 MB
+[runlim] sample:		767.7 time, 620.1 real, 937.7 MB
+[runlim] sample:		777.9 time, 630.1 real, 1018.2 MB
+[runlim] sample:		788.0 time, 640.1 real, 1020.1 MB
+[runlim] sample:		798.2 time, 650.1 real, 920.1 MB
+[runlim] sample:		808.3 time, 660.1 real, 990.2 MB
+[runlim] sample:		818.5 time, 670.1 real, 1028.2 MB
+[runlim] sample:		828.7 time, 680.1 real, 1012.7 MB
+[runlim] sample:		840.5 time, 690.1 real, 1021.3 MB
+[runlim] sample:		850.9 time, 700.1 real, 1023.6 MB
+[runlim] sample:		880.2 time, 710.1 real, 1010.3 MB
+[runlim] sample:		919.1 time, 720.1 real, 1029.0 MB
+[runlim] sample:		959.1 time, 730.1 real, 1074.9 MB
+[runlim] sample:		999.1 time, 740.1 real, 1105.9 MB
+[runlim] sample:		1039.1 time, 750.1 real, 1241.5 MB
+[runlim] sample:		1077.1 time, 760.1 real, 1282.3 MB
+[runlim] sample:		1117.1 time, 770.1 real, 1276.3 MB
+[runlim] sample:		1154.7 time, 780.1 real, 1535.8 MB
+[runlim] sample:		1176.1 time, 790.1 real, 1658.3 MB
+(w = 15) Value Cyclicantibandwidth: 15
+Lables: [60, 96, 92, 35, 64, 87, 93, 77, 48, 30, 13, 97, 78, 27, 22, 75, 5, 95, 70, 23, 62, 50, 49, 34, 99, 88, 8, 11, 14, 29, 69, 40, 43, 52, 61, 59, 56, 68, 17, 39, 4, 94, 73, 10, 83, 82, 38, 84, 45, 91, 25, 65, 54, 7, 80, 21, 89, 1, 24, 98, 58, 12, 85, 15, 74, 71, 67, 28, 63, 55, 6, 42, 44, 53, 2, 33, 36, 72, 19, 18, 20, 16, 31, 81, 79, 3, 46, 47, 37, 51, 26, 32, 90, 66, 86, 57, 41, 9, 100, 76]
+(w = 15) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+[runlim] sample:		1186.5 time, 800.1 real, 921.2 MB
+[runlim] sample:		1197.1 time, 810.1 real, 931.3 MB
+[runlim] sample:		1207.3 time, 820.1 real, 881.1 MB
+[runlim] sample:		1217.4 time, 830.1 real, 912.9 MB
+[runlim] sample:		1227.6 time, 840.1 real, 914.9 MB
+[runlim] sample:		1237.7 time, 850.1 real, 925.1 MB
+[runlim] sample:		1247.9 time, 860.1 real, 912.9 MB
+[runlim] sample:		1258.0 time, 870.1 real, 924.1 MB
+[runlim] sample:		1268.2 time, 880.1 real, 917.6 MB
+[runlim] sample:		1278.3 time, 890.1 real, 815.6 MB
+[runlim] sample:		1288.5 time, 900.1 real, 918.1 MB
+[runlim] sample:		1298.6 time, 910.1 real, 827.4 MB
+[runlim] sample:		1308.8 time, 920.1 real, 923.6 MB
+[runlim] sample:		1318.9 time, 930.1 real, 912.8 MB
+[runlim] sample:		1329.1 time, 940.1 real, 914.6 MB
+[runlim] sample:		1339.2 time, 950.1 real, 910.6 MB
+[runlim] sample:		1349.4 time, 960.1 real, 908.6 MB
+[runlim] sample:		1359.5 time, 970.1 real, 868.8 MB
+[runlim] sample:		1369.7 time, 980.1 real, 912.7 MB
+[runlim] sample:		1379.8 time, 990.1 real, 914.6 MB
+[runlim] sample:		1391.9 time, 1000.1 real, 914.8 MB
+[runlim] sample:		1403.0 time, 1010.1 real, 895.3 MB
+[runlim] sample:		1440.3 time, 1020.1 real, 1044.5 MB
+[runlim] sample:		1479.0 time, 1030.1 real, 1060.0 MB
+[runlim] sample:		1519.0 time, 1040.1 real, 1077.0 MB
+[runlim] sample:		1558.8 time, 1050.1 real, 1041.3 MB
+[runlim] sample:		1598.8 time, 1060.1 real, 1099.0 MB
+[runlim] sample:		1637.7 time, 1070.1 real, 1159.0 MB
+[runlim] sample:		1677.7 time, 1080.1 real, 1163.0 MB
+[runlim] sample:		1716.1 time, 1090.1 real, 1162.1 MB
+[runlim] sample:		1756.2 time, 1100.1 real, 1162.6 MB
+[runlim] sample:		1796.2 time, 1110.1 real, 1187.2 MB
+[runlim] sample:		1835.7 time, 1120.1 real, 1187.5 MB
+[runlim] sample:		1875.7 time, 1130.1 real, 1188.5 MB
+[runlim] sample:		1915.7 time, 1140.1 real, 1229.9 MB
+[runlim] sample:		1954.8 time, 1150.1 real, 1254.6 MB
+[runlim] sample:		1994.8 time, 1160.1 real, 1260.6 MB
+[runlim] sample:		2034.9 time, 1170.1 real, 1294.7 MB
+[runlim] sample:		2074.0 time, 1180.1 real, 1259.0 MB
+[runlim] sample:		2114.0 time, 1190.1 real, 1248.9 MB
+[runlim] sample:		2152.9 time, 1200.1 real, 1255.0 MB
+[runlim] sample:		2193.0 time, 1210.1 real, 1299.9 MB
+[runlim] sample:		2233.0 time, 1220.1 real, 1340.0 MB
+[runlim] sample:		2269.3 time, 1230.1 real, 1333.9 MB
+[runlim] sample:		2309.3 time, 1240.1 real, 1334.4 MB
+[runlim] sample:		2347.9 time, 1250.1 real, 1263.0 MB
+[runlim] sample:		2387.9 time, 1260.1 real, 1321.7 MB
+[runlim] sample:		2426.6 time, 1270.1 real, 1263.7 MB
+[runlim] sample:		2466.6 time, 1280.1 real, 1259.0 MB
+[runlim] sample:		2506.7 time, 1290.1 real, 1271.7 MB
+[runlim] sample:		2546.4 time, 1300.1 real, 1308.0 MB
+[runlim] sample:		2586.4 time, 1310.1 real, 1320.4 MB
+[runlim] sample:		2625.8 time, 1320.1 real, 1261.0 MB
+[runlim] sample:		2665.9 time, 1330.1 real, 1263.4 MB
+[runlim] sample:		2705.9 time, 1340.1 real, 1319.0 MB
+[runlim] sample:		2745.9 time, 1350.1 real, 1301.0 MB
+[runlim] sample:		2785.9 time, 1360.1 real, 1398.5 MB
+[runlim] sample:		2826.0 time, 1370.1 real, 1245.3 MB
+[runlim] sample:		2866.0 time, 1380.1 real, 1328.6 MB
+[runlim] sample:		2906.0 time, 1390.1 real, 1297.0 MB
+[runlim] sample:		2946.0 time, 1400.1 real, 1332.0 MB
+[runlim] sample:		2986.1 time, 1410.1 real, 1281.3 MB
+[runlim] sample:		3026.1 time, 1420.1 real, 1304.0 MB
+[runlim] sample:		3066.1 time, 1430.1 real, 1299.8 MB
+[runlim] sample:		3080.8 time, 1440.1 real, 1422.6 MB
+[runlim] sample:		3091.2 time, 1450.1 real, 1448.9 MB
+[runlim] sample:		3101.6 time, 1460.1 real, 1448.9 MB
+[runlim] sample:		3123.4 time, 1470.1 real, 1456.1 MB
+[runlim] sample:		3157.5 time, 1480.1 real, 1605.7 MB
+[runlim] sample:		3197.4 time, 1490.1 real, 1509.0 MB
+[runlim] sample:		3222.1 time, 1500.1 real, 1393.5 MB
+[runlim] sample:		3232.5 time, 1510.1 real, 1398.0 MB
+[runlim] sample:		3242.9 time, 1520.1 real, 1400.2 MB
+[runlim] sample:		3253.4 time, 1530.1 real, 1402.2 MB
+[runlim] sample:		3263.8 time, 1540.1 real, 1406.5 MB
+[runlim] sample:		3274.2 time, 1550.1 real, 1406.5 MB
+[runlim] sample:		3284.6 time, 1560.1 real, 1406.5 MB
+[runlim] sample:		3295.0 time, 1570.1 real, 1409.6 MB
+[runlim] sample:		3305.4 time, 1580.1 real, 1409.6 MB
+[runlim] sample:		3315.8 time, 1590.1 real, 1409.6 MB
+[runlim] sample:		3326.3 time, 1600.1 real, 1409.6 MB
+[runlim] sample:		3336.7 time, 1610.1 real, 1409.6 MB
+[runlim] sample:		3347.1 time, 1620.1 real, 1409.6 MB
+[runlim] sample:		3357.5 time, 1630.1 real, 1476.3 MB
+[runlim] sample:		3367.9 time, 1640.1 real, 1443.3 MB
+[runlim] sample:		3378.3 time, 1650.1 real, 1445.6 MB
+[runlim] sample:		3388.8 time, 1660.1 real, 1447.6 MB
+[runlim] sample:		3399.2 time, 1670.1 real, 1447.8 MB
+[runlim] sample:		3409.6 time, 1680.1 real, 1449.8 MB
+[runlim] sample:		3420.0 time, 1690.1 real, 1452.9 MB
+[runlim] sample:		3430.4 time, 1700.1 real, 1454.9 MB
+[runlim] sample:		3440.8 time, 1710.1 real, 1454.9 MB
+[runlim] sample:		3451.2 time, 1720.1 real, 1454.9 MB
+[runlim] sample:		3461.6 time, 1730.1 real, 1454.9 MB
+[runlim] sample:		3472.0 time, 1740.1 real, 1454.9 MB
+[runlim] sample:		3482.4 time, 1750.1 real, 1454.9 MB
+[runlim] sample:		3498.1 time, 1760.1 real, 1628.3 MB
+[runlim] sample:		3528.2 time, 1770.1 real, 2271.0 MB
+[runlim] sample:		3558.4 time, 1780.1 real, 1858.9 MB
+[runlim] sample:		3588.5 time, 1790.1 real, 2459.6 MB
+[runlim] end:			Wed Nov 12 15:23:44 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			1800.06 seconds
+[runlim] time:			3618.36 seconds
+[runlim] space:			2476.8 MB
+[runlim] samples:		17999

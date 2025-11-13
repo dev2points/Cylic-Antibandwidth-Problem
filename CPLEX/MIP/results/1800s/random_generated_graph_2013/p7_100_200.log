@@ -1,0 +1,307 @@
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	1800 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/random_generated_graph_2013/p7_100_200
+[runlim] start:			Tue Nov 11 13:11:18 2025
+[runlim] main pid:		14754
+[runlim] log captured:
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [42, 67, 31, 95, 25, 84, 68, 13, 79, 21, 82, 44, 88, 36, 5, 16, 71, 20, 89, 83, 90, 29, 6, 1, 47, 30, 86, 62, 50, 3, 45, 93, 40, 32, 33, 37, 35, 75, 15, 18, 81, 26, 96, 55, 63, 73, 2, 57, 60, 7, 92, 97, 49, 53, 27, 8, 23, 77, 48, 69, 38, 19, 24, 14, 98, 11, 56, 4, 80, 17, 12, 66, 34, 74, 85, 87, 43, 51, 91, 9, 52, 72, 28, 41, 76, 100, 64, 22, 46, 10, 70, 59, 78, 99, 61, 39, 94, 65, 54, 58]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [42, 67, 20, 95, 87, 84, 68, 77, 79, 21, 12, 44, 37, 36, 5, 22, 71, 40, 2, 83, 90, 29, 86, 1, 47, 30, 28, 62, 50, 3, 45, 93, 26, 13, 82, 78, 35, 55, 15, 18, 81, 34, 65, 16, 63, 91, 32, 57, 60, 73, 92, 88, 49, 53, 96, 8, 27, 75, 48, 69, 38, 19, 24, 14, 98, 11, 56, 72, 80, 17, 31, 66, 89, 74, 6, 33, 43, 51, 25, 9, 52, 58, 39, 41, 76, 100, 64, 85, 46, 10, 99, 59, 4, 23, 70, 97, 94, 61, 54, 7]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [42, 67, 20, 95, 87, 84, 68, 77, 79, 45, 12, 44, 26, 36, 5, 11, 71, 1, 2, 83, 90, 29, 86, 21, 47, 30, 28, 62, 50, 3, 22, 93, 40, 13, 82, 37, 35, 55, 15, 18, 81, 34, 65, 16, 63, 91, 32, 57, 60, 73, 92, 88, 49, 53, 96, 8, 27, 75, 48, 69, 38, 19, 24, 14, 98, 78, 56, 72, 80, 17, 31, 66, 89, 74, 6, 33, 43, 51, 25, 9, 52, 58, 39, 41, 76, 100, 64, 85, 46, 10, 99, 59, 4, 23, 70, 97, 94, 61, 54, 7]
+Correct solution
+(w = 7) Building and Solving
+Value Cyclic-Antibandwidth: 7
+Labels: [33, 67, 20, 95, 25, 46, 68, 13, 79, 21, 12, 44, 26, 51, 5, 16, 71, 40, 2, 17, 90, 29, 86, 1, 47, 9, 28, 62, 50, 3, 45, 93, 6, 42, 82, 37, 35, 55, 15, 52, 81, 34, 65, 72, 63, 91, 32, 57, 60, 73, 92, 88, 49, 53, 27, 96, 41, 75, 48, 8, 38, 19, 24, 14, 98, 11, 56, 4, 80, 97, 31, 83, 89, 74, 85, 87, 43, 18, 69, 36, 77, 84, 39, 30, 76, 100, 64, 22, 66, 10, 23, 59, 78, 99, 70, 7, 94, 61, 54, 58]
+Correct solution
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [42, 67, 20, 95, 25, 52, 68, 13, 79, 45, 40, 44, 26, 1, 5, 22, 62, 38, 2, 17, 90, 29, 86, 21, 47, 9, 54, 66, 50, 3, 33, 93, 39, 71, 82, 37, 35, 55, 15, 18, 81, 34, 83, 16, 63, 91, 32, 57, 60, 73, 92, 88, 49, 53, 27, 96, 41, 48, 72, 8, 65, 19, 31, 14, 98, 78, 56, 24, 80, 97, 12, 59, 89, 74, 6, 87, 43, 51, 69, 36, 77, 84, 28, 30, 76, 100, 64, 85, 46, 10, 23, 75, 4, 99, 70, 7, 94, 61, 11, 58]
+Correct solution
+(w = 9) Building and Solving
+Value Cyclic-Antibandwidth: 9
+Labels: [25, 24, 23, 29, 82, 73, 46, 20, 70, 26, 48, 59, 90, 69, 60, 39, 3, 85, 79, 7, 27, 31, 1, 34, 33, 91, 49, 35, 5, 36, 6, 93, 43, 10, 38, 52, 16, 63, 94, 9, 96, 68, 28, 98, 44, 92, 62, 17, 77, 86, 19, 37, 89, 67, 87, 61, 12, 41, 54, 40, 2, 100, 75, 4, 84, 58, 18, 64, 80, 55, 78, 56, 22, 30, 88, 45, 97, 83, 14, 53, 95, 15, 71, 32, 72, 65, 21, 47, 50, 51, 57, 76, 42, 11, 74, 99, 66, 81, 8, 13]
+Correct solution
+(w = 10) Building and Solving
+Value Cyclic-Antibandwidth: 10
+Labels: [25, 24, 99, 29, 82, 73, 46, 16, 70, 26, 48, 59, 90, 69, 60, 39, 3, 85, 79, 7, 27, 31, 1, 34, 33, 91, 49, 35, 20, 36, 6, 93, 43, 10, 38, 52, 23, 63, 94, 9, 96, 14, 28, 98, 44, 92, 62, 17, 77, 83, 19, 37, 89, 67, 87, 61, 12, 41, 54, 40, 2, 100, 75, 4, 84, 58, 18, 68, 80, 55, 78, 56, 22, 30, 88, 45, 97, 5, 86, 53, 95, 15, 71, 32, 72, 65, 21, 47, 50, 51, 57, 76, 42, 11, 74, 64, 66, 81, 8, 13]
+Correct solution
+(w = 11) Building and Solving
+Value Cyclic-Antibandwidth: 11
+Labels: [21, 24, 52, 29, 82, 73, 46, 16, 70, 26, 48, 59, 90, 69, 98, 39, 100, 85, 79, 7, 27, 31, 67, 60, 33, 91, 49, 35, 20, 36, 6, 93, 43, 10, 38, 71, 14, 63, 94, 9, 96, 3, 28, 45, 99, 86, 62, 17, 77, 1, 19, 37, 89, 47, 87, 61, 12, 41, 54, 40, 2, 64, 75, 4, 84, 58, 18, 68, 80, 55, 78, 56, 22, 30, 88, 11, 97, 72, 83, 53, 95, 15, 92, 32, 25, 65, 23, 57, 50, 51, 44, 76, 42, 34, 74, 5, 66, 81, 8, 13]
+Correct solution
+(w = 12) Building and Solving
+Value Cyclic-Antibandwidth: 12
+Labels: [85, 24, 57, 29, 82, 52, 46, 16, 70, 26, 48, 59, 90, 69, 32, 39, 100, 92, 79, 7, 27, 31, 72, 60, 33, 91, 49, 35, 5, 36, 6, 93, 43, 10, 38, 71, 23, 63, 94, 9, 96, 3, 28, 45, 14, 86, 62, 17, 77, 1, 19, 37, 89, 58, 87, 61, 12, 41, 54, 40, 4, 64, 75, 98, 84, 2, 18, 68, 99, 55, 78, 56, 22, 30, 88, 11, 97, 80, 73, 53, 95, 15, 20, 25, 67, 65, 21, 47, 50, 51, 44, 76, 42, 34, 74, 83, 66, 81, 8, 13]
+Correct solution
+(w = 13) Building and Solving
+[runlim] sample:		12.7 time, 10.1 real, 161.5 MB
+Value Cyclic-Antibandwidth: 13
+Labels: [98, 51, 82, 86, 25, 83, 5, 73, 84, 70, 2, 19, 24, 16, 15, 7, 3, 8, 1, 29, 10, 47, 6, 13, 11, 20, 18, 49, 21, 22, 39, 14, 9, 27, 46, 28, 66, 23, 31, 32, 33, 35, 80, 30, 41, 67, 37, 40, 17, 42, 50, 43, 12, 68, 61, 34, 44, 52, 26, 53, 54, 55, 56, 4, 57, 58, 97, 59, 60, 62, 77, 89, 78, 69, 79, 36, 88, 45, 71, 99, 100, 65, 81, 95, 85, 63, 90, 74, 91, 76, 75, 92, 93, 64, 94, 87, 72, 96, 48, 38]
+Correct solution
+(w = 14) Building and Solving
+Value Cyclic-Antibandwidth: 14
+Labels: [27, 46, 84, 18, 74, 71, 78, 98, 87, 70, 25, 4, 30, 45, 8, 6, 7, 17, 1, 31, 13, 21, 5, 9, 94, 22, 34, 48, 39, 24, 47, 20, 12, 43, 14, 15, 33, 2, 35, 37, 23, 61, 73, 11, 36, 83, 44, 16, 38, 10, 62, 49, 50, 56, 57, 58, 51, 63, 52, 60, 69, 3, 65, 40, 32, 75, 76, 66, 67, 41, 42, 77, 64, 68, 85, 81, 54, 55, 100, 99, 88, 95, 79, 89, 80, 59, 90, 82, 91, 72, 29, 92, 19, 93, 53, 86, 96, 26, 97, 28]
+Correct solution
+(w = 15) Building and Solving
+Value Cyclic-Antibandwidth: 15
+Labels: [85, 24, 58, 29, 82, 69, 86, 68, 70, 26, 48, 59, 90, 22, 32, 39, 100, 5, 79, 66, 27, 31, 67, 55, 14, 91, 49, 35, 4, 73, 6, 93, 43, 10, 38, 64, 16, 63, 19, 36, 37, 96, 28, 45, 75, 94, 62, 17, 77, 1, 60, 83, 89, 33, 87, 61, 12, 41, 54, 25, 23, 52, 9, 98, 84, 2, 99, 34, 80, 18, 78, 56, 92, 30, 88, 11, 97, 57, 46, 3, 95, 15, 20, 71, 72, 65, 42, 47, 50, 51, 44, 76, 7, 53, 74, 8, 21, 81, 40, 13]
+Correct solution
+(w = 16) Building and Solving
+Value Cyclic-Antibandwidth: 16
+Labels: [4, 49, 83, 82, 70, 39, 63, 99, 25, 5, 72, 52, 56, 50, 32, 54, 9, 27, 10, 73, 20, 18, 24, 69, 15, 8, 12, 30, 47, 31, 3, 45, 16, 55, 11, 33, 13, 35, 36, 46, 37, 1, 97, 59, 98, 21, 43, 74, 2, 78, 44, 42, 41, 61, 7, 90, 62, 57, 60, 64, 48, 28, 76, 40, 14, 75, 77, 19, 34, 23, 79, 80, 88, 68, 85, 100, 86, 66, 26, 95, 87, 6, 71, 81, 96, 17, 91, 53, 58, 89, 22, 38, 65, 93, 94, 84, 29, 92, 67, 51]
+Correct solution
+(w = 17) Building and Solving
+Value Cyclic-Antibandwidth: 17
+Labels: [98, 7, 8, 47, 36, 70, 4, 30, 29, 3, 49, 34, 12, 68, 33, 66, 16, 45, 32, 28, 43, 1, 67, 26, 85, 35, 41, 75, 20, 69, 51, 53, 10, 38, 46, 24, 17, 37, 54, 58, 18, 74, 56, 21, 11, 31, 23, 71, 57, 22, 27, 65, 82, 52, 25, 40, 9, 59, 60, 55, 80, 6, 88, 19, 42, 72, 81, 2, 50, 61, 62, 93, 99, 63, 100, 95, 86, 5, 64, 76, 14, 87, 77, 89, 78, 39, 90, 15, 91, 73, 44, 92, 48, 13, 94, 83, 96, 79, 97, 84]
+Correct solution
+(w = 18) Building and Solving
+[runlim] sample:		25.8 time, 20.1 real, 224.9 MB
+Value Cyclic-Antibandwidth: 18
+Labels: [98, 32, 75, 34, 66, 69, 3, 99, 6, 33, 8, 65, 52, 62, 42, 10, 12, 24, 7, 96, 39, 11, 70, 14, 2, 29, 35, 19, 50, 13, 43, 38, 23, 5, 41, 58, 40, 76, 30, 27, 28, 9, 25, 80, 4, 22, 59, 72, 49, 53, 85, 21, 16, 73, 26, 1, 55, 61, 57, 18, 44, 67, 63, 54, 15, 56, 37, 77, 31, 20, 88, 81, 100, 83, 84, 95, 17, 60, 68, 86, 87, 36, 51, 89, 97, 71, 90, 47, 91, 48, 64, 92, 79, 93, 94, 82, 78, 46, 74, 45]
+Correct solution
+(w = 19) Building and Solving
+Value Cyclic-Antibandwidth: 19
+Labels: [10, 62, 76, 20, 64, 69, 67, 97, 79, 74, 61, 60, 12, 80, 11, 3, 95, 70, 18, 21, 43, 98, 39, 28, 99, 68, 2, 38, 22, 5, 40, 33, 44, 23, 14, 27, 15, 34, 41, 25, 58, 92, 87, 32, 100, 19, 35, 59, 7, 17, 13, 26, 47, 49, 82, 24, 36, 57, 31, 54, 53, 48, 77, 65, 8, 71, 72, 90, 55, 30, 42, 46, 83, 29, 4, 84, 56, 52, 85, 86, 50, 88, 66, 89, 78, 45, 1, 37, 91, 73, 75, 51, 16, 93, 94, 81, 96, 63, 6, 9]
+Correct solution
+(w = 20) Building and Solving
+Value Cyclic-Antibandwidth: 20
+Labels: [80, 79, 49, 42, 53, 38, 24, 84, 73, 25, 95, 13, 36, 15, 71, 78, 20, 22, 41, 91, 96, 19, 1, 29, 27, 58, 88, 9, 43, 8, 56, 34, 52, 82, 26, 57, 63, 90, 92, 46, 93, 83, 30, 54, 75, 39, 89, 65, 87, 48, 97, 7, 86, 28, 5, 31, 4, 12, 47, 17, 94, 18, 64, 99, 98, 11, 40, 23, 70, 33, 55, 69, 32, 44, 10, 76, 21, 74, 67, 50, 66, 51, 60, 72, 14, 2, 35, 100, 37, 62, 45, 3, 59, 6, 85, 16, 68, 81, 61, 77]
+Correct solution
+(w = 21) Building and Solving
+Value Cyclic-Antibandwidth: 21
+Labels: [26, 59, 87, 71, 11, 35, 13, 46, 72, 98, 10, 40, 73, 58, 48, 92, 32, 68, 9, 30, 69, 2, 20, 24, 76, 41, 16, 50, 33, 1, 54, 17, 22, 75, 82, 36, 18, 52, 34, 37, 27, 6, 99, 55, 93, 28, 42, 51, 3, 19, 29, 21, 47, 62, 67, 43, 25, 86, 61, 12, 63, 49, 74, 64, 14, 31, 78, 8, 79, 100, 95, 80, 81, 15, 83, 84, 44, 39, 5, 45, 66, 88, 7, 89, 94, 57, 90, 85, 91, 70, 65, 23, 4, 53, 97, 38, 96, 77, 56, 60]
+Correct solution
+(w = 22) Building and Solving
+[runlim] sample:		39.6 time, 30.1 real, 189.6 MB
+Value Cyclic-Antibandwidth: 22
+Labels: [66, 46, 38, 41, 31, 25, 68, 75, 61, 50, 84, 92, 69, 35, 60, 78, 6, 13, 17, 57, 74, 100, 24, 77, 53, 49, 34, 5, 22, 19, 97, 99, 45, 76, 88, 20, 51, 28, 16, 27, 11, 70, 1, 23, 14, 37, 26, 67, 54, 18, 81, 55, 10, 93, 79, 86, 8, 95, 42, 87, 62, 3, 33, 32, 65, 52, 73, 64, 58, 71, 29, 96, 72, 39, 98, 30, 12, 43, 63, 40, 82, 9, 36, 48, 21, 44, 7, 90, 91, 80, 59, 56, 15, 89, 83, 4, 85, 94, 47, 2]
+Correct solution
+(w = 23) Building and Solving
+Value Cyclic-Antibandwidth: 23
+Labels: [69, 88, 19, 37, 66, 21, 74, 86, 18, 22, 53, 43, 31, 25, 56, 76, 20, 28, 78, 51, 47, 95, 65, 80, 99, 40, 2, 1, 27, 15, 50, 83, 36, 62, 32, 57, 72, 48, 97, 41, 44, 85, 73, 45, 11, 46, 26, 70, 90, 49, 58, 98, 94, 92, 61, 60, 84, 23, 35, 93, 81, 13, 29, 33, 89, 87, 59, 3, 52, 7, 75, 82, 54, 68, 77, 24, 38, 39, 100, 55, 64, 10, 17, 67, 6, 4, 63, 5, 16, 96, 8, 34, 14, 91, 71, 12, 9, 79, 30, 42]
+Correct solution
+(w = 24) Building and Solving
+[runlim] sample:		52.3 time, 40.1 real, 329.6 MB
+Value Cyclic-Antibandwidth: 24
+Labels: [66, 61, 55, 7, 72, 8, 2, 45, 60, 50, 69, 38, 79, 1, 20, 80, 25, 12, 33, 36, 41, 59, 5, 6, 98, 30, 97, 9, 24, 37, 68, 86, 16, 90, 53, 23, 84, 14, 54, 27, 51, 67, 73, 22, 13, 46, 26, 71, 96, 10, 70, 29, 83, 62, 44, 92, 93, 88, 40, 58, 78, 34, 91, 19, 74, 52, 89, 95, 32, 87, 82, 64, 57, 65, 85, 35, 28, 11, 56, 15, 63, 43, 21, 99, 42, 48, 77, 3, 81, 94, 100, 39, 18, 47, 75, 4, 76, 49, 17, 31]
+Correct solution
+(w = 25) Building and Solving
+Value Cyclic-Antibandwidth: 25
+Labels: [96, 2, 49, 61, 82, 69, 17, 3, 32, 31, 10, 33, 7, 67, 75, 27, 18, 59, 84, 20, 21, 88, 74, 37, 26, 1, 83, 42, 38, 77, 43, 78, 72, 97, 62, 57, 92, 63, 44, 79, 51, 86, 36, 64, 60, 87, 65, 23, 91, 93, 5, 80, 6, 48, 22, 29, 70, 54, 25, 94, 14, 35, 55, 100, 98, 89, 41, 73, 16, 58, 45, 24, 12, 85, 99, 76, 19, 9, 90, 28, 15, 66, 95, 8, 34, 68, 40, 53, 46, 47, 56, 81, 71, 39, 13, 52, 50, 30, 4, 11]
+Correct solution
+(w = 26) Building and Solving
+Value Cyclic-Antibandwidth: 26
+Labels: [76, 29, 87, 72, 85, 33, 62, 17, 99, 67, 81, 10, 61, 50, 15, 25, 37, 92, 49, 18, 2, 78, 1, 89, 52, 68, 80, 14, 30, 58, 13, 44, 43, 94, 88, 3, 79, 19, 90, 35, 5, 46, 53, 26, 38, 4, 84, 73, 77, 34, 57, 82, 23, 6, 36, 69, 51, 75, 12, 56, 32, 20, 48, 95, 60, 83, 41, 59, 11, 27, 93, 21, 40, 65, 54, 45, 39, 86, 98, 28, 7, 22, 97, 64, 16, 96, 24, 9, 42, 8, 91, 55, 71, 47, 63, 66, 74, 100, 70, 31]
+Correct solution
+(w = 27) Building and Solving
+[runlim] sample:		67.8 time, 50.1 real, 212.4 MB
+Value Cyclic-Antibandwidth: 27
+Labels: [82, 19, 92, 8, 62, 67, 44, 81, 47, 7, 4, 28, 52, 55, 50, 24, 25, 91, 54, 22, 26, 73, 80, 99, 98, 53, 6, 15, 31, 68, 16, 76, 42, 69, 100, 57, 74, 46, 17, 11, 35, 75, 5, 43, 97, 29, 32, 66, 85, 34, 58, 56, 37, 3, 87, 10, 86, 93, 33, 94, 95, 39, 18, 38, 2, 70, 1, 65, 27, 84, 83, 21, 78, 64, 77, 49, 36, 41, 79, 63, 40, 72, 60, 88, 14, 71, 20, 9, 23, 96, 89, 51, 48, 13, 59, 90, 61, 12, 45, 30]
+Correct solution
+(w = 28) Building and Solving
+[runlim] sample:		93.8 time, 60.1 real, 458.7 MB
+Value Cyclic-Antibandwidth: 28
+Labels: [7, 40, 90, 94, 93, 86, 74, 64, 54, 37, 76, 53, 31, 48, 61, 9, 58, 87, 92, 20, 26, 52, 96, 80, 24, 68, 98, 60, 5, 83, 45, 16, 36, 4, 65, 88, 22, 82, 3, 12, 91, 25, 14, 70, 84, 17, 71, 79, 28, 1, 50, 59, 29, 38, 62, 78, 89, 56, 42, 41, 63, 66, 8, 49, 39, 32, 85, 77, 19, 75, 95, 18, 30, 15, 11, 10, 67, 44, 34, 100, 51, 13, 23, 33, 81, 46, 2, 35, 27, 97, 21, 69, 99, 57, 55, 73, 72, 6, 47, 43]
+Correct solution
+(w = 29) Building and Solving
+[runlim] sample:		130.8 time, 70.1 real, 502.8 MB
+Value Cyclic-Antibandwidth: 29
+Labels: [74, 71, 92, 88, 66, 28, 85, 35, 90, 79, 56, 76, 61, 27, 21, 3, 31, 34, 33, 98, 89, 51, 8, 91, 95, 38, 9, 7, 17, 1, 54, 22, 64, 18, 63, 20, 45, 16, 39, 26, 40, 19, 87, 42, 43, 14, 25, 44, 11, 15, 99, 48, 32, 68, 50, 94, 24, 67, 12, 65, 58, 49, 96, 52, 80, 10, 97, 83, 81, 84, 86, 72, 57, 5, 62, 36, 75, 53, 46, 29, 59, 23, 60, 78, 93, 47, 77, 4, 73, 2, 30, 70, 6, 100, 82, 41, 69, 13, 55, 37]
+Correct solution
+(w = 30) Building and Solving
+[runlim] sample:		170.2 time, 80.1 real, 511.9 MB
+[runlim] sample:		222.6 time, 90.1 real, 616.8 MB
+[runlim] sample:		252.6 time, 100.1 real, 656.3 MB
+[runlim] sample:		282.6 time, 110.1 real, 681.8 MB
+[runlim] sample:		312.6 time, 120.1 real, 686.1 MB
+[runlim] sample:		342.6 time, 130.1 real, 686.6 MB
+[runlim] sample:		372.6 time, 140.1 real, 686.6 MB
+[runlim] sample:		402.6 time, 150.1 real, 686.6 MB
+[runlim] sample:		432.6 time, 160.1 real, 686.6 MB
+[runlim] sample:		462.6 time, 170.1 real, 686.6 MB
+[runlim] sample:		492.6 time, 180.1 real, 686.6 MB
+[runlim] sample:		522.6 time, 190.1 real, 686.6 MB
+[runlim] sample:		552.6 time, 200.1 real, 686.6 MB
+[runlim] sample:		582.6 time, 210.1 real, 686.6 MB
+[runlim] sample:		612.6 time, 220.1 real, 686.6 MB
+[runlim] sample:		642.6 time, 230.1 real, 708.2 MB
+[runlim] sample:		672.6 time, 240.1 real, 708.2 MB
+[runlim] sample:		702.6 time, 250.1 real, 708.2 MB
+[runlim] sample:		732.6 time, 260.1 real, 708.2 MB
+[runlim] sample:		762.6 time, 270.1 real, 708.2 MB
+[runlim] sample:		787.4 time, 280.1 real, 723.2 MB
+[runlim] sample:		817.4 time, 290.1 real, 749.7 MB
+[runlim] sample:		847.4 time, 300.1 real, 749.7 MB
+[runlim] sample:		877.4 time, 310.1 real, 749.7 MB
+[runlim] sample:		907.4 time, 320.1 real, 753.8 MB
+[runlim] sample:		937.4 time, 330.1 real, 753.8 MB
+[runlim] sample:		967.4 time, 340.1 real, 753.8 MB
+[runlim] sample:		997.4 time, 350.1 real, 708.3 MB
+[runlim] sample:		1027.4 time, 360.1 real, 708.3 MB
+[runlim] sample:		1057.4 time, 370.1 real, 708.3 MB
+[runlim] sample:		1087.4 time, 380.1 real, 708.3 MB
+[runlim] sample:		1117.4 time, 390.1 real, 708.3 MB
+[runlim] sample:		1147.4 time, 400.1 real, 708.3 MB
+[runlim] sample:		1177.4 time, 410.1 real, 708.3 MB
+[runlim] sample:		1207.4 time, 420.1 real, 708.3 MB
+[runlim] sample:		1237.4 time, 430.1 real, 708.5 MB
+[runlim] sample:		1267.4 time, 440.1 real, 709.5 MB
+[runlim] sample:		1297.4 time, 450.1 real, 709.5 MB
+[runlim] sample:		1327.4 time, 460.1 real, 709.5 MB
+[runlim] sample:		1357.4 time, 470.1 real, 709.5 MB
+[runlim] sample:		1387.4 time, 480.1 real, 709.8 MB
+[runlim] sample:		1411.9 time, 490.1 real, 711.3 MB
+[runlim] sample:		1431.9 time, 500.1 real, 711.3 MB
+[runlim] sample:		1451.9 time, 510.1 real, 711.3 MB
+[runlim] sample:		1478.2 time, 520.1 real, 752.7 MB
+[runlim] sample:		1508.2 time, 530.1 real, 752.7 MB
+[runlim] sample:		1538.2 time, 540.1 real, 752.7 MB
+[runlim] sample:		1568.2 time, 550.1 real, 752.7 MB
+[runlim] sample:		1598.2 time, 560.1 real, 756.0 MB
+[runlim] sample:		1628.2 time, 570.1 real, 756.0 MB
+[runlim] sample:		1658.2 time, 580.1 real, 756.0 MB
+[runlim] sample:		1688.2 time, 590.1 real, 711.4 MB
+[runlim] sample:		1718.2 time, 600.1 real, 711.4 MB
+[runlim] sample:		1748.2 time, 610.1 real, 792.7 MB
+[runlim] sample:		1778.2 time, 620.1 real, 808.1 MB
+[runlim] sample:		1808.2 time, 630.1 real, 808.1 MB
+[runlim] sample:		1838.2 time, 640.1 real, 808.5 MB
+[runlim] sample:		1868.2 time, 650.1 real, 837.7 MB
+[runlim] sample:		1898.2 time, 660.1 real, 837.7 MB
+[runlim] sample:		1928.2 time, 670.1 real, 838.5 MB
+[runlim] sample:		1958.2 time, 680.1 real, 838.5 MB
+[runlim] sample:		1988.2 time, 690.1 real, 838.5 MB
+[runlim] sample:		2018.2 time, 700.1 real, 838.5 MB
+[runlim] sample:		2048.2 time, 710.1 real, 838.5 MB
+[runlim] sample:		2078.2 time, 720.1 real, 838.8 MB
+[runlim] sample:		2108.2 time, 730.1 real, 839.9 MB
+[runlim] sample:		2138.2 time, 740.1 real, 841.4 MB
+Value Cyclic-Antibandwidth: 30
+Labels: [83, 2, 24, 4, 52, 49, 92, 74, 98, 76, 93, 87, 70, 53, 67, 20, 84, 58, 5, 12, 96, 73, 38, 26, 14, 72, 44, 15, 25, 69, 28, 68, 43, 9, 97, 45, 56, 23, 62, 33, 54, 34, 90, 46, 57, 21, 47, 79, 16, 8, 10, 50, 65, 39, 85, 99, 42, 75, 17, 91, 78, 64, 11, 29, 82, 88, 22, 60, 3, 71, 30, 13, 80, 27, 81, 77, 86, 31, 55, 40, 100, 61, 48, 95, 1, 59, 19, 36, 6, 35, 41, 66, 32, 18, 89, 51, 63, 7, 37, 94]
+Correct solution
+(w = 31) Building and Solving
+[runlim] sample:		2160.9 time, 750.1 real, 569.4 MB
+[runlim] sample:		2218.9 time, 760.1 real, 703.2 MB
+[runlim] sample:		2251.1 time, 770.1 real, 702.0 MB
+[runlim] sample:		2281.1 time, 780.1 real, 702.0 MB
+[runlim] sample:		2311.1 time, 790.1 real, 712.1 MB
+[runlim] sample:		2341.1 time, 800.1 real, 712.1 MB
+[runlim] sample:		2371.1 time, 810.1 real, 714.0 MB
+[runlim] sample:		2401.1 time, 820.1 real, 714.0 MB
+[runlim] sample:		2431.1 time, 830.1 real, 714.0 MB
+[runlim] sample:		2461.1 time, 840.1 real, 714.0 MB
+[runlim] sample:		2491.1 time, 850.1 real, 715.7 MB
+[runlim] sample:		2521.1 time, 860.1 real, 717.4 MB
+[runlim] sample:		2551.1 time, 870.1 real, 717.4 MB
+[runlim] sample:		2581.1 time, 880.1 real, 717.4 MB
+[runlim] sample:		2611.1 time, 890.1 real, 717.4 MB
+[runlim] sample:		2641.1 time, 900.1 real, 717.4 MB
+[runlim] sample:		2671.1 time, 910.1 real, 717.4 MB
+[runlim] sample:		2701.1 time, 920.1 real, 717.4 MB
+[runlim] sample:		2731.1 time, 930.1 real, 717.4 MB
+[runlim] sample:		2761.1 time, 940.1 real, 717.4 MB
+[runlim] sample:		2791.1 time, 950.1 real, 717.4 MB
+[runlim] sample:		2821.1 time, 960.1 real, 717.4 MB
+[runlim] sample:		2851.1 time, 970.1 real, 717.4 MB
+[runlim] sample:		2881.1 time, 980.1 real, 717.4 MB
+[runlim] sample:		2911.1 time, 990.1 real, 717.4 MB
+[runlim] sample:		2941.1 time, 1000.1 real, 717.4 MB
+[runlim] sample:		2971.1 time, 1010.1 real, 717.4 MB
+[runlim] sample:		3001.1 time, 1020.1 real, 727.4 MB
+[runlim] sample:		3031.1 time, 1030.1 real, 727.4 MB
+[runlim] sample:		3061.1 time, 1040.1 real, 727.4 MB
+[runlim] sample:		3091.1 time, 1050.1 real, 727.4 MB
+[runlim] sample:		3121.1 time, 1060.1 real, 727.4 MB
+[runlim] sample:		3151.1 time, 1070.1 real, 727.4 MB
+[runlim] sample:		3181.1 time, 1080.1 real, 727.4 MB
+[runlim] sample:		3211.1 time, 1090.1 real, 727.4 MB
+[runlim] sample:		3241.1 time, 1100.1 real, 727.4 MB
+[runlim] sample:		3271.1 time, 1110.1 real, 727.4 MB
+[runlim] sample:		3301.1 time, 1120.1 real, 729.9 MB
+[runlim] sample:		3331.1 time, 1130.1 real, 730.4 MB
+[runlim] sample:		3361.1 time, 1140.1 real, 733.5 MB
+[runlim] sample:		3391.1 time, 1150.1 real, 734.3 MB
+[runlim] sample:		3421.1 time, 1160.1 real, 695.7 MB
+[runlim] sample:		3451.1 time, 1170.1 real, 695.7 MB
+[runlim] sample:		3481.1 time, 1180.1 real, 695.7 MB
+[runlim] sample:		3511.1 time, 1190.1 real, 708.8 MB
+[runlim] sample:		3541.1 time, 1200.1 real, 708.8 MB
+[runlim] sample:		3571.1 time, 1210.1 real, 708.8 MB
+[runlim] sample:		3601.1 time, 1220.1 real, 708.8 MB
+[runlim] sample:		3631.1 time, 1230.1 real, 708.8 MB
+[runlim] sample:		3661.1 time, 1240.1 real, 708.8 MB
+[runlim] sample:		3691.1 time, 1250.1 real, 708.8 MB
+[runlim] sample:		3721.1 time, 1260.1 real, 708.8 MB
+[runlim] sample:		3751.1 time, 1270.1 real, 708.8 MB
+[runlim] sample:		3778.2 time, 1280.1 real, 708.8 MB
+[runlim] sample:		3798.2 time, 1290.1 real, 708.8 MB
+[runlim] sample:		3824.1 time, 1300.1 real, 751.6 MB
+[runlim] sample:		3854.1 time, 1310.1 real, 751.6 MB
+[runlim] sample:		3884.1 time, 1320.1 real, 755.7 MB
+[runlim] sample:		3914.1 time, 1330.1 real, 755.7 MB
+[runlim] sample:		3944.1 time, 1340.1 real, 708.8 MB
+[runlim] sample:		3974.1 time, 1350.1 real, 708.8 MB
+[runlim] sample:		4004.1 time, 1360.1 real, 708.8 MB
+[runlim] sample:		4034.1 time, 1370.1 real, 708.8 MB
+[runlim] sample:		4064.1 time, 1380.1 real, 708.8 MB
+[runlim] sample:		4094.1 time, 1390.1 real, 709.4 MB
+[runlim] sample:		4124.1 time, 1400.1 real, 709.4 MB
+[runlim] sample:		4154.1 time, 1410.1 real, 710.6 MB
+[runlim] sample:		4184.1 time, 1420.1 real, 710.6 MB
+[runlim] sample:		4214.1 time, 1430.1 real, 710.6 MB
+[runlim] sample:		4244.1 time, 1440.1 real, 710.6 MB
+[runlim] sample:		4274.1 time, 1450.1 real, 710.6 MB
+[runlim] sample:		4304.0 time, 1460.1 real, 712.6 MB
+[runlim] sample:		4334.0 time, 1470.1 real, 714.4 MB
+[runlim] sample:		4364.0 time, 1480.1 real, 714.4 MB
+[runlim] sample:		4394.1 time, 1490.1 real, 714.4 MB
+[runlim] sample:		4424.0 time, 1500.1 real, 714.4 MB
+[runlim] sample:		4454.0 time, 1510.1 real, 714.4 MB
+[runlim] sample:		4484.0 time, 1520.1 real, 714.4 MB
+[runlim] sample:		4514.0 time, 1530.1 real, 714.4 MB
+[runlim] sample:		4544.0 time, 1540.1 real, 757.4 MB
+[runlim] sample:		4574.0 time, 1550.1 real, 757.4 MB
+[runlim] sample:		4604.0 time, 1560.1 real, 757.4 MB
+[runlim] sample:		4634.0 time, 1570.1 real, 714.4 MB
+[runlim] sample:		4664.0 time, 1580.1 real, 714.4 MB
+[runlim] sample:		4694.0 time, 1590.1 real, 714.4 MB
+[runlim] sample:		4724.0 time, 1600.1 real, 714.4 MB
+[runlim] sample:		4754.0 time, 1610.1 real, 714.4 MB
+[runlim] sample:		4784.0 time, 1620.1 real, 715.8 MB
+[runlim] sample:		4814.0 time, 1630.1 real, 715.8 MB
+[runlim] sample:		4844.0 time, 1640.1 real, 715.8 MB
+[runlim] sample:		4874.0 time, 1650.1 real, 715.8 MB
+[runlim] sample:		4904.0 time, 1660.1 real, 715.8 MB
+[runlim] sample:		4934.0 time, 1670.1 real, 715.8 MB
+[runlim] sample:		4964.0 time, 1680.1 real, 715.8 MB
+[runlim] sample:		4994.0 time, 1690.1 real, 715.8 MB
+[runlim] sample:		5024.0 time, 1700.1 real, 715.8 MB
+[runlim] sample:		5054.0 time, 1710.1 real, 715.8 MB
+[runlim] sample:		5084.0 time, 1720.1 real, 715.8 MB
+[runlim] sample:		5114.0 time, 1730.1 real, 715.8 MB
+[runlim] sample:		5144.0 time, 1740.1 real, 715.8 MB
+[runlim] sample:		5174.0 time, 1750.1 real, 715.8 MB
+[runlim] sample:		5204.0 time, 1760.1 real, 715.8 MB
+[runlim] sample:		5234.0 time, 1770.1 real, 715.8 MB
+[runlim] sample:		5264.0 time, 1780.1 real, 715.8 MB
+[runlim] sample:		5294.0 time, 1790.1 real, 715.8 MB
+[runlim] sample:		5324.0 time, 1800.1 real, 715.8 MB
+[runlim] end:			Tue Nov 11 13:41:18 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			1800.08 seconds
+[runlim] time:			5324.01 seconds
+[runlim] space:			841.5 MB
+[runlim] samples:		18000
