@@ -1,7 +1,7 @@
 #!/bin/bash
 TO="1800s"
 mkdir -p results/$TO/random_generated_graph_2013
-DATA_DIR="./graph/random_generated_graph_2013"
+DATA_DIR="./graphs/random_generated_graph_2013"
 RESULT_DIR="./results/$TO/random_generated_graph_2013"
 
 ./runlim -r 1800 -s 30000 python3  model.py $DATA_DIR/p1_100_200  2>&1 | tee $RESULT_DIR/p1_100_200.log

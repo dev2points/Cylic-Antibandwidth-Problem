@@ -1,6 +1,6 @@
 #!/bin/bash
 TO="1800s"
-DATA_DIR="./graph/random_generated_graph_2013"
+DATA_DIR="./graphs/random_generated_graph_2013"
 LOG_DIR="./results/$TO/random_generated_graph_2013/log"
 OUT_DIR="./results/$TO/random_generated_graph_2013/out"
 
