@@ -252,10 +252,10 @@ def build_model(vertices, edges, k, time_limit=1800):
     return model
 
 def solve_cyclicantibandwidth(vertices, edges, UB, LB):
-    k = LB + 1
+    k = LB 
     labels = [None] * len(vertices)
     while True:
-        if k >= UB:
+        if k > UB:
             break
         
         model = build_model(vertices, edges, k)

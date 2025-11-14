@@ -5,15 +5,26 @@
 [runlim] argv[0]:		python3
 [runlim] argv[1]:		model.py
 [runlim] argv[2]:		./graph/double_star/double_star_15_5.txt
-[runlim] start:			Tue Nov  4 07:01:18 2025
-[runlim] main pid:		63850
+[runlim] start:			Fri Nov 14 08:41:17 2025
+[runlim] main pid:		79561
 [runlim] log captured:
-Real time: 0.004775524139404297 seconds
-[runlim] end:			Tue Nov  4 07:01:18 2025
+Set parameter WLSAccessID
+Set parameter WLSSecret
+Set parameter LicenseID to value 2663665
+Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 3) Value Cyclicantibandwidth: 3
+Lables: [10, 20, 19, 18, 17, 16, 15, 14, 13, 7, 6, 5, 4, 3, 2, 1, 12, 11, 9, 8]
+(w = 3) Correct Cyclicantibandwidth
+Set parameter TimeLimit to value 1800
+(w = 4) Not found solution with CAB = 4.
+Final result: CAB = 3, Labels = [10, 20, 19, 18, 17, 16, 15, 14, 13, 7, 6, 5, 4, 3, 2, 1, 12, 11, 9, 8]
+Real time: 0.07383298873901367 seconds
+[runlim] end:			Fri Nov 14 08:41:17 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			0.07 seconds
-[runlim] time:			0.00 seconds
-[runlim] space:			0.0 MB
-[runlim] samples:		0
+[runlim] real:			0.92 seconds
+[runlim] time:			0.11 seconds
+[runlim] space:			40.2 MB
+[runlim] samples:		1
