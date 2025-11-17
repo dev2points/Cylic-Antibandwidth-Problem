@@ -1,3 +1,34 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:5fb1d0d4690d86c10478c4b2f2bf2e25d188addd3ccb38a680cfbbda42e3d950
-size 1365
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/3dmesh/3dmesh_2_2_335.txt
+[runlim] start:			Mon Nov 17 07:16:45 2025
+[runlim] main pid:		13509
+[runlim] log captured:
+(w = 3) Building and Solving
+[runlim] sample:		10.0 time, 10.2 real, 725.2 MB
+[runlim] sample:		20.0 time, 20.2 real, 1419.2 MB
+[runlim] sample:		30.0 time, 30.2 real, 1932.0 MB
+[runlim] sample:		40.0 time, 40.2 real, 1912.9 MB
+[runlim] sample:		50.0 time, 50.2 real, 2103.1 MB
+[runlim] sample:		68.8 time, 60.2 real, 3912.6 MB
+[runlim] sample:		81.5 time, 70.2 real, 2628.9 MB
+[runlim] sample:		91.5 time, 80.2 real, 5884.9 MB
+[runlim] sample:		101.5 time, 90.2 real, 6490.2 MB
+[runlim] sample:		111.5 time, 100.2 real, 6490.2 MB
+[runlim] sample:		121.5 time, 110.2 real, 4677.1 MB
+[runlim] sample:		134.6 time, 120.2 real, 9373.3 MB
+[runlim] sample:		172.5 time, 130.2 real, 8204.0 MB
+[runlim] sample:		184.3 time, 140.2 real, 9564.1 MB
+[runlim] sample:		204.2 time, 150.2 real, 0.0 MB
+[runlim] end:			Mon Nov 17 07:19:15 2025
+[runlim] status:		out of time
+[runlim] result:		2
+[runlim] children:		0
+[runlim] real:			150.22 seconds
+[runlim] time:			204.21 seconds
+[runlim] space:			10031.1 MB
+[runlim] samples:		1500

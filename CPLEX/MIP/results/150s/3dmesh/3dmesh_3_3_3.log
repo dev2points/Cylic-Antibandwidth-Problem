@@ -1,3 +1,52 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:737f9a222095d05b3ca13bb664f463ad42ed228ee4a60055588c639d12bbb3da
-size 1846
+[runlim] version:		1.10
+[runlim] time limit:		311040000 seconds
+[runlim] real time limit:	150 seconds
+[runlim] space limit:		30000 MB
+[runlim] argv[0]:		python3
+[runlim] argv[1]:		model_MIP_CPLEX.py
+[runlim] argv[2]:		./graph/3dmesh/3dmesh_3_3_3.txt
+[runlim] start:			Mon Nov 17 07:21:45 2025
+[runlim] main pid:		14986
+[runlim] log captured:
+(w = 3) Building and Solving
+Value Cyclic-Antibandwidth: 3
+Labels: [1, 18, 3, 13, 4, 10, 6, 9, 21, 12, 27, 19, 7, 11, 14, 16, 22, 25, 24, 20, 15, 17, 26, 23, 8, 5, 2]
+Correct solution
+(w = 4) Building and Solving
+Value Cyclic-Antibandwidth: 4
+Labels: [1, 18, 11, 6, 13, 2, 22, 26, 12, 5, 27, 19, 21, 4, 14, 16, 10, 25, 24, 20, 15, 17, 9, 23, 8, 3, 7]
+Correct solution
+(w = 5) Building and Solving
+Value Cyclic-Antibandwidth: 5
+Labels: [1, 22, 17, 23, 16, 4, 11, 3, 10, 8, 13, 6, 18, 7, 21, 27, 14, 2, 25, 20, 15, 12, 26, 9, 5, 19, 24]
+Correct solution
+(w = 6) Building and Solving
+Value Cyclic-Antibandwidth: 6
+Labels: [15, 22, 3, 8, 1, 14, 24, 13, 20, 2, 16, 10, 18, 7, 23, 11, 26, 6, 21, 4, 17, 12, 25, 9, 5, 19, 27]
+Correct solution
+(w = 7) Building and Solving
+Value Cyclic-Antibandwidth: 7
+Labels: [19, 8, 20, 2, 16, 9, 21, 6, 23, 10, 24, 11, 22, 7, 25, 14, 26, 12, 3, 17, 4, 15, 27, 18, 1, 13, 5]
+Correct solution
+(w = 8) Building and Solving
+Value Cyclic-Antibandwidth: 8
+Labels: [21, 13, 5, 10, 24, 15, 1, 16, 2, 6, 22, 14, 23, 12, 4, 9, 27, 19, 18, 7, 26, 8, 25, 17, 20, 11, 3]
+Correct solution
+(w = 9) Building and Solving
+Value Cyclic-Antibandwidth: 9
+Labels: [14, 27, 13, 3, 16, 1, 20, 5, 15, 4, 18, 2, 21, 7, 17, 11, 23, 6, 22, 9, 19, 12, 25, 8, 26, 10, 24]
+Correct solution
+(w = 10) Building and Solving
+[runlim] sample:		58.8 time, 10.1 real, 119.6 MB
+[runlim] sample:		132.5 time, 20.1 real, 122.5 MB
+Cannot find soluion with w = 10
+Final result: CAB = 9
+Labels = [14, 27, 13, 3, 16, 1, 20, 5, 15, 4, 18, 2, 21, 7, 17, 11, 23, 6, 22, 9, 19, 12, 25, 8, 26, 10, 24]
+[runlim] end:			Mon Nov 17 07:22:11 2025
+[runlim] status:		ok
+[runlim] result:		0
+[runlim] children:		0
+[runlim] real:			26.95 seconds
+[runlim] time:			183.57 seconds
+[runlim] space:			127.3 MB
+[runlim] samples:		268

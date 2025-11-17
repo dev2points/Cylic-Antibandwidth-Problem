@@ -5,9 +5,13 @@
 [runlim] argv[0]:		python3
 [runlim] argv[1]:		model_MIP_CPLEX.py
 [runlim] argv[2]:		./graph/double_star/double_star_30_20.txt
-[runlim] start:			Sun Nov  2 12:10:16 2025
-[runlim] main pid:		47398
+[runlim] start:			Mon Nov 17 08:00:37 2025
+[runlim] main pid:		26181
 [runlim] log captured:
+(w = 3) Building and Solving
+Value Cyclic-Antibandwidth: 3
+Labels: [2, 48, 42, 15, 45, 24, 14, 29, 46, 49, 31, 12, 33, 36, 32, 22, 47, 37, 35, 44, 41, 38, 39, 11, 28, 34, 16, 30, 43, 40, 13, 20, 26, 19, 10, 17, 5, 50, 25, 23, 9, 6, 1, 3, 7, 18, 27, 4, 21, 8]
+Correct solution
 (w = 4) Building and Solving
 Value Cyclic-Antibandwidth: 4
 Labels: [2, 30, 42, 15, 45, 24, 14, 29, 46, 10, 31, 12, 33, 36, 32, 22, 47, 37, 35, 44, 41, 38, 39, 11, 6, 34, 16, 17, 43, 40, 13, 20, 26, 19, 28, 4, 5, 50, 25, 23, 9, 49, 1, 3, 48, 18, 27, 7, 21, 8]
@@ -37,14 +41,14 @@ Value Cyclic-Antibandwidth: 10
 Labels: [24, 8, 34, 1, 12, 48, 14, 35, 3, 42, 9, 50, 10, 36, 49, 7, 43, 37, 2, 5, 41, 13, 39, 11, 47, 4, 44, 46, 38, 40, 45, 20, 29, 16, 28, 17, 21, 22, 26, 23, 19, 6, 18, 15, 33, 25, 27, 31, 32, 30]
 Correct solution
 (w = 11) Building and Solving
-w = 11 larger upper bounds
+Cannot find soluion with w = 11
 Final result: CAB = 10
 Labels = [24, 8, 34, 1, 12, 48, 14, 35, 3, 42, 9, 50, 10, 36, 49, 7, 43, 37, 2, 5, 41, 13, 39, 11, 47, 4, 44, 46, 38, 40, 45, 20, 29, 16, 28, 17, 21, 22, 26, 23, 19, 6, 18, 15, 33, 25, 27, 31, 32, 30]
-[runlim] end:			Sun Nov  2 12:10:17 2025
+[runlim] end:			Mon Nov 17 08:00:41 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			1.21 seconds
-[runlim] time:			0.69 seconds
-[runlim] space:			50.4 MB
-[runlim] samples:		7
+[runlim] real:			4.81 seconds
+[runlim] time:			10.46 seconds
+[runlim] space:			120.3 MB
+[runlim] samples:		43

@@ -5,9 +5,13 @@
 [runlim] argv[0]:		python3
 [runlim] argv[1]:		model_MIP_CPLEX.py
 [runlim] argv[2]:		./graph/double_star/double_star_40_30.txt
-[runlim] start:			Sun Nov  2 12:10:25 2025
-[runlim] main pid:		47804
+[runlim] start:			Mon Nov 17 08:01:16 2025
+[runlim] main pid:		26957
 [runlim] log captured:
+(w = 3) Building and Solving
+Value Cyclic-Antibandwidth: 3
+Labels: [26, 45, 44, 67, 12, 57, 6, 35, 4, 3, 58, 43, 46, 39, 37, 54, 13, 2, 66, 10, 64, 31, 21, 11, 38, 53, 33, 65, 61, 41, 18, 1, 14, 32, 19, 20, 51, 60, 7, 40, 59, 25, 68, 62, 27, 50, 8, 56, 5, 36, 47, 55, 69, 29, 30, 34, 22, 63, 23, 52, 70, 24, 9, 28, 17, 48, 15, 49, 16, 42]
+Correct solution
 (w = 4) Building and Solving
 Value Cyclic-Antibandwidth: 4
 Labels: [1, 26, 37, 13, 24, 58, 44, 36, 63, 22, 27, 40, 50, 61, 48, 17, 39, 56, 16, 14, 53, 32, 66, 31, 10, 49, 60, 45, 25, 64, 15, 46, 62, 51, 28, 33, 30, 43, 19, 59, 29, 55, 11, 9, 20, 68, 5, 69, 2, 12, 6, 7, 67, 23, 18, 34, 41, 70, 65, 3, 8, 47, 21, 38, 52, 35, 42, 54, 57, 4]
@@ -57,14 +61,14 @@ Value Cyclic-Antibandwidth: 15
 Labels: [1, 26, 36, 48, 24, 41, 44, 55, 21, 37, 27, 40, 50, 52, 47, 25, 39, 42, 43, 18, 53, 32, 22, 28, 23, 49, 35, 45, 31, 16, 56, 46, 34, 51, 54, 33, 30, 29, 19, 17, 38, 66, 14, 9, 60, 68, 6, 11, 69, 10, 70, 2, 67, 58, 62, 8, 13, 4, 15, 3, 64, 20, 63, 7, 12, 65, 61, 5, 57, 59]
 Correct solution
 (w = 16) Building and Solving
-w = 16 larger upper bounds
+Cannot find soluion with w = 16
 Final result: CAB = 15
 Labels = [1, 26, 36, 48, 24, 41, 44, 55, 21, 37, 27, 40, 50, 52, 47, 25, 39, 42, 43, 18, 53, 32, 22, 28, 23, 49, 35, 45, 31, 16, 56, 46, 34, 51, 54, 33, 30, 29, 19, 17, 38, 66, 14, 9, 60, 68, 6, 11, 69, 10, 70, 2, 67, 58, 62, 8, 13, 4, 15, 3, 64, 20, 63, 7, 12, 65, 61, 5, 57, 59]
-[runlim] end:			Sun Nov  2 12:10:28 2025
+[runlim] end:			Mon Nov 17 08:01:26 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			3.55 seconds
-[runlim] time:			3.34 seconds
-[runlim] space:			71.5 MB
-[runlim] samples:		33
+[runlim] real:			10.13 seconds
+[runlim] time:			17.64 seconds
+[runlim] space:			148.2 MB
+[runlim] samples:		98

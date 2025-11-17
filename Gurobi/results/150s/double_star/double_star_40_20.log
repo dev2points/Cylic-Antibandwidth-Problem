@@ -5,13 +5,17 @@
 [runlim] argv[0]:		python3
 [runlim] argv[1]:		model.py
 [runlim] argv[2]:		./graph/double_star/double_star_40_20.txt
-[runlim] start:			Tue Nov  4 07:01:25 2025
-[runlim] main pid:		63947
+[runlim] start:			Mon Nov 17 08:14:10 2025
+[runlim] main pid:		31431
 [runlim] log captured:
 Set parameter WLSAccessID
 Set parameter WLSSecret
 Set parameter LicenseID to value 2663665
 Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 3) Value Cyclicantibandwidth: 3
+Lables: [11, 5, 43, 16, 39, 2, 14, 26, 48, 24, 36, 8, 42, 56, 4, 37, 50, 33, 44, 35, 41, 22, 31, 45, 15, 58, 47, 6, 32, 21, 40, 17, 57, 29, 34, 7, 55, 28, 52, 1, 3, 18, 10, 19, 12, 46, 59, 9, 60, 20, 54, 13, 27, 25, 49, 38, 51, 53, 30, 23]
+(w = 3) Correct Cyclicantibandwidth
 Set parameter TimeLimit to value 1800
 (w = 4) Value Cyclicantibandwidth: 4
 Lables: [12, 34, 6, 31, 8, 30, 32, 21, 22, 58, 55, 51, 26, 56, 59, 44, 39, 52, 41, 35, 18, 2, 43, 45, 5, 50, 47, 36, 46, 7, 40, 17, 57, 29, 4, 19, 37, 48, 28, 1, 42, 10, 11, 20, 14, 33, 13, 60, 23, 24, 54, 9, 27, 25, 49, 38, 53, 3, 16, 15]
@@ -40,12 +44,15 @@ Set parameter TimeLimit to value 1800
 (w = 10) Value Cyclicantibandwidth: 10
 Lables: [4, 20, 38, 49, 43, 24, 45, 47, 35, 54, 17, 33, 44, 39, 25, 34, 27, 53, 51, 50, 19, 18, 22, 32, 36, 46, 40, 42, 30, 21, 16, 14, 29, 28, 23, 26, 31, 48, 37, 15, 41, 2, 58, 9, 12, 13, 52, 8, 11, 10, 56, 60, 57, 1, 55, 7, 3, 5, 6, 59]
 (w = 10) Correct Cyclicantibandwidth
-Real time: 1.2006523609161377 seconds
-[runlim] end:			Tue Nov  4 07:01:27 2025
+Set parameter TimeLimit to value 1800
+(w = 11) Not found solution with CAB = 11.
+Final result: CAB = 10, Labels = [4, 20, 38, 49, 43, 24, 45, 47, 35, 54, 17, 33, 44, 39, 25, 34, 27, 53, 51, 50, 19, 18, 22, 32, 36, 46, 40, 42, 30, 21, 16, 14, 29, 28, 23, 26, 31, 48, 37, 15, 41, 2, 58, 9, 12, 13, 52, 8, 11, 10, 56, 60, 57, 1, 55, 7, 3, 5, 6, 59]
+Real time: 4.146235704421997 seconds
+[runlim] end:			Mon Nov 17 08:14:14 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			2.14 seconds
-[runlim] time:			1.19 seconds
-[runlim] space:			35.7 MB
-[runlim] samples:		12
+[runlim] real:			4.61 seconds
+[runlim] time:			7.18 seconds
+[runlim] space:			148.8 MB
+[runlim] samples:		42

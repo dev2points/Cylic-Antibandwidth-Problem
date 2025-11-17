@@ -5,13 +5,17 @@
 [runlim] argv[0]:		python3
 [runlim] argv[1]:		model.py
 [runlim] argv[2]:		./graph/double_star/double_star_15_12.txt
-[runlim] start:			Tue Nov  4 07:01:18 2025
-[runlim] main pid:		63868
+[runlim] start:			Mon Nov 17 08:13:51 2025
+[runlim] main pid:		31261
 [runlim] log captured:
 Set parameter WLSAccessID
 Set parameter WLSSecret
 Set parameter LicenseID to value 2663665
 Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 3) Value Cyclicantibandwidth: 3
+Lables: [1, 13, 7, 16, 18, 17, 10, 23, 15, 11, 4, 20, 14, 5, 8, 9, 3, 6, 21, 19, 26, 22, 25, 27, 24, 2, 12]
+(w = 3) Correct Cyclicantibandwidth
 Set parameter TimeLimit to value 1800
 (w = 4) Value Cyclicantibandwidth: 4
 Lables: [12, 22, 16, 6, 5, 19, 27, 3, 25, 26, 17, 1, 4, 8, 7, 2, 15, 23, 20, 9, 13, 14, 18, 21, 10, 11, 24]
@@ -24,12 +28,15 @@ Set parameter TimeLimit to value 1800
 (w = 6) Value Cyclicantibandwidth: 6
 Lables: [12, 2, 23, 6, 22, 19, 21, 4, 5, 1, 25, 26, 20, 18, 27, 24, 15, 8, 17, 16, 7, 13, 3, 14, 9, 10, 11]
 (w = 6) Correct Cyclicantibandwidth
-Real time: 0.0937197208404541 seconds
-[runlim] end:			Tue Nov  4 07:01:18 2025
+Set parameter TimeLimit to value 1800
+(w = 7) Not found solution with CAB = 7.
+Final result: CAB = 6, Labels = [12, 2, 23, 6, 22, 19, 21, 4, 5, 1, 25, 26, 20, 18, 27, 24, 15, 8, 17, 16, 7, 13, 3, 14, 9, 10, 11]
+Real time: 0.4043753147125244 seconds
+[runlim] end:			Mon Nov 17 08:13:51 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			0.83 seconds
-[runlim] time:			0.10 seconds
-[runlim] space:			27.8 MB
-[runlim] samples:		1
+[runlim] real:			0.96 seconds
+[runlim] time:			0.50 seconds
+[runlim] space:			44.9 MB
+[runlim] samples:		4

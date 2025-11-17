@@ -5,34 +5,34 @@
 [runlim] argv[0]:		python3
 [runlim] argv[1]:		model.py
 [runlim] argv[2]:		./graph/3dmesh/3dmesh_4_4_137.txt
-[runlim] start:			Mon Nov  3 07:02:57 2025
-[runlim] main pid:		13207
+[runlim] start:			Mon Nov 17 09:03:49 2025
+[runlim] main pid:		37591
 [runlim] log captured:
 Set parameter WLSAccessID
 Set parameter WLSSecret
 Set parameter LicenseID to value 2663665
 Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
 Set parameter TimeLimit to value 1800
-[runlim] sample:		10.0 time, 10.2 real, 932.1 MB
-[runlim] sample:		20.0 time, 20.2 real, 1991.5 MB
-[runlim] sample:		30.0 time, 30.2 real, 2049.4 MB
-[runlim] sample:		40.0 time, 40.2 real, 2074.8 MB
-[runlim] sample:		50.1 time, 50.2 real, 2126.6 MB
-[runlim] sample:		60.1 time, 60.2 real, 2271.9 MB
-[runlim] sample:		70.1 time, 70.2 real, 2395.5 MB
-[runlim] sample:		80.1 time, 80.2 real, 2552.7 MB
-[runlim] sample:		90.2 time, 90.2 real, 2684.8 MB
-[runlim] sample:		100.2 time, 100.2 real, 2797.1 MB
-[runlim] sample:		110.2 time, 110.2 real, 2979.2 MB
-[runlim] sample:		120.2 time, 120.2 real, 3113.8 MB
-[runlim] sample:		130.2 time, 130.2 real, 3222.2 MB
-[runlim] sample:		140.2 time, 140.2 real, 3338.7 MB
-[runlim] sample:		150.3 time, 150.2 real, 0.0 MB
-[runlim] end:			Mon Nov  3 07:05:27 2025
+[runlim] sample:		10.0 time, 10.2 real, 705.1 MB
+[runlim] sample:		20.1 time, 20.2 real, 1238.2 MB
+[runlim] sample:		30.1 time, 30.2 real, 1991.7 MB
+[runlim] sample:		40.1 time, 40.2 real, 2027.3 MB
+[runlim] sample:		50.2 time, 50.2 real, 2046.4 MB
+[runlim] sample:		60.2 time, 60.2 real, 2084.8 MB
+[runlim] sample:		70.3 time, 70.2 real, 2106.8 MB
+[runlim] sample:		80.3 time, 80.2 real, 2141.1 MB
+[runlim] sample:		90.3 time, 90.2 real, 2216.5 MB
+[runlim] sample:		100.4 time, 100.2 real, 2328.4 MB
+[runlim] sample:		110.4 time, 110.2 real, 2418.7 MB
+[runlim] sample:		120.5 time, 120.2 real, 2519.8 MB
+[runlim] sample:		130.5 time, 130.2 real, 2636.0 MB
+[runlim] sample:		140.5 time, 140.2 real, 2723.4 MB
+[runlim] sample:		150.6 time, 150.2 real, 0.0 MB
+[runlim] end:			Mon Nov 17 09:06:19 2025
 [runlim] status:		out of time
 [runlim] result:		2
 [runlim] children:		0
-[runlim] real:			150.31 seconds
-[runlim] time:			150.36 seconds
-[runlim] space:			3456.8 MB
-[runlim] samples:		1501
+[runlim] real:			150.22 seconds
+[runlim] time:			150.59 seconds
+[runlim] space:			2805.5 MB
+[runlim] samples:		1500

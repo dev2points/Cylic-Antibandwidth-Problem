@@ -5,13 +5,17 @@
 [runlim] argv[0]:		python3
 [runlim] argv[1]:		model.py
 [runlim] argv[2]:		./graph/double_star/double_star_50_25.txt
-[runlim] start:			Tue Nov  4 07:01:36 2025
-[runlim] main pid:		64021
+[runlim] start:			Mon Nov 17 08:14:37 2025
+[runlim] main pid:		31656
 [runlim] log captured:
 Set parameter WLSAccessID
 Set parameter WLSSecret
 Set parameter LicenseID to value 2663665
 Academic license 2663665 - for non-commercial use only - registered to tu___@vnu.edu.vn
+Set parameter TimeLimit to value 1800
+(w = 3) Value Cyclicantibandwidth: 3
+Lables: [32, 11, 67, 58, 22, 19, 25, 24, 72, 57, 60, 6, 66, 21, 71, 35, 74, 40, 37, 50, 15, 61, 14, 48, 45, 52, 38, 59, 36, 13, 51, 70, 18, 46, 4, 41, 56, 43, 3, 44, 73, 2, 29, 10, 64, 47, 69, 55, 28, 16, 49, 20, 34, 8, 26, 39, 1, 27, 30, 7, 17, 62, 65, 33, 75, 5, 12, 68, 54, 31, 53, 23, 9, 63, 42]
+(w = 3) Correct Cyclicantibandwidth
 Set parameter TimeLimit to value 1800
 (w = 4) Value Cyclicantibandwidth: 4
 Lables: [4, 15, 67, 11, 22, 19, 25, 24, 72, 57, 63, 60, 66, 58, 62, 35, 74, 27, 37, 50, 34, 61, 14, 21, 45, 52, 38, 40, 42, 13, 51, 70, 18, 46, 17, 41, 56, 43, 36, 71, 73, 33, 29, 10, 64, 47, 69, 55, 68, 32, 65, 20, 49, 8, 26, 3, 1, 16, 30, 48, 59, 39, 44, 7, 75, 5, 12, 9, 54, 31, 53, 23, 2, 6, 28]
@@ -52,12 +56,15 @@ Set parameter TimeLimit to value 1800
 (w = 13) Value Cyclicantibandwidth: 13
 Lables: [4, 45, 18, 52, 41, 65, 63, 38, 23, 28, 58, 49, 40, 17, 34, 25, 54, 29, 37, 31, 36, 57, 26, 39, 53, 35, 51, 32, 47, 48, 66, 60, 20, 46, 61, 33, 56, 50, 21, 64, 42, 19, 30, 24, 27, 55, 44, 59, 22, 62, 43, 69, 6, 68, 10, 8, 16, 11, 15, 9, 2, 67, 3, 7, 12, 5, 71, 1, 75, 70, 73, 74, 13, 14, 72]
 (w = 13) Correct Cyclicantibandwidth
-Real time: 3.1496639251708984 seconds
-[runlim] end:			Tue Nov  4 07:01:39 2025
+Set parameter TimeLimit to value 1800
+(w = 14) Not found solution with CAB = 14.
+Final result: CAB = 13, Labels = [4, 45, 18, 52, 41, 65, 63, 38, 23, 28, 58, 49, 40, 17, 34, 25, 54, 29, 37, 31, 36, 57, 26, 39, 53, 35, 51, 32, 47, 48, 66, 60, 20, 46, 61, 33, 56, 50, 21, 64, 42, 19, 30, 24, 27, 55, 44, 59, 22, 62, 43, 69, 6, 68, 10, 8, 16, 11, 15, 9, 2, 67, 3, 7, 12, 5, 71, 1, 75, 70, 73, 74, 13, 14, 72]
+Real time: 8.874293088912964 seconds
+[runlim] end:			Mon Nov 17 08:14:46 2025
 [runlim] status:		ok
 [runlim] result:		0
 [runlim] children:		0
-[runlim] real:			3.39 seconds
-[runlim] time:			3.21 seconds
-[runlim] space:			62.0 MB
-[runlim] samples:		32
+[runlim] real:			9.87 seconds
+[runlim] time:			15.40 seconds
+[runlim] space:			193.2 MB
+[runlim] samples:		89
